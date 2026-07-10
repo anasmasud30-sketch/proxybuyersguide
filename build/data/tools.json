@@ -1,0 +1,152 @@
+[
+  {
+    "slug": "python-requests",
+    "name": "Python Requests",
+    "lang": "Python",
+    "category": "HTTP client",
+    "setupSnippet": "import requests\n\nproxies = {\n    \"http\": \"http://user:pass@host:port\",\n    \"https\": \"http://user:pass@host:port\",\n}\n\nresp = requests.get(\"https://httpbin.org/ip\", proxies=proxies, timeout=15)\nprint(resp.json())",
+    "notes": "Requests reads the same proxy dict for both http and https keys, so authenticated HTTP and HTTPS backconnect endpoints work with one entry. Use a persistent requests.Session() when firing many calls so connections are pooled, and always set a timeout because a dead proxy will otherwise hang the thread. For SOCKS5 endpoints install the requests[socks] extra and switch the scheme to socks5h://.",
+    "proxyFormat": "http://user:pass@host:port",
+    "supportsRotation": true
+  },
+  {
+    "slug": "python-scrapy",
+    "name": "Scrapy",
+    "lang": "Python",
+    "category": "Scraping framework",
+    "setupSnippet": "# settings.py\nDOWNLOADER_MIDDLEWARES = {\n    \"scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware\": 750,\n}\n\n# spider.py\ndef start_requests(self):\n    yield scrapy.Request(\n        \"https://httpbin.org/ip\",\n        meta={\"proxy\": \"http://user:pass@host:port\"},\n    )",
+    "notes": "Scrapy's built-in HttpProxyMiddleware routes any request whose meta['proxy'] is set, so a rotating gateway is as simple as assigning a new value per request. For large crawls pair it with a rotation middleware such as scrapy-rotating-proxies or a residential backconnect endpoint that rotates the exit IP server-side. Keep CONCURRENT_REQUESTS and AUTOTHROTTLE tuned to your proxy plan's session limits to avoid bans.",
+    "proxyFormat": "http://user:pass@host:port",
+    "supportsRotation": true
+  },
+  {
+    "slug": "python-selenium",
+    "name": "Selenium (Python)",
+    "lang": "Python",
+    "category": "Browser automation",
+    "setupSnippet": "from selenium import webdriver\n\noptions = webdriver.ChromeOptions()\noptions.add_argument(\"--proxy-server=http://host:port\")\n\ndriver = webdriver.Chrome(options=options)\ndriver.get(\"https://httpbin.org/ip\")\nprint(driver.page_source)",
+    "notes": "Chrome's --proxy-server flag does not accept inline user:pass credentials, so for authenticated proxies you either whitelist your IP with the provider or load a small background extension that answers the auth prompt. IP authentication is the cleanest path for headless Selenium; credential extensions are the fallback when your egress IP is dynamic. Rotation is typically handled by pointing every session at a rotating gateway rather than swapping the flag per request.",
+    "proxyFormat": "http://host:port (IP-authenticated) or extension for user:pass",
+    "supportsRotation": true
+  },
+  {
+    "slug": "playwright",
+    "name": "Playwright",
+    "lang": "Node.js / Python",
+    "category": "Browser automation",
+    "setupSnippet": "const { chromium } = require(\"playwright\");\n\n(async () => {\n  const browser = await chromium.launch({\n    proxy: {\n      server: \"http://host:port\",\n      username: \"user\",\n      password: \"pass\",\n    },\n  });\n  const page = await browser.newPage();\n  await page.goto(\"https://httpbin.org/ip\");\n  console.log(await page.content());\n  await browser.close();\n})();",
+    "notes": "Playwright accepts username and password as first-class fields, so authenticated proxies work without a helper extension, unlike raw Selenium. You can set the proxy at browser launch or per browser context, which makes per-session rotation clean: give each context a fresh sticky-session endpoint. The same proxy object shape works identically in the Python API via browser_type.launch(proxy=...).",
+    "proxyFormat": "server http://host:port + username/password fields",
+    "supportsRotation": true
+  },
+  {
+    "slug": "puppeteer",
+    "name": "Puppeteer",
+    "lang": "Node.js",
+    "category": "Browser automation",
+    "setupSnippet": "const puppeteer = require(\"puppeteer\");\n\n(async () => {\n  const browser = await puppeteer.launch({\n    args: [\"--proxy-server=http://host:port\"],\n  });\n  const page = await browser.newPage();\n  await page.authenticate({ username: \"user\", password: \"pass\" });\n  await page.goto(\"https://httpbin.org/ip\");\n  console.log(await page.content());\n  await browser.close();\n})();",
+    "notes": "Puppeteer passes the endpoint through Chrome's --proxy-server arg and then supplies credentials via page.authenticate(), which answers the proxy auth challenge without a custom extension. Because the flag is set at launch, rotating exits means either restarting the browser with a new endpoint or using a rotating gateway that changes the IP behind a single host:port. Call authenticate() before the first navigation or the initial request will fail with a 407.",
+    "proxyFormat": "--proxy-server=http://host:port + page.authenticate()",
+    "supportsRotation": true
+  },
+  {
+    "slug": "nodejs-axios",
+    "name": "Node.js Axios",
+    "lang": "Node.js",
+    "category": "HTTP client",
+    "setupSnippet": "const axios = require(\"axios\");\nconst { HttpsProxyAgent } = require(\"https-proxy-agent\");\n\nconst agent = new HttpsProxyAgent(\"http://user:pass@host:port\");\n\naxios.get(\"https://httpbin.org/ip\", {\n  httpAgent: agent,\n  httpsProxyAgent: agent,\n}).then((r) => console.log(r.data));",
+    "notes": "Axios ships a built-in proxy option, but it mishandles HTTPS-over-HTTP tunneling, so the reliable pattern is to attach an https-proxy-agent (or socks-proxy-agent) and set proxy: false to disable the native path. The agent embeds credentials in the URL, so authenticated residential and datacenter endpoints just work. For rotation, construct a new agent per request or per worker pointed at a rotating gateway.",
+    "proxyFormat": "http://user:pass@host:port (via proxy-agent)",
+    "supportsRotation": true
+  },
+  {
+    "slug": "curl",
+    "name": "cURL",
+    "lang": "CLI",
+    "category": "CLI",
+    "setupSnippet": "curl -x \"http://user:pass@host:port\" https://httpbin.org/ip\n\n# SOCKS5 with remote DNS\ncurl -x \"socks5h://user:pass@host:port\" https://httpbin.org/ip",
+    "notes": "The -x/--proxy flag takes the full authenticated URL, and you can alternatively pass credentials with -U user:pass to keep them out of the visible URL. Use the socks5h scheme (not socks5) when you want DNS resolved on the proxy side, which prevents local DNS leaks. curl is the fastest way to smoke-test whether a proxy endpoint and its credentials are live before wiring it into code.",
+    "proxyFormat": "http://user:pass@host:port or socks5h://user:pass@host:port",
+    "supportsRotation": true
+  },
+  {
+    "slug": "golang",
+    "name": "Go (net/http)",
+    "lang": "Go",
+    "category": "HTTP client",
+    "setupSnippet": "package main\n\nimport (\n    \"fmt\"\n    \"io\"\n    \"net/http\"\n    \"net/url\"\n)\n\nfunc main() {\n    proxyURL, _ := url.Parse(\"http://user:pass@host:port\")\n    client := &http.Client{\n        Transport: &http.Transport{Proxy: http.ProxyURL(proxyURL)},\n    }\n    resp, _ := client.Get(\"https://httpbin.org/ip\")\n    defer resp.Body.Close()\n    body, _ := io.ReadAll(resp.Body)\n    fmt.Println(string(body))\n}",
+    "notes": "Go's standard library handles proxy auth natively by embedding user:pass in the parsed url.URL passed to http.ProxyURL. For per-request rotation, build a fresh http.Transport (or swap the Proxy function) per client, since transports are safe to reuse and pool connections. Set Transport.Proxy to a closure returning different URLs if you want to load-balance across an endpoint pool inside one client.",
+    "proxyFormat": "http://user:pass@host:port",
+    "supportsRotation": true
+  },
+  {
+    "slug": "php-curl",
+    "name": "PHP cURL",
+    "lang": "PHP",
+    "category": "HTTP client",
+    "setupSnippet": "<?php\n$ch = curl_init(\"https://httpbin.org/ip\");\ncurl_setopt($ch, CURLOPT_PROXY, \"host:port\");\ncurl_setopt($ch, CURLOPT_PROXYUSERPWD, \"user:pass\");\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$response = curl_exec($ch);\ncurl_close($ch);\necho $response;",
+    "notes": "PHP's cURL binding mirrors the command-line tool: set CURLOPT_PROXY to the host:port and CURLOPT_PROXYUSERPWD to the credentials rather than jamming them into one string. Add CURLOPT_PROXYTYPE = CURLPROXY_SOCKS5_HOSTNAME when you need SOCKS5 with remote DNS. Reuse the curl handle across requests to the same rotating gateway to benefit from keep-alive, and always check curl_error() so a dead proxy surfaces instead of returning silently empty output.",
+    "proxyFormat": "host:port + CURLOPT_PROXYUSERPWD user:pass",
+    "supportsRotation": true
+  },
+  {
+    "slug": "ruby",
+    "name": "Ruby (Net::HTTP)",
+    "lang": "Ruby",
+    "category": "HTTP client",
+    "setupSnippet": "require \"net/http\"\nrequire \"uri\"\n\nuri = URI(\"https://httpbin.org/ip\")\nproxy = Net::HTTP.new(uri.host, uri.port,\n  \"host\", port, \"user\", \"pass\")\nproxy.use_ssl = true\n\nresponse = proxy.get(uri.request_uri)\nputs response.body",
+    "notes": "Net::HTTP.new accepts the proxy host, port, user, and password as trailing positional arguments, so authenticated endpoints need no extra gems. Remember to set use_ssl = true before the request when the target is HTTPS, otherwise the tunnel is never negotiated. For heavier scraping many Ruby teams prefer the httparty or faraday gems, both of which accept a proxy option hash pointed at a rotating gateway.",
+    "proxyFormat": "host, port, user, pass positional args",
+    "supportsRotation": true
+  },
+  {
+    "slug": "java",
+    "name": "Java (HttpClient)",
+    "lang": "Java",
+    "category": "HTTP client",
+    "setupSnippet": "import java.net.*;\nimport java.net.http.*;\n\nAuthenticator.setDefault(new Authenticator() {\n    protected PasswordAuthentication getPasswordAuthentication() {\n        return new PasswordAuthentication(\"user\", \"pass\".toCharArray());\n    }\n});\n\nHttpClient client = HttpClient.newBuilder()\n    .proxy(ProxySelector.of(new InetSocketAddress(\"host\", port)))\n    .build();\n\nHttpRequest req = HttpRequest.newBuilder(URI.create(\"https://httpbin.org/ip\")).build();\nSystem.out.println(client.send(req, HttpResponse.BodyHandlers.ofString()).body());",
+    "notes": "The modern java.net.http.HttpClient takes the proxy via ProxySelector.of, while credentials go through a default Authenticator because the client has no inline proxy-auth field. For proxy auth over HTTPS tunnels you must also start the JVM with -Djdk.http.auth.tunneling.disabledSchemes=\"\" or Basic auth is silently stripped. Build one client per exit endpoint when rotating, since HttpClient instances are immutable once configured.",
+    "proxyFormat": "host:port via ProxySelector + Authenticator",
+    "supportsRotation": true
+  },
+  {
+    "slug": "csharp-dotnet",
+    "name": "C# / .NET (HttpClient)",
+    "lang": "C#",
+    "category": "HTTP client",
+    "setupSnippet": "using System.Net;\nusing System.Net.Http;\n\nvar proxy = new WebProxy(\"http://host:port\")\n{\n    Credentials = new NetworkCredential(\"user\", \"pass\"),\n};\n\nvar handler = new HttpClientHandler { Proxy = proxy, UseProxy = true };\nusing var client = new HttpClient(handler);\n\nvar body = await client.GetStringAsync(\"https://httpbin.org/ip\");\nConsole.WriteLine(body);",
+    "notes": "In .NET you configure a WebProxy with NetworkCredential and hand it to an HttpClientHandler, which keeps authenticated proxies fully native with no extra packages. Reuse a single HttpClient across requests to avoid socket exhaustion, and construct separate handlers when you need distinct exit endpoints for rotation. For SOCKS5, WebProxy accepts a socks5:// URI on modern .NET (Core 3.1 and later).",
+    "proxyFormat": "http://host:port + NetworkCredential(user, pass)",
+    "supportsRotation": true
+  },
+  {
+    "slug": "seleniumbase",
+    "name": "SeleniumBase",
+    "lang": "Python",
+    "category": "Browser automation",
+    "setupSnippet": "from seleniumbase import SB\n\nwith SB(uc=True, proxy=\"user:pass@host:port\") as sb:\n    sb.open(\"https://httpbin.org/ip\")\n    print(sb.get_page_source())",
+    "notes": "SeleniumBase accepts a single proxy string (including user:pass@host:port) and transparently builds the auth extension for you, solving the credential problem that plain Selenium has. Combined with its undetected-chromedriver mode (uc=True) it is a popular pick for scraping sites with bot detection behind residential proxies. Pass a rotating gateway as the proxy value and each fresh SB session picks up a new exit IP.",
+    "proxyFormat": "user:pass@host:port",
+    "supportsRotation": true
+  },
+  {
+    "slug": "python-httpx",
+    "name": "Python HTTPX",
+    "lang": "Python",
+    "category": "HTTP client",
+    "setupSnippet": "import httpx\n\nwith httpx.Client(proxy=\"http://user:pass@host:port\") as client:\n    resp = client.get(\"https://httpbin.org/ip\", timeout=15)\n    print(resp.json())",
+    "notes": "HTTPX takes the authenticated proxy URL directly on the Client (or AsyncClient) constructor, and the same string covers HTTP and HTTPS traffic. Its native async support makes it a strong fit for high-concurrency scraping across a rotating pool: spin up many AsyncClient calls against one backconnect endpoint. Note the argument is proxy= on recent versions (the older proxies= mapping form is deprecated), and socks5:// URLs work when the socks extra is installed.",
+    "proxyFormat": "http://user:pass@host:port",
+    "supportsRotation": true
+  },
+  {
+    "slug": "wget",
+    "name": "Wget",
+    "lang": "CLI",
+    "category": "CLI",
+    "setupSnippet": "export https_proxy=\"http://user:pass@host:port\"\nexport http_proxy=\"http://user:pass@host:port\"\n\nwget https://httpbin.org/ip -O -\n\n# Or inline without env vars:\nwget -e use_proxy=yes \\\n     --proxy-user=user --proxy-password=pass \\\n     -e https_proxy=host:port https://httpbin.org/ip -O -",
+    "notes": "Wget reads the http_proxy and https_proxy environment variables, which is the simplest way to route a one-off download through an authenticated proxy. When you cannot set env vars, pass --proxy-user and --proxy-password alongside -e https_proxy=host:port on the command line. Wget only speaks HTTP/HTTPS proxies (no SOCKS), so pair it with a tool like proxychains if you need a SOCKS5 exit for rotation.",
+    "proxyFormat": "http://user:pass@host:port (env var or --proxy-user/--proxy-password)",
+    "supportsRotation": true
+  }
+]

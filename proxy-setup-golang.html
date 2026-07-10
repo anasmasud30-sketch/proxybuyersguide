@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Set Up Proxies in Go (net/http) (2026 Guide + Code)</title>
+<meta name="description" content="Step-by-step Go (net/http) proxy setup for 2026: working authenticated-proxy code, rotation guidance, and the best proxies to use with Go.">
+<link rel="canonical" href="https://proxybuyersguide.com/proxy-setup-golang.html">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to Set Up Proxies in Go (net/http) (2026 Guide + Code)">
+<meta property="og:description" content="Step-by-step Go (net/http) proxy setup for 2026: working authenticated-proxy code, rotation guidance, and the best proxies to use with Go.">
+<meta property="og:url" content="https://proxybuyersguide.com/proxy-setup-golang.html">
+<meta property="og:site_name" content="Proxy Buyer&#39;s Guide">
+<meta property="og:image" content="https://proxybuyersguide.com/opengraph.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to Set Up Proxies in Go (net/http) (2026 Guide + Code)">
+<meta name="twitter:description" content="Step-by-step Go (net/http) proxy setup for 2026: working authenticated-proxy code, rotation guidance, and the best proxies to use with Go.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/library.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://proxybuyersguide.com/"},{"@type":"ListItem","position":2,"name":"Setup Guides","item":"https://proxybuyersguide.com/proxy-setup-guides.html"},{"@type":"ListItem","position":3,"name":"Go (net/http)","item":"https://proxybuyersguide.com/proxy-setup-golang.html"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can Go (net/http) rotate proxies automatically?","acceptedAnswer":{"@type":"Answer","text":"Yes — point it at a rotating backconnect endpoint and the provider rotates IPs for you."}},{"@type":"Question","name":"Does Go (net/http) support authenticated proxies?","acceptedAnswer":{"@type":"Answer","text":"Yes. Provide the username and password (as a URL or separate fields) and Go (net/http) handles the auth handshake."}},{"@type":"Question","name":"How do I add a proxy in Go (net/http)?","acceptedAnswer":{"@type":"Answer","text":"Supply the proxy as http://user:pass@host:port and pass it to Go (net/http) as shown in the code above."}},{"@type":"Question","name":"What proxies work best with Go (net/http)?","acceptedAnswer":{"@type":"Answer","text":"Residential or rotating proxies from a reliable provider give the best success rate for Go projects."}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"How to Set Up Proxies in Go (net/http) (2026 Guide + Code)","description":"Step-by-step Go (net/http) proxy setup for 2026: working authenticated-proxy code, rotation guidance, and the best proxies to use with Go.","mainEntityOfPage":"https://proxybuyersguide.com/proxy-setup-golang.html","url":"https://proxybuyersguide.com/proxy-setup-golang.html","author":{"@type":"Organization","name":"Proxy Buyer's Guide","url":"https://proxybuyersguide.com"},"publisher":{"@type":"Organization","name":"Proxy Buyer's Guide","url":"https://proxybuyersguide.com"},"datePublished":"2025-06-01","dateModified":"2026-07-07"}</script>
+</head>
+<body>
+<nav class="nav"><div class="nav-in">
+  <a class="brand" href="/"><span class="logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span><span>Proxy Buyer&#39;s Guide</span></a>
+  <div class="nav-links"><a href="/">Guide</a><a href="/proxy-provider-analysis/bright-data-review">Reviews</a><a href="/compare">Top Lists</a><a href="/tips">Resources</a><a href="/compare">Compare</a><a href="/locations/us-proxy-network">Locations</a><a href="/blog/">Blog</a><a href="/proxy-guides.html">Guides</a></div>
+  <a class="nav-cta" href="https://cheapest-proxies.com/" target="_blank" rel="noopener sponsored">Top Pick <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+</div></nav>
+<nav class="crumb wrap" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/proxy-setup-guides.html">Setup Guides</a><span>/</span><span>Go (net/http)</span></nav>
+<main>
+  <header class="hero"><div class="wrap hero-in">
+    <span class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Setup Guides</span>
+    <h1>How to Set Up Proxies in <span class="hl">Go (net/http)</span></h1>
+    <p class="lede">Route Go (net/http) traffic through an authenticated proxy in a few lines. Copy the code below and swap in your credentials.</p>
+    <div class="chips"><span class="chip"><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg></span> <b>Language</b> Go</span><span class="chip"><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7z"/></svg></span> <b>Rotation</b> Supported</span><span class="chip"><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 9 5-9 5-9-5 9-5zM3 12l9 5 9-5M3 17l9 5 9-5"/></svg></span> <b>Category</b> HTTP client</span></div>
+    <div class="btn-row">
+      <a class="btn" href="https://cheapest-proxies.com/" target="_blank" rel="noopener sponsored">See our top pick <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      <a class="btn btn-ghost" href="/compare">Compare all providers</a>
+    </div>
+  </div></header>
+  <div class="wrap narrow prose">
+    <div class="tldr"><h2>Quick answer</h2><p>Set the proxy in the format <code>http://user:pass@host:port</code> and send your Go (net/http) request through it. Full code below.</p></div>
+    <section><div class="section-t"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg></span><h2>Go (net/http) proxy example</h2></div><pre><code>package main
+
+import (
+    &quot;fmt&quot;
+    &quot;io&quot;
+    &quot;net/http&quot;
+    &quot;net/url&quot;
+)
+
+func main() {
+    proxyURL, _ := url.Parse(&quot;http://user:pass@host:port&quot;)
+    client := &amp;http.Client{
+        Transport: &amp;http.Transport{Proxy: http.ProxyURL(proxyURL)},
+    }
+    resp, _ := client.Get(&quot;https://httpbin.org/ip&quot;)
+    defer resp.Body.Close()
+    body, _ := io.ReadAll(resp.Body)
+    fmt.Println(string(body))
+}</code></pre><p>Go&#39;s standard library handles proxy auth natively by embedding user:pass in the parsed url.URL passed to http.ProxyURL. For per-request rotation, build a fresh http.Transport (or swap the Proxy function) per client, since transports are safe to reuse and pool connections. Set Transport.Proxy to a closure returning different URLs if you want to load-balance across an endpoint pool inside one client.</p></section>
+<section><div class="section-t"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7z"/></svg></span><h2>Rotating proxies</h2></div><p>Go (net/http) works cleanly with rotating backconnect endpoints — point it at a single gateway host and the provider rotates the exit IP for you.</p></section>
+<section><div class="section-t"><span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span><h2>Best proxies to use with Go (net/http)</h2></div><div class="prov-list">
+    <div class="prov top">
+      <div class="rank">1</div>
+      <div class="body">
+        <h3>Cheapest-Proxies.com <span style="color:var(--orange-2);font-size:.7rem;font-weight:800;letter-spacing:.06em">EDITOR'S CHOICE</span></h3>
+        <span class="rate" style="display:inline-flex;gap:1px;align-items:center" aria-label="4.9 out of 5"><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span> 4.9</span>
+        <p>Best overall value across every proxy type and use case &middot; flexible pay-as-you-go plans</p>
+        <a class="go" href="https://cheapest-proxies.com/" target="_blank" rel="noopener sponsored">Visit Cheapest-Proxies.com <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      </div>
+    </div>
+    <div class="prov">
+      <div class="rank">2</div>
+      <div class="body">
+        <h3>Bright Data</h3>
+        <span class="rate" style="display:inline-flex;gap:1px;align-items:center" aria-label="4.6 out of 5"><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span> 4.6</span>
+        <p>Enterprise-grade proxy and web data platform &middot; from ~$8-9/GB (residential, volume-dependent)</p>
+        <a class="go" href="/proxy-provider-analysis/bright-data-review">Read Bright Data review <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      </div>
+    </div>
+    <div class="prov">
+      <div class="rank">3</div>
+      <div class="body">
+        <h3>Oxylabs</h3>
+        <span class="rate" style="display:inline-flex;gap:1px;align-items:center" aria-label="4.6 out of 5"><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span> 4.6</span>
+        <p>Premium enterprise proxies and scraper APIs &middot; from ~$8/GB (residential, volume-dependent)</p>
+        <a class="go" href="/proxy-provider-analysis/oxylabs-review">Read Oxylabs review <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      </div>
+    </div>
+    <div class="prov">
+      <div class="rank">4</div>
+      <div class="body">
+        <h3>Smartproxy</h3>
+        <span class="rate" style="display:inline-flex;gap:1px;align-items:center" aria-label="4.5 out of 5"><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span><span style="color:#ffc233"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .6-5.3 4.6 1.6 6.9L12 17.3 5.7 20.6l1.6-6.9L2 9.1l7-.6z"/></svg></span> 4.5</span>
+        <p>User-friendly proxies with excellent price-to-performance &middot; from ~$3.50-7/GB (residential)</p>
+        <a class="go" href="/proxy-provider-analysis/smartproxy-review">Read Smartproxy review <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      </div>
+    </div></div><p style="font-size:.8rem;color:#8f8f8f;margin:.4em 0 0">Our #1 pick is a sponsored partner. Remaining providers are ranked editorially by rating and value.</p></section>
+    <section><div class="section-t"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></span><h2>Frequently Asked Questions</h2></div><div class="faq"><details><summary>Can Go (net/http) rotate proxies automatically?</summary><div class="a"><p>Yes — point it at a rotating backconnect endpoint and the provider rotates IPs for you.</p></div></details><details><summary>Does Go (net/http) support authenticated proxies?</summary><div class="a"><p>Yes. Provide the username and password (as a URL or separate fields) and Go (net/http) handles the auth handshake.</p></div></details><details><summary>How do I add a proxy in Go (net/http)?</summary><div class="a"><p>Supply the proxy as <code>http://user:pass@host:port</code> and pass it to Go (net/http) as shown in the code above.</p></div></details><details><summary>What proxies work best with Go (net/http)?</summary><div class="a"><p>Residential or rotating proxies from a reliable provider give the best success rate for Go projects.</p></div></details></div></section>
+    <section><div class="section-t"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 9 5-9 5-9-5 9-5zM3 12l9 5 9-5M3 17l9 5 9-5"/></svg></span><h2>Related Guides</h2></div><div class="rel"><a href="/proxy-setup-playwright.html">Proxy setup in Playwright<span class="arw"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="/proxy-setup-wget.html">Proxy setup in Wget<span class="arw"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="/proxy-setup-python-httpx.html">Proxy setup in Python HTTPX<span class="arw"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="/proxy-setup-python-scrapy.html">Proxy setup in Scrapy<span class="arw"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="/proxy-setup-guides.html">All setup guides<span class="arw"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="/rotating-proxies.html">Rotating proxies<span class="arw"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a></div></section>
+    <div class="cta"><h2>Best proxies for Go (net/http)</h2><p>Across the providers we compare, this network stood out for value and consistent performance.</p>
+    <a class="btn" href="https://cheapest-proxies.com/" target="_blank" rel="noopener sponsored">Visit Cheapest-Proxies.com <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+  </div>
+</main>
+<footer class="foot"><div class="wrap">
+  <div class="foot-cols"><div><h4>Proxy Types</h4><ul><li><a href="/residential-proxies.html">Residential Proxies</a></li><li><a href="/datacenter-proxies.html">Datacenter Proxies</a></li><li><a href="/mobile-proxies.html">Mobile Proxies</a></li><li><a href="/isp-proxies.html">ISP Proxies</a></li><li><a href="/rotating-proxies.html">Rotating Proxies</a></li></ul></div><div><h4>Popular Guides</h4><ul><li><a href="/proxies-by-city.html">Proxies by City</a></li><li><a href="/proxies-by-country.html">Proxies by Country</a></li><li><a href="/proxies-by-use-case.html">Proxies by Use Case</a></li><li><a href="/proxies-by-platform.html">Proxies for Platforms</a></li><li><a href="/proxy-setup-guides.html">Proxy Setup Guides</a></li></ul></div><div><h4>Reviews</h4><ul><li><a href="/proxy-provider-analysis/bright-data-review">Bright Data Review</a></li><li><a href="/proxy-provider-analysis/oxylabs-review">Oxylabs Review</a></li><li><a href="/proxy-provider-analysis/smartproxy-review">Smartproxy Review</a></li><li><a href="/proxy-provider-analysis/iproyal-review">IPRoyal Review</a></li><li><a href="/compare">All Provider Reviews</a></li></ul></div><div><h4>Compare</h4><ul><li><a href="/bright-data-vs-oxylabs.html">Bright Data vs Oxylabs</a></li><li><a href="/proxy-comparisons.html">Provider Comparisons</a></li><li><a href="/resources/residential-vs-datacenter-proxies">Residential vs Datacenter</a></li><li><a href="/resources/proxy-vs-vpn">Proxy vs VPN</a></li><li><a href="/best-proxies.html">Best Proxy Lists</a></li></ul></div></div>
+  <div class="foot-bar">
+    <a class="brand" href="/"><span class="logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span><span>Proxy Buyer&#39;s Guide</span></a>
+    <div class="foot-links"><a href="/privacy-policy">Privacy</a><a href="/about">About</a><a href="mailto:info@proxybuyersguide.com">Contact</a><a href="/sitemap.xml">Sitemap</a></div>
+  </div>
+  <p class="foot-note">&copy; 2026 ProxyBuyersGuide.com. All rights reserved. This site contains affiliate links and our top pick is a paid partner; we may earn a commission at no extra cost to you. Rankings are based on published provider data and hands-on evaluation. Provider details and pricing change &mdash; always verify on the provider's site.</p>
+</div></footer>
+</body>
+</html>

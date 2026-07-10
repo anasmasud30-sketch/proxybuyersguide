@@ -1,0 +1,177 @@
+{
+  "hong-kong": {
+    "isps": ["HKT (PCCW)", "China Mobile Hong Kong", "HKBN"],
+    "carriers": ["CSL (HKT)", "China Mobile Hong Kong", "3 Hong Kong"],
+    "sites": ["HKTVmall", "Carousell HK", "Price.com.hk", "Openrice"],
+    "language": "Cantonese, English, Chinese",
+    "note": "Hong Kong is a major financial and data-center hub with abundant clean IP space, making it a common exit point for scraping regional e-commerce and financial data."
+  },
+  "macau": {
+    "isps": ["CTM (Companhia de Telecomunicacoes de Macau)", "MTel", "China Telecom Macau"],
+    "carriers": ["CTM", "3 Macau", "China Telecom Macau"],
+    "sites": ["Macau Slot", "aigo.mo", "MacauHR", "SupplyOn Macau"],
+    "language": "Chinese (Cantonese), Portuguese",
+    "note": "Macau is a small market dominated by CTM, and its gaming and tourism sites often geo-restrict content, so local Macau IPs are needed for accurate access."
+  },
+  "mongolia": {
+    "isps": ["Mobicom", "Unitel", "Gemnet"],
+    "carriers": ["Mobicom", "Unitel", "Skytel"],
+    "sites": ["Unegui.mn", "Gogo.mn", "Ikon.mn", "Shoppy.mn"],
+    "language": "Mongolian",
+    "note": "Mongolia is a small internet market where Unegui.mn dominates classifieds, and local IPs are needed to access Mongolian-language listings and pricing."
+  },
+  "india": {
+    "isps": ["Reliance Jio", "Bharti Airtel", "BSNL"],
+    "carriers": ["Jio", "Airtel", "Vodafone Idea (Vi)"],
+    "sites": ["Flipkart", "Amazon.in", "Myntra", "JustDial"],
+    "language": "Hindi, English",
+    "note": "India is one of the world's largest e-commerce markets with heavy region-based pricing and app-only deals, so local Indian IPs are essential for accurate retail and travel data."
+  },
+  "pakistan": {
+    "isps": ["PTCL", "Jazz (Wateen)", "Nayatel"],
+    "carriers": ["Jazz", "Zong", "Telenor Pakistan"],
+    "sites": ["Daraz.pk", "OLX Pakistan", "PakWheels", "Zameen.com"],
+    "language": "Urdu, English",
+    "note": "Pakistan's online retail is led by Daraz and classifieds by OLX and PakWheels, and local IPs are needed as some sites and government portals restrict foreign access."
+  },
+  "bangladesh": {
+    "isps": ["Grameenphone", "Link3", "Amber IT"],
+    "carriers": ["Grameenphone", "Robi", "Banglalink"],
+    "sites": ["Daraz.com.bd", "Bikroy.com", "Chaldal", "Pathao"],
+    "language": "Bengali (Bangla)",
+    "note": "Bangladesh has a fast-growing e-commerce market led by Daraz and classifieds by Bikroy, and local IPs help access Bangla listings and ride-hailing pricing."
+  },
+  "sri-lanka": {
+    "isps": ["SLT-Mobitel", "Dialog Broadband", "Lanka Bell"],
+    "carriers": ["Dialog Axiata", "Mobitel", "Hutch Sri Lanka"],
+    "sites": ["ikman.lk", "Daraz.lk", "Kapruka", "PickMe"],
+    "language": "Sinhala, Tamil, English",
+    "note": "Sri Lanka's classifieds are dominated by ikman.lk and retail by Daraz.lk, and local IPs are needed to view accurate rupee pricing and local listings."
+  },
+  "nepal": {
+    "isps": ["Nepal Telecom", "WorldLink", "Vianet"],
+    "carriers": ["Ncell", "Nepal Telecom (NTC)", "Smart Cell"],
+    "sites": ["Daraz.com.np", "Hamrobazar", "Foodmandu", "Merojob"],
+    "language": "Nepali",
+    "note": "Nepal's online shopping is led by Daraz and classifieds by Hamrobazar, and local IPs are needed to access Nepali-language marketplaces and delivery pricing."
+  },
+  "bhutan": {
+    "isps": ["Bhutan Telecom", "TashiCell", "DrukNet"],
+    "carriers": ["B-Mobile (Bhutan Telecom)", "TashiCell"],
+    "sites": ["Kuensel Online", "BBS.bt", "DrukRide", "Bhutan Post"],
+    "language": "Dzongkha, English",
+    "note": "Bhutan is a very small internet market served mainly by Bhutan Telecom and TashiCell, so residential IPs are scarce and mostly tied to those two operators."
+  },
+  "maldives": {
+    "isps": ["Dhiraagu", "Ooredoo Maldives", "Focus Infocom"],
+    "carriers": ["Dhiraagu", "Ooredoo Maldives"],
+    "sites": ["Maldives.mv", "Vaguthu", "Mihaaru", "Dhiraagu Store"],
+    "language": "Dhivehi, English",
+    "note": "The Maldives is a small market split between Dhiraagu and Ooredoo, and its tourism and news portals often serve region-specific content requiring local IPs."
+  },
+  "afghanistan": {
+    "isps": ["Afghan Telecom", "Etisalat Afghanistan", "AWCC"],
+    "carriers": ["Roshan", "MTN Afghanistan", "Afghan Wireless (AWCC)"],
+    "sites": ["Rohi.af", "Jobs.af", "Etilaatroz", "TOLOnews"],
+    "language": "Dari (Persian), Pashto",
+    "note": "Afghanistan has limited and unstable internet infrastructure, and local IPs are hard to source, with mobile carriers providing most connectivity."
+  },
+  "indonesia": {
+    "isps": ["Telkom Indonesia (IndiHome)", "Biznet", "First Media"],
+    "carriers": ["Telkomsel", "Indosat Ooredoo Hutchison", "XL Axiata"],
+    "sites": ["Tokopedia", "Shopee Indonesia", "Bukalapak", "Traveloka"],
+    "language": "Indonesian (Bahasa Indonesia)",
+    "note": "Indonesia is Southeast Asia's largest e-commerce market with heavy flash-sale and app-based pricing, so local IPs are essential for accurate Tokopedia and Shopee data."
+  },
+  "vietnam": {
+    "isps": ["Viettel", "VNPT", "FPT Telecom"],
+    "carriers": ["Viettel Mobile", "Vinaphone", "Mobifone"],
+    "sites": ["Shopee Vietnam", "Lazada Vietnam", "Tiki", "Chotot"],
+    "language": "Vietnamese",
+    "note": "Vietnam is a fast-growing market where Shopee, Tiki and Chotot dominate, and local IPs are needed as some content is filtered and pricing is region-specific."
+  },
+  "thailand": {
+    "isps": ["True Online", "3BB", "AIS Fibre"],
+    "carriers": ["AIS", "True Move H", "DTAC"],
+    "sites": ["Shopee Thailand", "Lazada Thailand", "Kaidee", "Pantip"],
+    "language": "Thai",
+    "note": "Thailand has a mature e-commerce market led by Shopee and Lazada, and local IPs are needed to view Thai-baht pricing and access geo-restricted content."
+  },
+  "philippines": {
+    "isps": ["PLDT", "Globe (Innove)", "Converge ICT"],
+    "carriers": ["Globe Telecom", "Smart Communications", "DITO Telecommunity"],
+    "sites": ["Shopee Philippines", "Lazada Philippines", "Carousell PH", "Zalora"],
+    "language": "Filipino (Tagalog), English",
+    "note": "The Philippines is a major mobile-first e-commerce market where Shopee and Lazada lead, and local IPs are essential for accurate peso pricing and app promotions."
+  },
+  "malaysia": {
+    "isps": ["TM (Unifi)", "Maxis", "Time dotCom"],
+    "carriers": ["Maxis", "Celcom", "Digi"],
+    "sites": ["Shopee Malaysia", "Lazada Malaysia", "Mudah.my", "PGMall"],
+    "language": "Malay (Bahasa Malaysia), English",
+    "note": "Malaysia's e-commerce is led by Shopee and Lazada with classifieds on Mudah.my, and local IPs are needed to access ringgit pricing and local-only deals."
+  },
+  "singapore": {
+    "isps": ["Singtel", "StarHub", "M1"],
+    "carriers": ["Singtel", "StarHub", "M1"],
+    "sites": ["Shopee Singapore", "Lazada Singapore", "Carousell", "Qoo10"],
+    "language": "English, Malay, Mandarin, Tamil",
+    "note": "Singapore is a top-tier data-center hub with excellent connectivity, widely used as a clean, low-latency exit point for scraping across Southeast Asia."
+  },
+  "myanmar": {
+    "isps": ["Myanmar Posts and Telecommunications (MPT)", "Ooredoo Myanmar", "5BB Broadband"],
+    "carriers": ["MPT", "Atom (formerly Telenor)", "Ooredoo Myanmar"],
+    "sites": ["Shop.com.mm", "iMyanmarHouse", "CarsDB", "Myanmar Yellow Pages"],
+    "language": "Burmese (Myanmar)",
+    "note": "Myanmar has heavy internet restrictions and frequent shutdowns, and local IPs are difficult to source with the state-linked MPT dominating connectivity."
+  },
+  "cambodia": {
+    "isps": ["Cellcard", "Metfone", "Ezecom"],
+    "carriers": ["Cellcard", "Smart Axiata", "Metfone"],
+    "sites": ["Khmer24", "Nham24", "Wing", "Little Fashion"],
+    "language": "Khmer",
+    "note": "Cambodia's classifieds are dominated by Khmer24 and connectivity is largely mobile-based, so local IPs are needed to access Khmer-language listings."
+  },
+  "laos": {
+    "isps": ["Lao Telecom", "Unitel Laos", "ETL"],
+    "carriers": ["Lao Telecom", "Unitel", "ETL Mobile"],
+    "sites": ["Plazakhmer", "Yula.la", "Lao42", "108Jobs"],
+    "language": "Lao",
+    "note": "Laos is a small internet market with limited residential IP availability, dominated by state-linked Lao Telecom and Unitel."
+  },
+  "brunei": {
+    "isps": ["Unified National Networks (UNN)", "imagine (formerly TelBru)", "DST"],
+    "carriers": ["DST", "imagine", "Progresif"],
+    "sites": ["BruDirect", "Beribi", "Muara.com.bn", "Borneo Bulletin"],
+    "language": "Malay, English",
+    "note": "Brunei is a very small market where all broadband runs over the state UNN backbone, so residential IPs are scarce and concentrated among a few carriers."
+  },
+  "timor-leste": {
+    "isps": ["Timor Telecom", "Telkomcel", "Telemor"],
+    "carriers": ["Timor Telecom", "Telemor (Viettel)", "Telkomcel"],
+    "sites": ["Tatoli.tl", "Timor Post", "GMN TV", "Jornal Independente"],
+    "language": "Tetum, Portuguese",
+    "note": "Timor-Leste has one of Asia's least-developed internet markets with sparse residential IP space, mostly served through mobile carriers."
+  },
+  "kazakhstan": {
+    "isps": ["Kazakhtelecom", "Beeline Kazakhstan", "Kcell"],
+    "carriers": ["Kcell", "Beeline Kazakhstan", "Tele2/Altel"],
+    "sites": ["Kaspi.kz", "OLX.kz", "Krisha.kz", "Kolesa.kz"],
+    "language": "Kazakh, Russian",
+    "note": "Kazakhstan's digital economy is dominated by the Kaspi.kz super-app, and local IPs are needed as the country operates internet monitoring and occasional restrictions."
+  },
+  "uzbekistan": {
+    "isps": ["Uztelecom", "Beeline Uzbekistan", "UMS"],
+    "carriers": ["Beeline Uzbekistan", "Ucell", "Mobiuz (UMS)"],
+    "sites": ["OLX.uz", "Uzum Market", "Avtoelon.uz", "Kun.uz"],
+    "language": "Uzbek, Russian",
+    "note": "Uzbekistan's online market is growing around Uzum and OLX.uz, and local IPs are needed as international bandwidth is state-controlled and some sites are filtered."
+  },
+  "turkmenistan": {
+    "isps": ["Turkmentelecom", "TM Cell (Altyn Asyr)", "Ashgabat City Telephone Network"],
+    "carriers": ["TM Cell (Altyn Asyr)", "Turkmentelecom"],
+    "sites": ["Turkmenportal", "Sanly.tm", "Belarwsy", "TDH (state news)"],
+    "language": "Turkmen",
+    "note": "Turkmenistan has one of the world's most restricted and heavily censored internets with almost no open residential IP availability, all routed through the state Turkmentelecom."
+  }
+}

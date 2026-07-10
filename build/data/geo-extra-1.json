@@ -1,0 +1,177 @@
+{
+  "senegal": {
+    "isps": ["Orange Senegal (Sonatel)", "Free Senegal", "Expresso"],
+    "carriers": ["Orange", "Free", "Expresso"],
+    "sites": ["Jumia Senegal", "CoinAfrique", "Expat-Dakar", "Seneweb"],
+    "language": "French (Wolof widely spoken)",
+    "note": "Sonatel-owned Orange dominates connectivity, so local Senegalese IPs are needed to reach classifieds like Expat-Dakar and price data that is served in French for the Dakar market."
+  },
+  "ivory-coast": {
+    "isps": ["Orange Cote d'Ivoire", "MTN Cote d'Ivoire", "Moov Africa"],
+    "carriers": ["Orange", "MTN", "Moov"],
+    "sites": ["Jumia Cote d'Ivoire", "CoinAfrique", "Abidjan.net", "Afrikmag"],
+    "language": "French",
+    "note": "Abidjan is a major francophone West African e-commerce hub where mobile-money-driven retail on Jumia and CoinAfrique is best accessed through Ivorian mobile IPs."
+  },
+  "zimbabwe": {
+    "isps": ["TelOne", "Liquid Home (ZOL)", "Utande"],
+    "carriers": ["Econet Wireless", "NetOne", "Telecel"],
+    "sites": ["Classifieds.co.zw", "Pindula", "The Herald", "NewsDay"],
+    "language": "English (Shona and Ndebele widely spoken)",
+    "note": "Zimbabwe has high mobile-data costs and Econet dominance, so mobile proxies on local carrier IPs are common for accessing classifieds and news portals restricted or throttled abroad."
+  },
+  "zambia": {
+    "isps": ["Zamtel", "Airtel Zambia", "MTN Zambia"],
+    "carriers": ["Airtel", "MTN", "Zamtel"],
+    "sites": ["Lusaka Times", "News Diggers", "Zambian Observer", "Zambia Daily Mail"],
+    "language": "English",
+    "note": "Zambia's online market is small and English-language, and local IPs help reach news and classifieds sites that occasionally geo-limit traffic to the Copperbelt and Lusaka regions."
+  },
+  "mozambique": {
+    "isps": ["Tmcel", "Vodacom Mozambique", "Movitel"],
+    "carriers": ["Vodacom", "Movitel", "Tmcel"],
+    "sites": ["Jornal Noticias", "O Pais", "Verdade", "Carta de Mocambique"],
+    "language": "Portuguese",
+    "note": "Mozambique is a Portuguese-language market where Movitel has strong rural coverage, so local mobile IPs are useful for reaching content served regionally in Portuguese."
+  },
+  "rwanda": {
+    "isps": ["MTN Rwanda", "Airtel Rwanda", "Liquid Intelligent Technologies"],
+    "carriers": ["MTN", "Airtel"],
+    "sites": ["The New Times", "IGIHE", "Kigali Today", "Jumia Rwanda"],
+    "language": "Kinyarwanda, English, French and Swahili (official)",
+    "note": "Rwanda pushes a cashless digital economy centered on Kigali, and local IPs are needed for accurate access to government and news portals that serve content in Kinyarwanda and English."
+  },
+  "botswana": {
+    "isps": ["Botswana Telecommunications Corporation (BTC)", "Mascom", "Orange Botswana"],
+    "carriers": ["Mascom", "Orange", "beMobile (BTC)"],
+    "sites": ["Mmegi", "Botswana Gazette", "Sunday Standard", "The Voice"],
+    "language": "English and Setswana",
+    "note": "Botswana is a small, sparsely populated market where Mascom leads mobile, so local IPs matter for reaching the handful of national news and classifieds sites."
+  },
+  "namibia": {
+    "isps": ["Telecom Namibia", "MTC", "Paratus"],
+    "carriers": ["MTC", "TN Mobile"],
+    "sites": ["The Namibian", "New Era", "Namibian Sun", "My Namibia"],
+    "language": "English",
+    "note": "MTC holds most of Namibia's mobile market, and Namibian IPs are needed to reach national news outlets and price data serving the small English-speaking population."
+  },
+  "democratic-republic-of-the-congo": {
+    "isps": ["Vodacom Congo", "Airtel DRC", "Orange RDC"],
+    "carriers": ["Vodacom", "Airtel", "Orange"],
+    "sites": ["Radio Okapi", "Actualite.cd", "7sur7.cd", "MediaCongo"],
+    "language": "French (Lingala and Swahili widely spoken)",
+    "note": "The DRC is a large but low-connectivity francophone market where access is heavily mobile, making local carrier IPs important for reaching Kinshasa news and classifieds."
+  },
+  "libya": {
+    "isps": ["Libya Telecom & Technology (LTT)", "Libyana", "Almadar Aljadid"],
+    "carriers": ["Libyana", "Almadar Aljadid"],
+    "sites": ["Libya Herald", "Al Wasat", "Libya Observer", "Akhbar Libya"],
+    "language": "Arabic",
+    "note": "Libya's fragmented infrastructure and intermittent connectivity mean local IPs are often the only reliable way to reach Arabic-language news sites serving the domestic audience."
+  },
+  "sudan": {
+    "isps": ["Sudatel (Sudani)", "Zain Sudan", "MTN Sudan"],
+    "carriers": ["Zain", "MTN", "Sudani"],
+    "sites": ["Sudan Tribune", "Al-Rakoba", "Sudanese Online", "SUNA"],
+    "language": "Arabic (English widely used)",
+    "note": "Sudan has faced repeated government internet shutdowns, so local IPs are used to reach Arabic news portals and to monitor connectivity from inside the country."
+  },
+  "united-arab-emirates": {
+    "isps": ["Etisalat (e&)", "du", "Virgin Mobile UAE"],
+    "carriers": ["Etisalat", "du", "Virgin Mobile"],
+    "sites": ["Amazon.ae", "Noon", "Dubizzle", "Carrefour UAE"],
+    "language": "Arabic (English very widely used)",
+    "note": "The UAE blocks most VoIP calling and many streaming and gambling sites at the ISP level, so local Emirati IPs are essential for testing what real users actually see."
+  },
+  "saudi-arabia": {
+    "isps": ["STC (Saudi Telecom)", "Mobily", "Zain KSA"],
+    "carriers": ["STC", "Mobily", "Zain"],
+    "sites": ["Amazon.sa", "Noon", "Haraj", "Jarir"],
+    "language": "Arabic",
+    "note": "Saudi Arabia is the Gulf's largest e-commerce market with heavy Noon and Amazon.sa usage, and local IPs are needed for accurate SAR pricing and to bypass content filtering."
+  },
+  "israel": {
+    "isps": ["Bezeq", "HOT", "Partner"],
+    "carriers": ["Cellcom", "Partner", "Pelephone"],
+    "sites": ["Yad2", "Zap", "Ynet", "Walla"],
+    "language": "Hebrew (Arabic and English also used)",
+    "note": "Israeli classifieds and price-comparison sites like Yad2 and Zap serve Hebrew content and geo-limit some data, so local Israeli IPs are needed for accurate market research."
+  },
+  "turkey": {
+    "isps": ["Turk Telekom", "Turkcell Superonline", "Vodafone Turkey"],
+    "carriers": ["Turkcell", "Vodafone Turkey", "Turk Telekom"],
+    "sites": ["Hepsiburada", "Trendyol", "Sahibinden", "n11"],
+    "language": "Turkish",
+    "note": "Turkey is a large e-commerce market where Trendyol and Hepsiburada geo-price in lira and Sahibinden aggressively blocks foreign IPs, making local Turkish IPs essential for scraping."
+  },
+  "qatar": {
+    "isps": ["Ooredoo", "Vodafone Qatar"],
+    "carriers": ["Ooredoo", "Vodafone Qatar"],
+    "sites": ["Qatar Living", "Snoonu", "Talabat", "Carrefour Qatar"],
+    "language": "Arabic (English widely used)",
+    "note": "Qatar is a high-income Gulf market with only two operators, and local IPs are needed to reach classifieds like Qatar Living and delivery apps that restrict access by region."
+  },
+  "kuwait": {
+    "isps": ["Zain", "Ooredoo Kuwait", "stc Kuwait"],
+    "carriers": ["Zain", "Ooredoo", "stc"],
+    "sites": ["4Sale", "Talabat", "Blink", "Xcite"],
+    "language": "Arabic",
+    "note": "Kuwait's 4Sale dominates local classifieds and, like many Gulf platforms, restricts access to Kuwaiti IPs, so local addresses are required for reliable scraping."
+  },
+  "bahrain": {
+    "isps": ["Batelco", "Zain Bahrain", "stc Bahrain"],
+    "carriers": ["Batelco", "Zain", "stc"],
+    "sites": ["Dubizzle Bahrain", "Talabat", "Lulu Hypermarket", "Bahrain News Agency"],
+    "language": "Arabic (English widely used)",
+    "note": "Bahrain is a small but highly connected Gulf market where local IPs help reach classifieds and delivery services that price and serve content specifically for the island."
+  },
+  "oman": {
+    "isps": ["Omantel", "Ooredoo Oman", "Vodafone Oman"],
+    "carriers": ["Omantel", "Ooredoo", "Vodafone Oman"],
+    "sites": ["OpenSooq", "Talabat", "Carrefour Oman", "Times of Oman"],
+    "language": "Arabic (English widely used)",
+    "note": "Oman filters VoIP and some content at the ISP level, so local Omani IPs are needed to test real user access and to reach OpenSooq listings priced in rials."
+  },
+  "jordan": {
+    "isps": ["Orange Jordan", "Zain Jordan", "Umniah"],
+    "carriers": ["Zain", "Orange", "Umniah"],
+    "sites": ["OpenSooq", "Talabat", "Jordan Times", "Ammon News"],
+    "language": "Arabic",
+    "note": "Jordan is the regional headquarters for OpenSooq, and local IPs are needed to reach Arabic classifieds and news portals that tailor content to the Jordanian market."
+  },
+  "lebanon": {
+    "isps": ["Ogero", "Alfa", "touch"],
+    "carriers": ["Alfa", "touch"],
+    "sites": ["Dubizzle Lebanon", "Toters", "Naharnet", "Annahar"],
+    "language": "Arabic (French and English widely used)",
+    "note": "Lebanon's telecom is state-linked with frequent outages, so local IPs are used to reach classifieds and delivery apps serving the Beirut market despite unstable infrastructure."
+  },
+  "iraq": {
+    "isps": ["EarthLink", "Zain Iraq", "Asiacell"],
+    "carriers": ["Zain Iraq", "Asiacell", "Korek Telecom"],
+    "sites": ["Miswag", "OpenSooq Iraq", "Alsumaria", "Shafaq News"],
+    "language": "Arabic (Kurdish also official)",
+    "note": "Iraq experiences scheduled internet shutdowns during exams and unrest, and local IPs are needed to reach Miswag e-commerce and OpenSooq classifieds serving the domestic market."
+  },
+  "iran": {
+    "isps": ["Telecommunication Company of Iran (TCI)", "Shatel", "Pars Online"],
+    "carriers": ["MCI (Hamrah-e-Aval)", "Irancell", "RighTel"],
+    "sites": ["Digikala", "Divar", "Sheypoor", "Torob"],
+    "language": "Persian (Farsi)",
+    "note": "Iran runs one of the world's most restrictive internet filters and sits under sanctions, so most foreign platforms block Iranian IPs while local sites like Digikala require them."
+  },
+  "yemen": {
+    "isps": ["YemenNet", "TeleYemen", "Yemen Mobile"],
+    "carriers": ["Yemen Mobile", "Sabafon", "MTN Yemen"],
+    "sites": ["Al-Masdar Online", "Saba News Agency", "Aden Ghad", "Al-Sahwa"],
+    "language": "Arabic",
+    "note": "Yemen's conflict has split telecom control and caused frequent outages, so local IPs are used mainly to reach and monitor Arabic news sites serving the domestic audience."
+  },
+  "united-states": {
+    "isps": ["Comcast Xfinity", "AT&T", "Spectrum (Charter)"],
+    "carriers": ["Verizon", "AT&T", "T-Mobile"],
+    "sites": ["Amazon", "Walmart", "eBay", "Craigslist"],
+    "language": "English",
+    "note": "The US is the world's largest e-commerce market where retailers geo-price by state and ZIP, so residential and city-level IPs are essential for accurate pricing and ad verification."
+  }
+}

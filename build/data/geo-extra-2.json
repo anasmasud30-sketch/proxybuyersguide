@@ -1,0 +1,177 @@
+{
+  "canada": {
+    "isps": ["Bell Canada", "Rogers", "Telus"],
+    "carriers": ["Rogers", "Bell Mobility", "Telus Mobility"],
+    "sites": ["Amazon.ca", "Canadian Tire", "Kijiji", "Best Buy Canada"],
+    "language": "English and French",
+    "note": "Canada is bilingual and retailers commonly geo-price and localize between English and French (Quebec) markets, so Canadian IPs from the right province matter for accurate data."
+  },
+  "mexico": {
+    "isps": ["Telmex", "Izzi", "Totalplay"],
+    "carriers": ["Telcel", "Movistar", "AT&T Mexico"],
+    "sites": ["MercadoLibre Mexico", "Liverpool", "Coppel", "Amazon.com.mx"],
+    "language": "Spanish",
+    "note": "Mexico is Latin America's second-largest e-commerce market and MercadoLibre dominates local pricing, so Mexican residential IPs are used heavily for retail and marketplace research."
+  },
+  "guatemala": {
+    "isps": ["Tigo", "Claro", "Comcel"],
+    "carriers": ["Tigo", "Claro", "Movistar"],
+    "sites": ["Prensa Libre", "Kemik", "Encuentra24", "Soy502"],
+    "language": "Spanish",
+    "note": "Guatemala's mobile market is a Tigo/Claro duopoly and Encuentra24 is the main regional classifieds site, making local IPs useful for ad verification and listings scraping."
+  },
+  "honduras": {
+    "isps": ["Tigo", "Claro", "Hondutel"],
+    "carriers": ["Tigo", "Claro"],
+    "sites": ["La Prensa", "El Heraldo", "Encuentra24"],
+    "language": "Spanish",
+    "note": "Honduras has a small Tigo/Claro-led telecom market, and local classifieds and news sites are common targets, so residential IPs help with geo-accurate ad and listing checks."
+  },
+  "el-salvador": {
+    "isps": ["Tigo", "Claro", "Movistar"],
+    "carriers": ["Tigo", "Claro", "Movistar"],
+    "sites": ["La Prensa Grafica", "elsalvador.com", "Encuentra24"],
+    "language": "Spanish",
+    "note": "El Salvador made Bitcoin legal tender in 2021, drawing fintech and crypto research traffic where local IPs matter for testing region-specific services."
+  },
+  "nicaragua": {
+    "isps": ["Claro", "Tigo", "CooTel"],
+    "carriers": ["Claro", "Tigo"],
+    "sites": ["La Prensa", "El Nuevo Diario", "Encuentra24"],
+    "language": "Spanish",
+    "note": "Nicaragua has a concentrated Claro/Tigo market and state pressure on independent media, so local IPs are used to verify how sites and ads appear in-country."
+  },
+  "costa-rica": {
+    "isps": ["Kolbi (ICE)", "Tigo", "Telecable"],
+    "carriers": ["Kolbi (ICE)", "Claro", "Liberty"],
+    "sites": ["La Nacion", "CRHoy", "Encuentra24", "PriceSmart"],
+    "language": "Spanish",
+    "note": "Costa Rica has one of Central America's highest internet penetration rates, and Kolbi (state ICE) leads mobile, so local IPs are valued for stable regional research."
+  },
+  "panama": {
+    "isps": ["+Movil (Cable & Wireless)", "Tigo", "Claro"],
+    "carriers": ["+Movil", "Tigo", "Digicel"],
+    "sites": ["Encuentra24", "La Prensa", "TVN Noticias", "Panama America"],
+    "language": "Spanish",
+    "note": "Panama is a regional banking and logistics hub, and Encuentra24 dominates local classifieds, making Panamanian IPs useful for finance and marketplace verification."
+  },
+  "dominican-republic": {
+    "isps": ["Claro", "Altice", "Viva"],
+    "carriers": ["Claro", "Altice", "Viva"],
+    "sites": ["Corotos", "Listin Diario", "Diario Libre", "MercadoLibre"],
+    "language": "Spanish",
+    "note": "The Dominican Republic is a large Caribbean e-commerce and tourism market where Corotos leads classifieds, so local IPs help with listings and travel-price research."
+  },
+  "jamaica": {
+    "isps": ["Flow Jamaica", "Digicel"],
+    "carriers": ["Digicel", "Flow"],
+    "sites": ["Jamaica Gleaner", "Jamaica Observer", "Loop Jamaica"],
+    "language": "English (Jamaican Patois widely spoken)",
+    "note": "Jamaica's telecom is a Digicel/Flow duopoly, and English-language content plus a large diaspora make local IPs useful for media and ad verification."
+  },
+  "cuba": {
+    "isps": ["ETECSA"],
+    "carriers": ["Cubacel (ETECSA)"],
+    "sites": ["Revolico", "Granma", "Cubadebate"],
+    "language": "Spanish",
+    "note": "Cuba's internet is a state monopoly under ETECSA with heavy restrictions and limited access, so genuine in-country IPs are rare and hard to source."
+  },
+  "trinidad-and-tobago": {
+    "isps": ["Flow", "Digicel", "bmobile (TSTT)"],
+    "carriers": ["bmobile (TSTT)", "Digicel"],
+    "sites": ["Trinidad Guardian", "Trinidad Express", "Trinidad and Tobago Newsday"],
+    "language": "English",
+    "note": "Trinidad and Tobago is the wealthiest English-speaking Caribbean market, and local IPs are used to verify how regional media and ads render in-country."
+  },
+  "the-bahamas": {
+    "isps": ["BTC", "Aliv", "REV"],
+    "carriers": ["BTC", "Aliv"],
+    "sites": ["The Tribune", "The Nassau Guardian", "Bahamas Local"],
+    "language": "English",
+    "note": "The Bahamas is a tourism-driven market with a BTC/Aliv mobile duopoly, so local IPs help verify travel pricing and region-locked content."
+  },
+  "australia": {
+    "isps": ["Telstra", "Optus", "TPG"],
+    "carriers": ["Telstra", "Optus", "Vodafone (TPG)"],
+    "sites": ["eBay Australia", "Gumtree", "Amazon.com.au", "realestate.com.au"],
+    "language": "English",
+    "note": "Australia is a high-value English-speaking e-commerce market with strong geo-targeting, so Australian IPs are essential for accurate retail, classifieds, and ad data."
+  },
+  "new-zealand": {
+    "isps": ["Spark", "One NZ (Vodafone)", "2degrees"],
+    "carriers": ["One NZ (Vodafone)", "Spark", "2degrees"],
+    "sites": ["Trade Me", "The Warehouse", "Countdown", "Stuff"],
+    "language": "English (Maori is also official)",
+    "note": "New Zealand's dominant marketplace Trade Me and many services restrict access to local IPs, making NZ residential IPs important for listings and pricing checks."
+  },
+  "papua-new-guinea": {
+    "isps": ["Digicel PNG", "Telikom PNG", "Vodafone PNG"],
+    "carriers": ["Digicel PNG", "bmobile", "Vodafone PNG"],
+    "sites": ["The National", "Post-Courier", "Loop PNG"],
+    "language": "English, Tok Pisin and Hiri Motu",
+    "note": "Papua New Guinea has low internet penetration led by Digicel, so genuine local IPs are scarce and mainly used for media and telecom research."
+  },
+  "fiji": {
+    "isps": ["Vodafone Fiji", "Digicel Fiji", "Telecom Fiji"],
+    "carriers": ["Vodafone Fiji", "Digicel Fiji"],
+    "sites": ["Fiji Times", "Fiji Sun", "Fiji Village"],
+    "language": "English, Fijian and Fiji Hindi",
+    "note": "Fiji is the main Pacific island hub with a Vodafone/Digicel market, and local IPs are used to verify tourism pricing and regional media."
+  },
+  "solomon-islands": {
+    "isps": ["Our Telekom", "bmobile-Vodafone"],
+    "carriers": ["Our Telekom", "bmobile-Vodafone"],
+    "sites": ["Solomon Star", "Solomon Times", "SIBC"],
+    "language": "English (Solomon Islands Pijin widely spoken)",
+    "note": "Solomon Islands has very limited connectivity dominated by Our Telekom, so in-country IPs are rare and used mainly for local media access."
+  },
+  "vanuatu": {
+    "isps": ["Vodafone Vanuatu (TVL)", "Digicel Vanuatu"],
+    "carriers": ["Vodafone Vanuatu (TVL)", "Digicel Vanuatu"],
+    "sites": ["Vanuatu Daily Post", "VBTC", "Vanuatu Independent"],
+    "language": "Bislama, English and French",
+    "note": "Vanuatu is a small Pacific market with a TVL/Digicel duopoly, and local IPs are used for offshore-finance and tourism verification."
+  },
+  "samoa": {
+    "isps": ["Digicel Samoa", "Vodafone Samoa"],
+    "carriers": ["Digicel Samoa", "Vodafone Samoa"],
+    "sites": ["Samoa Observer", "Talamua", "Government of Samoa"],
+    "language": "Samoan and English",
+    "note": "Samoa is a small Pacific island market served by Digicel and Vodafone, so genuine local IPs are limited and used mainly for local media checks."
+  },
+  "china": {
+    "isps": ["China Telecom", "China Unicom", "China Mobile"],
+    "carriers": ["China Mobile", "China Unicom", "China Telecom"],
+    "sites": ["Taobao", "Tmall", "JD.com", "Baidu"],
+    "language": "Mandarin Chinese",
+    "note": "China's Great Firewall blocks most Western sites and heavily filters traffic, so mainland IPs behave very differently and local platforms like Taobao are the main targets."
+  },
+  "japan": {
+    "isps": ["NTT", "SoftBank", "KDDI (au)"],
+    "carriers": ["NTT Docomo", "au (KDDI)", "SoftBank"],
+    "sites": ["Rakuten", "Amazon.co.jp", "Yahoo! Japan", "Mercari"],
+    "language": "Japanese",
+    "note": "Japan is one of the world's largest e-commerce markets with strong local platforms like Rakuten and Mercari, so Japanese IPs are essential for pricing and marketplace data."
+  },
+  "south-korea": {
+    "isps": ["KT", "SK Broadband", "LG U+"],
+    "carriers": ["SK Telecom", "KT", "LG U+"],
+    "sites": ["Naver", "Coupang", "Gmarket", "11st"],
+    "language": "Korean",
+    "note": "South Korea has among the fastest broadband and a Naver/Coupang-led ecosystem that heavily favors local IPs, making Korean residential IPs important for search and retail research."
+  },
+  "north-korea": {
+    "isps": ["Star JV"],
+    "carriers": ["Koryolink", "Kang Song"],
+    "sites": ["Naenara", "Rodong Sinmun", "KCNA"],
+    "language": "Korean",
+    "note": "North Korea has no open public internet, only a state-controlled intranet (Kwangmyong), so genuine residential IPs are effectively unavailable."
+  },
+  "taiwan": {
+    "isps": ["Chunghwa Telecom", "Taiwan Mobile", "Far EasTone"],
+    "carriers": ["Chunghwa Telecom", "Taiwan Mobile", "Far EasTone"],
+    "sites": ["PChome", "momo", "Shopee Taiwan", "Ruten"],
+    "language": "Mandarin Chinese (Traditional)",
+    "note": "Taiwan is a dense e-commerce market led by PChome, momo, and Shopee, and uses Traditional Chinese, so local IPs are needed for accurate pricing and localization checks."
+  }
+}

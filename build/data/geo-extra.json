@@ -1,0 +1,2870 @@
+{
+ "brazil": {
+  "isps": [
+   "Vivo (Telefonica)",
+   "Claro/NET",
+   "Oi"
+  ],
+  "carriers": [
+   "Vivo",
+   "Claro",
+   "TIM"
+  ],
+  "sites": [
+   "Mercado Livre",
+   "Amazon.com.br",
+   "Americanas",
+   "OLX Brasil"
+  ],
+  "language": "Portuguese",
+  "note": "Brazil is Latin America's largest e-commerce market, and many retailers and streaming services geo-restrict catalogs and pricing to Brazilian IPs, so local residential IPs are needed for accurate data."
+ },
+ "argentina": {
+  "isps": [
+   "Fibertel (Cablevision)",
+   "Telecentro",
+   "Movistar"
+  ],
+  "carriers": [
+   "Claro",
+   "Movistar",
+   "Personal"
+  ],
+  "sites": [
+   "MercadoLibre",
+   "OLX",
+   "Despegar",
+   "Garbarino"
+  ],
+  "language": "Spanish",
+  "note": "Argentina's currency controls and frequent price volatility mean local IPs are important for capturing accurate peso pricing that differs sharply from prices shown to foreign visitors."
+ },
+ "colombia": {
+  "isps": [
+   "Claro Colombia",
+   "Movistar",
+   "Tigo (UNE)"
+  ],
+  "carriers": [
+   "Claro",
+   "Movistar",
+   "Tigo"
+  ],
+  "sites": [
+   "MercadoLibre",
+   "Falabella",
+   "Exito",
+   "OLX"
+  ],
+  "language": "Spanish",
+  "note": "Colombia is one of the fastest-growing e-commerce markets in the Andean region, and retailers like Exito and Falabella localize promotions by region, so Colombian IPs are used for market-price monitoring."
+ },
+ "chile": {
+  "isps": [
+   "Movistar",
+   "VTR",
+   "Entel"
+  ],
+  "carriers": [
+   "Entel",
+   "Movistar",
+   "Claro"
+  ],
+  "sites": [
+   "MercadoLibre",
+   "Falabella",
+   "Ripley",
+   "Paris"
+  ],
+  "language": "Spanish",
+  "note": "Chile has the highest internet penetration in South America and mature online retail, so Chilean IPs are commonly used to track competitive pricing across Falabella, Ripley and Paris."
+ },
+ "peru": {
+  "isps": [
+   "Movistar",
+   "Claro Peru",
+   "Entel"
+  ],
+  "carriers": [
+   "Claro",
+   "Movistar",
+   "Entel",
+   "Bitel"
+  ],
+  "sites": [
+   "MercadoLibre",
+   "Falabella",
+   "Ripley",
+   "Linio"
+  ],
+  "language": "Spanish",
+  "note": "Peru's online retail is concentrated in Lima and dominated by Falabella and Ripley, and local IPs help capture region-specific shipping and pricing that vary from foreign views."
+ },
+ "venezuela": {
+  "isps": [
+   "CANTV",
+   "Movistar",
+   "Inter (Intercable)"
+  ],
+  "carriers": [
+   "Movistar",
+   "Digitel",
+   "Movilnet"
+  ],
+  "sites": [
+   "MercadoLibre",
+   "Tucarro",
+   "OLX"
+  ],
+  "language": "Spanish",
+  "note": "Venezuela has heavy state internet controls and periodic blocking of sites, so local IPs are used to reach content and pricing that is otherwise filtered or geo-restricted for outside visitors."
+ },
+ "ecuador": {
+  "isps": [
+   "CNT",
+   "Claro (Ecuadortelecom)",
+   "Netlife"
+  ],
+  "carriers": [
+   "Claro",
+   "Movistar",
+   "CNT"
+  ],
+  "sites": [
+   "MercadoLibre",
+   "OLX",
+   "Marathon Sports"
+  ],
+  "language": "Spanish",
+  "note": "Ecuador uses the US dollar, and while pricing is stable, local IPs are still needed to access region-locked promotions and classifieds listings restricted to Ecuadorian visitors."
+ },
+ "bolivia": {
+  "isps": [
+   "Entel Bolivia",
+   "Tigo",
+   "Cotas"
+  ],
+  "carriers": [
+   "Entel",
+   "Tigo",
+   "Viva"
+  ],
+  "sites": [
+   "MercadoLibre",
+   "OLX",
+   "Ultra Casas"
+  ],
+  "language": "Spanish",
+  "note": "Bolivia has lower e-commerce penetration and much retail happens via classifieds and social marketplaces, so local IPs are used mainly for accessing region-restricted listings and ad content."
+ },
+ "paraguay": {
+  "isps": [
+   "Tigo",
+   "Personal (Nucleo)",
+   "Copaco"
+  ],
+  "carriers": [
+   "Tigo",
+   "Personal",
+   "Claro"
+  ],
+  "sites": [
+   "MercadoLibre",
+   "Clasipar",
+   "OLX"
+  ],
+  "language": "Spanish, Guarani",
+  "note": "Paraguay is a smaller bilingual market where much commerce runs through classifieds like Clasipar, and local IPs are needed to view listings and offers geo-limited to Paraguayan users."
+ },
+ "uruguay": {
+  "isps": [
+   "Antel",
+   "Movistar",
+   "Claro"
+  ],
+  "carriers": [
+   "Antel",
+   "Movistar",
+   "Claro"
+  ],
+  "sites": [
+   "MercadoLibre",
+   "Gallito",
+   "OLX"
+  ],
+  "language": "Spanish",
+  "note": "Uruguay's fixed broadband is dominated by the state operator Antel, and Uruguayan IPs are used to access local classifieds like Gallito and region-restricted retail pricing."
+ },
+ "guyana": {
+  "isps": [
+   "GTT (Guyana Telephone & Telegraph)",
+   "Digicel",
+   "ENet"
+  ],
+  "carriers": [
+   "Digicel",
+   "GTT (Cellink)"
+  ],
+  "sites": [
+   "Guyana Classifieds",
+   "SabgaSweets",
+   "iNews Guyana"
+  ],
+  "language": "English",
+  "note": "Guyana is a small English-speaking market with a fast-growing oil economy, and local IPs are used to reach region-restricted classifieds and news content limited to Guyanese visitors."
+ },
+ "suriname": {
+  "isps": [
+   "Telesur",
+   "Digicel"
+  ],
+  "carriers": [
+   "Telesur (Tele2)",
+   "Digicel"
+  ],
+  "sites": [
+   "Surinam Classifieds",
+   "Waterkant",
+   "Starnieuws"
+  ],
+  "language": "Dutch",
+  "note": "Suriname is a Dutch-speaking market with fixed and mobile service dominated by state operator Telesur, and local IPs help access region-limited local media and classifieds."
+ },
+ "nigeria": {
+  "isps": [
+   "MTN Nigeria",
+   "Airtel",
+   "Spectranet"
+  ],
+  "carriers": [
+   "MTN",
+   "Airtel",
+   "Glo",
+   "9mobile"
+  ],
+  "sites": [
+   "Jumia",
+   "Konga",
+   "Jiji",
+   "Nairaland"
+  ],
+  "language": "English",
+  "note": "Nigeria is Africa's largest e-commerce and mobile market, and platforms like Jumia and Jiji localize by region, so Nigerian IPs are essential for accurate price and listing data."
+ },
+ "south-africa": {
+  "isps": [
+   "Telkom",
+   "Vodacom",
+   "Afrihost"
+  ],
+  "carriers": [
+   "Vodacom",
+   "MTN",
+   "Cell C",
+   "Telkom"
+  ],
+  "sites": [
+   "Takealot",
+   "Gumtree",
+   "bidorbuy",
+   "Superbalist"
+  ],
+  "language": "English (plus Zulu, Afrikaans)",
+  "note": "South Africa is the continent's most developed online retail market led by Takealot, and many services geo-restrict streaming and pricing, so local IPs are needed for market data."
+ },
+ "egypt": {
+  "isps": [
+   "TE Data (WE)",
+   "Vodafone Egypt",
+   "Orange Egypt"
+  ],
+  "carriers": [
+   "Vodafone Egypt",
+   "Orange",
+   "Etisalat (e&)",
+   "WE"
+  ],
+  "sites": [
+   "Amazon.eg",
+   "Jumia",
+   "OLX/Dubizzle",
+   "Noon"
+  ],
+  "language": "Arabic",
+  "note": "Egypt is the largest e-commerce market in North Africa, and retailers geo-price in Egyptian pounds while some content is filtered, so local IPs are used for accurate pricing and access."
+ },
+ "kenya": {
+  "isps": [
+   "Safaricom",
+   "Zuku (Wananchi)",
+   "Faiba (Jamii Telecom)"
+  ],
+  "carriers": [
+   "Safaricom",
+   "Airtel",
+   "Telkom Kenya"
+  ],
+  "sites": [
+   "Jumia",
+   "Jiji",
+   "Kilimall",
+   "PigiaMe"
+  ],
+  "language": "English, Swahili",
+  "note": "Kenya's e-commerce is tightly linked to Safaricom's M-Pesa mobile money, and many checkout and pricing flows only work correctly from Kenyan IPs."
+ },
+ "ghana": {
+  "isps": [
+   "MTN Ghana",
+   "Telecel (Vodafone)",
+   "AirtelTigo"
+  ],
+  "carriers": [
+   "MTN",
+   "Telecel",
+   "AirtelTigo"
+  ],
+  "sites": [
+   "Jumia",
+   "Tonaton",
+   "Jiji"
+  ],
+  "language": "English",
+  "note": "Ghana has a rapidly growing mobile-first internet economy dominated by MTN, and local IPs are used to access region-restricted classifieds and localized retail pricing."
+ },
+ "morocco": {
+  "isps": [
+   "Maroc Telecom",
+   "Orange Morocco",
+   "Inwi"
+  ],
+  "carriers": [
+   "Maroc Telecom",
+   "Orange",
+   "Inwi"
+  ],
+  "sites": [
+   "Avito",
+   "Jumia",
+   "Marjane",
+   "Hmizate"
+  ],
+  "language": "Arabic, French",
+  "note": "Morocco's online market runs heavily through classifieds like Avito, and content is often bilingual, so local IPs are used to view listings and offers geo-limited to Moroccan users."
+ },
+ "algeria": {
+  "isps": [
+   "Algerie Telecom (Idoom)",
+   "Mobilis",
+   "Djezzy"
+  ],
+  "carriers": [
+   "Djezzy",
+   "Mobilis",
+   "Ooredoo"
+  ],
+  "sites": [
+   "Ouedkniss",
+   "Jumia",
+   "Batolis"
+  ],
+  "language": "Arabic, French",
+  "note": "Algeria's online commerce centers on the classifieds site Ouedkniss, and periodic internet restrictions make Algerian IPs useful for reaching local listings and content reliably."
+ },
+ "tunisia": {
+  "isps": [
+   "Tunisie Telecom",
+   "Ooredoo Tunisia",
+   "Orange Tunisia"
+  ],
+  "carriers": [
+   "Ooredoo",
+   "Tunisie Telecom",
+   "Orange"
+  ],
+  "sites": [
+   "Tayara",
+   "Jumia",
+   "Mytek"
+  ],
+  "language": "Arabic, French",
+  "note": "Tunisia's e-commerce leans on classifieds like Tayara, and local bilingual content and pricing are best captured with Tunisian IPs."
+ },
+ "ethiopia": {
+  "isps": [
+   "Ethio Telecom",
+   "Safaricom Ethiopia"
+  ],
+  "carriers": [
+   "Ethio Telecom",
+   "Safaricom Ethiopia"
+  ],
+  "sites": [
+   "Jiji Ethiopia",
+   "Qefira",
+   "Engocha"
+  ],
+  "language": "Amharic",
+  "note": "Ethiopia's telecom sector was long a state monopoly under Ethio Telecom and has seen periodic internet shutdowns, so local IPs are used to reach region-restricted listings and content."
+ },
+ "tanzania": {
+  "isps": [
+   "Vodacom Tanzania",
+   "Airtel",
+   "TTCL"
+  ],
+  "carriers": [
+   "Vodacom",
+   "Airtel",
+   "Yas (Tigo)",
+   "Halotel"
+  ],
+  "sites": [
+   "Jumia",
+   "Jiji",
+   "Kupatana"
+  ],
+  "language": "Swahili, English",
+  "note": "Tanzania is a fast-growing mobile-money market where much retail runs through classifieds, and local IPs help access region-limited listings and Swahili-language content."
+ },
+ "uganda": {
+  "isps": [
+   "MTN Uganda",
+   "Airtel Uganda",
+   "Roke Telkom"
+  ],
+  "carriers": [
+   "MTN",
+   "Airtel",
+   "Lycamobile",
+   "Uganda Telecom"
+  ],
+  "sites": [
+   "Jumia",
+   "Jiji",
+   "Cheki"
+  ],
+  "language": "English, Swahili",
+  "note": "Uganda has occasionally imposed social media and internet taxes and shutdowns, so Ugandan IPs are used to reliably reach local classifieds and geo-restricted content."
+ },
+ "angola": {
+  "isps": [
+   "Unitel",
+   "Movicel",
+   "Angola Telecom"
+  ],
+  "carriers": [
+   "Unitel",
+   "Movicel",
+   "Africell Angola"
+  ],
+  "sites": [
+   "Ronga",
+   "Jiji Angola",
+   "Angotic"
+  ],
+  "language": "Portuguese",
+  "note": "Angola is a Portuguese-speaking market dominated by mobile operator Unitel, and local IPs are used to access region-restricted classifieds and localized pricing in kwanza."
+ },
+ "cameroon": {
+  "isps": [
+   "Camtel",
+   "MTN Cameroon",
+   "Orange Cameroon"
+  ],
+  "carriers": [
+   "MTN",
+   "Orange",
+   "Nexttel",
+   "Camtel (Blue)"
+  ],
+  "sites": [
+   "Jumia",
+   "CoinAfrique",
+   "Kerawa"
+  ],
+  "language": "French, English",
+  "note": "Cameroon is a bilingual market where much commerce runs through classifieds like CoinAfrique, and local IPs are used to view listings and content geo-limited to Cameroonian users."
+ },
+ "senegal": {
+  "isps": [
+   "Orange Senegal (Sonatel)",
+   "Free Senegal",
+   "Expresso"
+  ],
+  "carriers": [
+   "Orange",
+   "Free",
+   "Expresso"
+  ],
+  "sites": [
+   "Jumia Senegal",
+   "CoinAfrique",
+   "Expat-Dakar",
+   "Seneweb"
+  ],
+  "language": "French (Wolof widely spoken)",
+  "note": "Sonatel-owned Orange dominates connectivity, so local Senegalese IPs are needed to reach classifieds like Expat-Dakar and price data that is served in French for the Dakar market."
+ },
+ "ivory-coast": {
+  "isps": [
+   "Orange Cote d'Ivoire",
+   "MTN Cote d'Ivoire",
+   "Moov Africa"
+  ],
+  "carriers": [
+   "Orange",
+   "MTN",
+   "Moov"
+  ],
+  "sites": [
+   "Jumia Cote d'Ivoire",
+   "CoinAfrique",
+   "Abidjan.net",
+   "Afrikmag"
+  ],
+  "language": "French",
+  "note": "Abidjan is a major francophone West African e-commerce hub where mobile-money-driven retail on Jumia and CoinAfrique is best accessed through Ivorian mobile IPs."
+ },
+ "zimbabwe": {
+  "isps": [
+   "TelOne",
+   "Liquid Home (ZOL)",
+   "Utande"
+  ],
+  "carriers": [
+   "Econet Wireless",
+   "NetOne",
+   "Telecel"
+  ],
+  "sites": [
+   "Classifieds.co.zw",
+   "Pindula",
+   "The Herald",
+   "NewsDay"
+  ],
+  "language": "English (Shona and Ndebele widely spoken)",
+  "note": "Zimbabwe has high mobile-data costs and Econet dominance, so mobile proxies on local carrier IPs are common for accessing classifieds and news portals restricted or throttled abroad."
+ },
+ "zambia": {
+  "isps": [
+   "Zamtel",
+   "Airtel Zambia",
+   "MTN Zambia"
+  ],
+  "carriers": [
+   "Airtel",
+   "MTN",
+   "Zamtel"
+  ],
+  "sites": [
+   "Lusaka Times",
+   "News Diggers",
+   "Zambian Observer",
+   "Zambia Daily Mail"
+  ],
+  "language": "English",
+  "note": "Zambia's online market is small and English-language, and local IPs help reach news and classifieds sites that occasionally geo-limit traffic to the Copperbelt and Lusaka regions."
+ },
+ "mozambique": {
+  "isps": [
+   "Tmcel",
+   "Vodacom Mozambique",
+   "Movitel"
+  ],
+  "carriers": [
+   "Vodacom",
+   "Movitel",
+   "Tmcel"
+  ],
+  "sites": [
+   "Jornal Noticias",
+   "O Pais",
+   "Verdade",
+   "Carta de Mocambique"
+  ],
+  "language": "Portuguese",
+  "note": "Mozambique is a Portuguese-language market where Movitel has strong rural coverage, so local mobile IPs are useful for reaching content served regionally in Portuguese."
+ },
+ "rwanda": {
+  "isps": [
+   "MTN Rwanda",
+   "Airtel Rwanda",
+   "Liquid Intelligent Technologies"
+  ],
+  "carriers": [
+   "MTN",
+   "Airtel"
+  ],
+  "sites": [
+   "The New Times",
+   "IGIHE",
+   "Kigali Today",
+   "Jumia Rwanda"
+  ],
+  "language": "Kinyarwanda, English, French and Swahili (official)",
+  "note": "Rwanda pushes a cashless digital economy centered on Kigali, and local IPs are needed for accurate access to government and news portals that serve content in Kinyarwanda and English."
+ },
+ "botswana": {
+  "isps": [
+   "Botswana Telecommunications Corporation (BTC)",
+   "Mascom",
+   "Orange Botswana"
+  ],
+  "carriers": [
+   "Mascom",
+   "Orange",
+   "beMobile (BTC)"
+  ],
+  "sites": [
+   "Mmegi",
+   "Botswana Gazette",
+   "Sunday Standard",
+   "The Voice"
+  ],
+  "language": "English and Setswana",
+  "note": "Botswana is a small, sparsely populated market where Mascom leads mobile, so local IPs matter for reaching the handful of national news and classifieds sites."
+ },
+ "namibia": {
+  "isps": [
+   "Telecom Namibia",
+   "MTC",
+   "Paratus"
+  ],
+  "carriers": [
+   "MTC",
+   "TN Mobile"
+  ],
+  "sites": [
+   "The Namibian",
+   "New Era",
+   "Namibian Sun",
+   "My Namibia"
+  ],
+  "language": "English",
+  "note": "MTC holds most of Namibia's mobile market, and Namibian IPs are needed to reach national news outlets and price data serving the small English-speaking population."
+ },
+ "democratic-republic-of-the-congo": {
+  "isps": [
+   "Vodacom Congo",
+   "Airtel DRC",
+   "Orange RDC"
+  ],
+  "carriers": [
+   "Vodacom",
+   "Airtel",
+   "Orange"
+  ],
+  "sites": [
+   "Radio Okapi",
+   "Actualite.cd",
+   "7sur7.cd",
+   "MediaCongo"
+  ],
+  "language": "French (Lingala and Swahili widely spoken)",
+  "note": "The DRC is a large but low-connectivity francophone market where access is heavily mobile, making local carrier IPs important for reaching Kinshasa news and classifieds."
+ },
+ "libya": {
+  "isps": [
+   "Libya Telecom & Technology (LTT)",
+   "Libyana",
+   "Almadar Aljadid"
+  ],
+  "carriers": [
+   "Libyana",
+   "Almadar Aljadid"
+  ],
+  "sites": [
+   "Libya Herald",
+   "Al Wasat",
+   "Libya Observer",
+   "Akhbar Libya"
+  ],
+  "language": "Arabic",
+  "note": "Libya's fragmented infrastructure and intermittent connectivity mean local IPs are often the only reliable way to reach Arabic-language news sites serving the domestic audience."
+ },
+ "sudan": {
+  "isps": [
+   "Sudatel (Sudani)",
+   "Zain Sudan",
+   "MTN Sudan"
+  ],
+  "carriers": [
+   "Zain",
+   "MTN",
+   "Sudani"
+  ],
+  "sites": [
+   "Sudan Tribune",
+   "Al-Rakoba",
+   "Sudanese Online",
+   "SUNA"
+  ],
+  "language": "Arabic (English widely used)",
+  "note": "Sudan has faced repeated government internet shutdowns, so local IPs are used to reach Arabic news portals and to monitor connectivity from inside the country."
+ },
+ "united-arab-emirates": {
+  "isps": [
+   "Etisalat (e&)",
+   "du",
+   "Virgin Mobile UAE"
+  ],
+  "carriers": [
+   "Etisalat",
+   "du",
+   "Virgin Mobile"
+  ],
+  "sites": [
+   "Amazon.ae",
+   "Noon",
+   "Dubizzle",
+   "Carrefour UAE"
+  ],
+  "language": "Arabic (English very widely used)",
+  "note": "The UAE blocks most VoIP calling and many streaming and gambling sites at the ISP level, so local Emirati IPs are essential for testing what real users actually see."
+ },
+ "saudi-arabia": {
+  "isps": [
+   "STC (Saudi Telecom)",
+   "Mobily",
+   "Zain KSA"
+  ],
+  "carriers": [
+   "STC",
+   "Mobily",
+   "Zain"
+  ],
+  "sites": [
+   "Amazon.sa",
+   "Noon",
+   "Haraj",
+   "Jarir"
+  ],
+  "language": "Arabic",
+  "note": "Saudi Arabia is the Gulf's largest e-commerce market with heavy Noon and Amazon.sa usage, and local IPs are needed for accurate SAR pricing and to bypass content filtering."
+ },
+ "israel": {
+  "isps": [
+   "Bezeq",
+   "HOT",
+   "Partner"
+  ],
+  "carriers": [
+   "Cellcom",
+   "Partner",
+   "Pelephone"
+  ],
+  "sites": [
+   "Yad2",
+   "Zap",
+   "Ynet",
+   "Walla"
+  ],
+  "language": "Hebrew (Arabic and English also used)",
+  "note": "Israeli classifieds and price-comparison sites like Yad2 and Zap serve Hebrew content and geo-limit some data, so local Israeli IPs are needed for accurate market research."
+ },
+ "turkey": {
+  "isps": [
+   "Turk Telekom",
+   "Turkcell Superonline",
+   "Vodafone Turkey"
+  ],
+  "carriers": [
+   "Turkcell",
+   "Vodafone Turkey",
+   "Turk Telekom"
+  ],
+  "sites": [
+   "Hepsiburada",
+   "Trendyol",
+   "Sahibinden",
+   "n11"
+  ],
+  "language": "Turkish",
+  "note": "Turkey is a large e-commerce market where Trendyol and Hepsiburada geo-price in lira and Sahibinden aggressively blocks foreign IPs, making local Turkish IPs essential for scraping."
+ },
+ "qatar": {
+  "isps": [
+   "Ooredoo",
+   "Vodafone Qatar"
+  ],
+  "carriers": [
+   "Ooredoo",
+   "Vodafone Qatar"
+  ],
+  "sites": [
+   "Qatar Living",
+   "Snoonu",
+   "Talabat",
+   "Carrefour Qatar"
+  ],
+  "language": "Arabic (English widely used)",
+  "note": "Qatar is a high-income Gulf market with only two operators, and local IPs are needed to reach classifieds like Qatar Living and delivery apps that restrict access by region."
+ },
+ "kuwait": {
+  "isps": [
+   "Zain",
+   "Ooredoo Kuwait",
+   "stc Kuwait"
+  ],
+  "carriers": [
+   "Zain",
+   "Ooredoo",
+   "stc"
+  ],
+  "sites": [
+   "4Sale",
+   "Talabat",
+   "Blink",
+   "Xcite"
+  ],
+  "language": "Arabic",
+  "note": "Kuwait's 4Sale dominates local classifieds and, like many Gulf platforms, restricts access to Kuwaiti IPs, so local addresses are required for reliable scraping."
+ },
+ "bahrain": {
+  "isps": [
+   "Batelco",
+   "Zain Bahrain",
+   "stc Bahrain"
+  ],
+  "carriers": [
+   "Batelco",
+   "Zain",
+   "stc"
+  ],
+  "sites": [
+   "Dubizzle Bahrain",
+   "Talabat",
+   "Lulu Hypermarket",
+   "Bahrain News Agency"
+  ],
+  "language": "Arabic (English widely used)",
+  "note": "Bahrain is a small but highly connected Gulf market where local IPs help reach classifieds and delivery services that price and serve content specifically for the island."
+ },
+ "oman": {
+  "isps": [
+   "Omantel",
+   "Ooredoo Oman",
+   "Vodafone Oman"
+  ],
+  "carriers": [
+   "Omantel",
+   "Ooredoo",
+   "Vodafone Oman"
+  ],
+  "sites": [
+   "OpenSooq",
+   "Talabat",
+   "Carrefour Oman",
+   "Times of Oman"
+  ],
+  "language": "Arabic (English widely used)",
+  "note": "Oman filters VoIP and some content at the ISP level, so local Omani IPs are needed to test real user access and to reach OpenSooq listings priced in rials."
+ },
+ "jordan": {
+  "isps": [
+   "Orange Jordan",
+   "Zain Jordan",
+   "Umniah"
+  ],
+  "carriers": [
+   "Zain",
+   "Orange",
+   "Umniah"
+  ],
+  "sites": [
+   "OpenSooq",
+   "Talabat",
+   "Jordan Times",
+   "Ammon News"
+  ],
+  "language": "Arabic",
+  "note": "Jordan is the regional headquarters for OpenSooq, and local IPs are needed to reach Arabic classifieds and news portals that tailor content to the Jordanian market."
+ },
+ "lebanon": {
+  "isps": [
+   "Ogero",
+   "Alfa",
+   "touch"
+  ],
+  "carriers": [
+   "Alfa",
+   "touch"
+  ],
+  "sites": [
+   "Dubizzle Lebanon",
+   "Toters",
+   "Naharnet",
+   "Annahar"
+  ],
+  "language": "Arabic (French and English widely used)",
+  "note": "Lebanon's telecom is state-linked with frequent outages, so local IPs are used to reach classifieds and delivery apps serving the Beirut market despite unstable infrastructure."
+ },
+ "iraq": {
+  "isps": [
+   "EarthLink",
+   "Zain Iraq",
+   "Asiacell"
+  ],
+  "carriers": [
+   "Zain Iraq",
+   "Asiacell",
+   "Korek Telecom"
+  ],
+  "sites": [
+   "Miswag",
+   "OpenSooq Iraq",
+   "Alsumaria",
+   "Shafaq News"
+  ],
+  "language": "Arabic (Kurdish also official)",
+  "note": "Iraq experiences scheduled internet shutdowns during exams and unrest, and local IPs are needed to reach Miswag e-commerce and OpenSooq classifieds serving the domestic market."
+ },
+ "iran": {
+  "isps": [
+   "Telecommunication Company of Iran (TCI)",
+   "Shatel",
+   "Pars Online"
+  ],
+  "carriers": [
+   "MCI (Hamrah-e-Aval)",
+   "Irancell",
+   "RighTel"
+  ],
+  "sites": [
+   "Digikala",
+   "Divar",
+   "Sheypoor",
+   "Torob"
+  ],
+  "language": "Persian (Farsi)",
+  "note": "Iran runs one of the world's most restrictive internet filters and sits under sanctions, so most foreign platforms block Iranian IPs while local sites like Digikala require them."
+ },
+ "yemen": {
+  "isps": [
+   "YemenNet",
+   "TeleYemen",
+   "Yemen Mobile"
+  ],
+  "carriers": [
+   "Yemen Mobile",
+   "Sabafon",
+   "MTN Yemen"
+  ],
+  "sites": [
+   "Al-Masdar Online",
+   "Saba News Agency",
+   "Aden Ghad",
+   "Al-Sahwa"
+  ],
+  "language": "Arabic",
+  "note": "Yemen's conflict has split telecom control and caused frequent outages, so local IPs are used mainly to reach and monitor Arabic news sites serving the domestic audience."
+ },
+ "united-states": {
+  "isps": [
+   "Comcast Xfinity",
+   "AT&T",
+   "Spectrum (Charter)"
+  ],
+  "carriers": [
+   "Verizon",
+   "AT&T",
+   "T-Mobile"
+  ],
+  "sites": [
+   "Amazon",
+   "Walmart",
+   "eBay",
+   "Craigslist"
+  ],
+  "language": "English",
+  "note": "The US is the world's largest e-commerce market where retailers geo-price by state and ZIP, so residential and city-level IPs are essential for accurate pricing and ad verification."
+ },
+ "canada": {
+  "isps": [
+   "Bell Canada",
+   "Rogers",
+   "Telus"
+  ],
+  "carriers": [
+   "Rogers",
+   "Bell Mobility",
+   "Telus Mobility"
+  ],
+  "sites": [
+   "Amazon.ca",
+   "Canadian Tire",
+   "Kijiji",
+   "Best Buy Canada"
+  ],
+  "language": "English and French",
+  "note": "Canada is bilingual and retailers commonly geo-price and localize between English and French (Quebec) markets, so Canadian IPs from the right province matter for accurate data."
+ },
+ "mexico": {
+  "isps": [
+   "Telmex",
+   "Izzi",
+   "Totalplay"
+  ],
+  "carriers": [
+   "Telcel",
+   "Movistar",
+   "AT&T Mexico"
+  ],
+  "sites": [
+   "MercadoLibre Mexico",
+   "Liverpool",
+   "Coppel",
+   "Amazon.com.mx"
+  ],
+  "language": "Spanish",
+  "note": "Mexico is Latin America's second-largest e-commerce market and MercadoLibre dominates local pricing, so Mexican residential IPs are used heavily for retail and marketplace research."
+ },
+ "guatemala": {
+  "isps": [
+   "Tigo",
+   "Claro",
+   "Comcel"
+  ],
+  "carriers": [
+   "Tigo",
+   "Claro",
+   "Movistar"
+  ],
+  "sites": [
+   "Prensa Libre",
+   "Kemik",
+   "Encuentra24",
+   "Soy502"
+  ],
+  "language": "Spanish",
+  "note": "Guatemala's mobile market is a Tigo/Claro duopoly and Encuentra24 is the main regional classifieds site, making local IPs useful for ad verification and listings scraping."
+ },
+ "honduras": {
+  "isps": [
+   "Tigo",
+   "Claro",
+   "Hondutel"
+  ],
+  "carriers": [
+   "Tigo",
+   "Claro"
+  ],
+  "sites": [
+   "La Prensa",
+   "El Heraldo",
+   "Encuentra24"
+  ],
+  "language": "Spanish",
+  "note": "Honduras has a small Tigo/Claro-led telecom market, and local classifieds and news sites are common targets, so residential IPs help with geo-accurate ad and listing checks."
+ },
+ "el-salvador": {
+  "isps": [
+   "Tigo",
+   "Claro",
+   "Movistar"
+  ],
+  "carriers": [
+   "Tigo",
+   "Claro",
+   "Movistar"
+  ],
+  "sites": [
+   "La Prensa Grafica",
+   "elsalvador.com",
+   "Encuentra24"
+  ],
+  "language": "Spanish",
+  "note": "El Salvador made Bitcoin legal tender in 2021, drawing fintech and crypto research traffic where local IPs matter for testing region-specific services."
+ },
+ "nicaragua": {
+  "isps": [
+   "Claro",
+   "Tigo",
+   "CooTel"
+  ],
+  "carriers": [
+   "Claro",
+   "Tigo"
+  ],
+  "sites": [
+   "La Prensa",
+   "El Nuevo Diario",
+   "Encuentra24"
+  ],
+  "language": "Spanish",
+  "note": "Nicaragua has a concentrated Claro/Tigo market and state pressure on independent media, so local IPs are used to verify how sites and ads appear in-country."
+ },
+ "costa-rica": {
+  "isps": [
+   "Kolbi (ICE)",
+   "Tigo",
+   "Telecable"
+  ],
+  "carriers": [
+   "Kolbi (ICE)",
+   "Claro",
+   "Liberty"
+  ],
+  "sites": [
+   "La Nacion",
+   "CRHoy",
+   "Encuentra24",
+   "PriceSmart"
+  ],
+  "language": "Spanish",
+  "note": "Costa Rica has one of Central America's highest internet penetration rates, and Kolbi (state ICE) leads mobile, so local IPs are valued for stable regional research."
+ },
+ "panama": {
+  "isps": [
+   "+Movil (Cable & Wireless)",
+   "Tigo",
+   "Claro"
+  ],
+  "carriers": [
+   "+Movil",
+   "Tigo",
+   "Digicel"
+  ],
+  "sites": [
+   "Encuentra24",
+   "La Prensa",
+   "TVN Noticias",
+   "Panama America"
+  ],
+  "language": "Spanish",
+  "note": "Panama is a regional banking and logistics hub, and Encuentra24 dominates local classifieds, making Panamanian IPs useful for finance and marketplace verification."
+ },
+ "dominican-republic": {
+  "isps": [
+   "Claro",
+   "Altice",
+   "Viva"
+  ],
+  "carriers": [
+   "Claro",
+   "Altice",
+   "Viva"
+  ],
+  "sites": [
+   "Corotos",
+   "Listin Diario",
+   "Diario Libre",
+   "MercadoLibre"
+  ],
+  "language": "Spanish",
+  "note": "The Dominican Republic is a large Caribbean e-commerce and tourism market where Corotos leads classifieds, so local IPs help with listings and travel-price research."
+ },
+ "jamaica": {
+  "isps": [
+   "Flow Jamaica",
+   "Digicel"
+  ],
+  "carriers": [
+   "Digicel",
+   "Flow"
+  ],
+  "sites": [
+   "Jamaica Gleaner",
+   "Jamaica Observer",
+   "Loop Jamaica"
+  ],
+  "language": "English (Jamaican Patois widely spoken)",
+  "note": "Jamaica's telecom is a Digicel/Flow duopoly, and English-language content plus a large diaspora make local IPs useful for media and ad verification."
+ },
+ "cuba": {
+  "isps": [
+   "ETECSA"
+  ],
+  "carriers": [
+   "Cubacel (ETECSA)"
+  ],
+  "sites": [
+   "Revolico",
+   "Granma",
+   "Cubadebate"
+  ],
+  "language": "Spanish",
+  "note": "Cuba's internet is a state monopoly under ETECSA with heavy restrictions and limited access, so genuine in-country IPs are rare and hard to source."
+ },
+ "trinidad-and-tobago": {
+  "isps": [
+   "Flow",
+   "Digicel",
+   "bmobile (TSTT)"
+  ],
+  "carriers": [
+   "bmobile (TSTT)",
+   "Digicel"
+  ],
+  "sites": [
+   "Trinidad Guardian",
+   "Trinidad Express",
+   "Trinidad and Tobago Newsday"
+  ],
+  "language": "English",
+  "note": "Trinidad and Tobago is the wealthiest English-speaking Caribbean market, and local IPs are used to verify how regional media and ads render in-country."
+ },
+ "the-bahamas": {
+  "isps": [
+   "BTC",
+   "Aliv",
+   "REV"
+  ],
+  "carriers": [
+   "BTC",
+   "Aliv"
+  ],
+  "sites": [
+   "The Tribune",
+   "The Nassau Guardian",
+   "Bahamas Local"
+  ],
+  "language": "English",
+  "note": "The Bahamas is a tourism-driven market with a BTC/Aliv mobile duopoly, so local IPs help verify travel pricing and region-locked content."
+ },
+ "australia": {
+  "isps": [
+   "Telstra",
+   "Optus",
+   "TPG"
+  ],
+  "carriers": [
+   "Telstra",
+   "Optus",
+   "Vodafone (TPG)"
+  ],
+  "sites": [
+   "eBay Australia",
+   "Gumtree",
+   "Amazon.com.au",
+   "realestate.com.au"
+  ],
+  "language": "English",
+  "note": "Australia is a high-value English-speaking e-commerce market with strong geo-targeting, so Australian IPs are essential for accurate retail, classifieds, and ad data."
+ },
+ "new-zealand": {
+  "isps": [
+   "Spark",
+   "One NZ (Vodafone)",
+   "2degrees"
+  ],
+  "carriers": [
+   "One NZ (Vodafone)",
+   "Spark",
+   "2degrees"
+  ],
+  "sites": [
+   "Trade Me",
+   "The Warehouse",
+   "Countdown",
+   "Stuff"
+  ],
+  "language": "English (Maori is also official)",
+  "note": "New Zealand's dominant marketplace Trade Me and many services restrict access to local IPs, making NZ residential IPs important for listings and pricing checks."
+ },
+ "papua-new-guinea": {
+  "isps": [
+   "Digicel PNG",
+   "Telikom PNG",
+   "Vodafone PNG"
+  ],
+  "carriers": [
+   "Digicel PNG",
+   "bmobile",
+   "Vodafone PNG"
+  ],
+  "sites": [
+   "The National",
+   "Post-Courier",
+   "Loop PNG"
+  ],
+  "language": "English, Tok Pisin and Hiri Motu",
+  "note": "Papua New Guinea has low internet penetration led by Digicel, so genuine local IPs are scarce and mainly used for media and telecom research."
+ },
+ "fiji": {
+  "isps": [
+   "Vodafone Fiji",
+   "Digicel Fiji",
+   "Telecom Fiji"
+  ],
+  "carriers": [
+   "Vodafone Fiji",
+   "Digicel Fiji"
+  ],
+  "sites": [
+   "Fiji Times",
+   "Fiji Sun",
+   "Fiji Village"
+  ],
+  "language": "English, Fijian and Fiji Hindi",
+  "note": "Fiji is the main Pacific island hub with a Vodafone/Digicel market, and local IPs are used to verify tourism pricing and regional media."
+ },
+ "solomon-islands": {
+  "isps": [
+   "Our Telekom",
+   "bmobile-Vodafone"
+  ],
+  "carriers": [
+   "Our Telekom",
+   "bmobile-Vodafone"
+  ],
+  "sites": [
+   "Solomon Star",
+   "Solomon Times",
+   "SIBC"
+  ],
+  "language": "English (Solomon Islands Pijin widely spoken)",
+  "note": "Solomon Islands has very limited connectivity dominated by Our Telekom, so in-country IPs are rare and used mainly for local media access."
+ },
+ "vanuatu": {
+  "isps": [
+   "Vodafone Vanuatu (TVL)",
+   "Digicel Vanuatu"
+  ],
+  "carriers": [
+   "Vodafone Vanuatu (TVL)",
+   "Digicel Vanuatu"
+  ],
+  "sites": [
+   "Vanuatu Daily Post",
+   "VBTC",
+   "Vanuatu Independent"
+  ],
+  "language": "Bislama, English and French",
+  "note": "Vanuatu is a small Pacific market with a TVL/Digicel duopoly, and local IPs are used for offshore-finance and tourism verification."
+ },
+ "samoa": {
+  "isps": [
+   "Digicel Samoa",
+   "Vodafone Samoa"
+  ],
+  "carriers": [
+   "Digicel Samoa",
+   "Vodafone Samoa"
+  ],
+  "sites": [
+   "Samoa Observer",
+   "Talamua",
+   "Government of Samoa"
+  ],
+  "language": "Samoan and English",
+  "note": "Samoa is a small Pacific island market served by Digicel and Vodafone, so genuine local IPs are limited and used mainly for local media checks."
+ },
+ "china": {
+  "isps": [
+   "China Telecom",
+   "China Unicom",
+   "China Mobile"
+  ],
+  "carriers": [
+   "China Mobile",
+   "China Unicom",
+   "China Telecom"
+  ],
+  "sites": [
+   "Taobao",
+   "Tmall",
+   "JD.com",
+   "Baidu"
+  ],
+  "language": "Mandarin Chinese",
+  "note": "China's Great Firewall blocks most Western sites and heavily filters traffic, so mainland IPs behave very differently and local platforms like Taobao are the main targets."
+ },
+ "japan": {
+  "isps": [
+   "NTT",
+   "SoftBank",
+   "KDDI (au)"
+  ],
+  "carriers": [
+   "NTT Docomo",
+   "au (KDDI)",
+   "SoftBank"
+  ],
+  "sites": [
+   "Rakuten",
+   "Amazon.co.jp",
+   "Yahoo! Japan",
+   "Mercari"
+  ],
+  "language": "Japanese",
+  "note": "Japan is one of the world's largest e-commerce markets with strong local platforms like Rakuten and Mercari, so Japanese IPs are essential for pricing and marketplace data."
+ },
+ "south-korea": {
+  "isps": [
+   "KT",
+   "SK Broadband",
+   "LG U+"
+  ],
+  "carriers": [
+   "SK Telecom",
+   "KT",
+   "LG U+"
+  ],
+  "sites": [
+   "Naver",
+   "Coupang",
+   "Gmarket",
+   "11st"
+  ],
+  "language": "Korean",
+  "note": "South Korea has among the fastest broadband and a Naver/Coupang-led ecosystem that heavily favors local IPs, making Korean residential IPs important for search and retail research."
+ },
+ "north-korea": {
+  "isps": [
+   "Star JV"
+  ],
+  "carriers": [
+   "Koryolink",
+   "Kang Song"
+  ],
+  "sites": [
+   "Naenara",
+   "Rodong Sinmun",
+   "KCNA"
+  ],
+  "language": "Korean",
+  "note": "North Korea has no open public internet, only a state-controlled intranet (Kwangmyong), so genuine residential IPs are effectively unavailable."
+ },
+ "taiwan": {
+  "isps": [
+   "Chunghwa Telecom",
+   "Taiwan Mobile",
+   "Far EasTone"
+  ],
+  "carriers": [
+   "Chunghwa Telecom",
+   "Taiwan Mobile",
+   "Far EasTone"
+  ],
+  "sites": [
+   "PChome",
+   "momo",
+   "Shopee Taiwan",
+   "Ruten"
+  ],
+  "language": "Mandarin Chinese (Traditional)",
+  "note": "Taiwan is a dense e-commerce market led by PChome, momo, and Shopee, and uses Traditional Chinese, so local IPs are needed for accurate pricing and localization checks."
+ },
+ "hong-kong": {
+  "isps": [
+   "HKT (PCCW)",
+   "China Mobile Hong Kong",
+   "HKBN"
+  ],
+  "carriers": [
+   "CSL (HKT)",
+   "China Mobile Hong Kong",
+   "3 Hong Kong"
+  ],
+  "sites": [
+   "HKTVmall",
+   "Carousell HK",
+   "Price.com.hk",
+   "Openrice"
+  ],
+  "language": "Cantonese, English, Chinese",
+  "note": "Hong Kong is a major financial and data-center hub with abundant clean IP space, making it a common exit point for scraping regional e-commerce and financial data."
+ },
+ "macau": {
+  "isps": [
+   "CTM (Companhia de Telecomunicacoes de Macau)",
+   "MTel",
+   "China Telecom Macau"
+  ],
+  "carriers": [
+   "CTM",
+   "3 Macau",
+   "China Telecom Macau"
+  ],
+  "sites": [
+   "Macau Slot",
+   "aigo.mo",
+   "MacauHR",
+   "SupplyOn Macau"
+  ],
+  "language": "Chinese (Cantonese), Portuguese",
+  "note": "Macau is a small market dominated by CTM, and its gaming and tourism sites often geo-restrict content, so local Macau IPs are needed for accurate access."
+ },
+ "mongolia": {
+  "isps": [
+   "Mobicom",
+   "Unitel",
+   "Gemnet"
+  ],
+  "carriers": [
+   "Mobicom",
+   "Unitel",
+   "Skytel"
+  ],
+  "sites": [
+   "Unegui.mn",
+   "Gogo.mn",
+   "Ikon.mn",
+   "Shoppy.mn"
+  ],
+  "language": "Mongolian",
+  "note": "Mongolia is a small internet market where Unegui.mn dominates classifieds, and local IPs are needed to access Mongolian-language listings and pricing."
+ },
+ "india": {
+  "isps": [
+   "Reliance Jio",
+   "Bharti Airtel",
+   "BSNL"
+  ],
+  "carriers": [
+   "Jio",
+   "Airtel",
+   "Vodafone Idea (Vi)"
+  ],
+  "sites": [
+   "Flipkart",
+   "Amazon.in",
+   "Myntra",
+   "JustDial"
+  ],
+  "language": "Hindi, English",
+  "note": "India is one of the world's largest e-commerce markets with heavy region-based pricing and app-only deals, so local Indian IPs are essential for accurate retail and travel data."
+ },
+ "pakistan": {
+  "isps": [
+   "PTCL",
+   "Jazz (Wateen)",
+   "Nayatel"
+  ],
+  "carriers": [
+   "Jazz",
+   "Zong",
+   "Telenor Pakistan"
+  ],
+  "sites": [
+   "Daraz.pk",
+   "OLX Pakistan",
+   "PakWheels",
+   "Zameen.com"
+  ],
+  "language": "Urdu, English",
+  "note": "Pakistan's online retail is led by Daraz and classifieds by OLX and PakWheels, and local IPs are needed as some sites and government portals restrict foreign access."
+ },
+ "bangladesh": {
+  "isps": [
+   "Grameenphone",
+   "Link3",
+   "Amber IT"
+  ],
+  "carriers": [
+   "Grameenphone",
+   "Robi",
+   "Banglalink"
+  ],
+  "sites": [
+   "Daraz.com.bd",
+   "Bikroy.com",
+   "Chaldal",
+   "Pathao"
+  ],
+  "language": "Bengali (Bangla)",
+  "note": "Bangladesh has a fast-growing e-commerce market led by Daraz and classifieds by Bikroy, and local IPs help access Bangla listings and ride-hailing pricing."
+ },
+ "sri-lanka": {
+  "isps": [
+   "SLT-Mobitel",
+   "Dialog Broadband",
+   "Lanka Bell"
+  ],
+  "carriers": [
+   "Dialog Axiata",
+   "Mobitel",
+   "Hutch Sri Lanka"
+  ],
+  "sites": [
+   "ikman.lk",
+   "Daraz.lk",
+   "Kapruka",
+   "PickMe"
+  ],
+  "language": "Sinhala, Tamil, English",
+  "note": "Sri Lanka's classifieds are dominated by ikman.lk and retail by Daraz.lk, and local IPs are needed to view accurate rupee pricing and local listings."
+ },
+ "nepal": {
+  "isps": [
+   "Nepal Telecom",
+   "WorldLink",
+   "Vianet"
+  ],
+  "carriers": [
+   "Ncell",
+   "Nepal Telecom (NTC)",
+   "Smart Cell"
+  ],
+  "sites": [
+   "Daraz.com.np",
+   "Hamrobazar",
+   "Foodmandu",
+   "Merojob"
+  ],
+  "language": "Nepali",
+  "note": "Nepal's online shopping is led by Daraz and classifieds by Hamrobazar, and local IPs are needed to access Nepali-language marketplaces and delivery pricing."
+ },
+ "bhutan": {
+  "isps": [
+   "Bhutan Telecom",
+   "TashiCell",
+   "DrukNet"
+  ],
+  "carriers": [
+   "B-Mobile (Bhutan Telecom)",
+   "TashiCell"
+  ],
+  "sites": [
+   "Kuensel Online",
+   "BBS.bt",
+   "DrukRide",
+   "Bhutan Post"
+  ],
+  "language": "Dzongkha, English",
+  "note": "Bhutan is a very small internet market served mainly by Bhutan Telecom and TashiCell, so residential IPs are scarce and mostly tied to those two operators."
+ },
+ "maldives": {
+  "isps": [
+   "Dhiraagu",
+   "Ooredoo Maldives",
+   "Focus Infocom"
+  ],
+  "carriers": [
+   "Dhiraagu",
+   "Ooredoo Maldives"
+  ],
+  "sites": [
+   "Maldives.mv",
+   "Vaguthu",
+   "Mihaaru",
+   "Dhiraagu Store"
+  ],
+  "language": "Dhivehi, English",
+  "note": "The Maldives is a small market split between Dhiraagu and Ooredoo, and its tourism and news portals often serve region-specific content requiring local IPs."
+ },
+ "afghanistan": {
+  "isps": [
+   "Afghan Telecom",
+   "Etisalat Afghanistan",
+   "AWCC"
+  ],
+  "carriers": [
+   "Roshan",
+   "MTN Afghanistan",
+   "Afghan Wireless (AWCC)"
+  ],
+  "sites": [
+   "Rohi.af",
+   "Jobs.af",
+   "Etilaatroz",
+   "TOLOnews"
+  ],
+  "language": "Dari (Persian), Pashto",
+  "note": "Afghanistan has limited and unstable internet infrastructure, and local IPs are hard to source, with mobile carriers providing most connectivity."
+ },
+ "indonesia": {
+  "isps": [
+   "Telkom Indonesia (IndiHome)",
+   "Biznet",
+   "First Media"
+  ],
+  "carriers": [
+   "Telkomsel",
+   "Indosat Ooredoo Hutchison",
+   "XL Axiata"
+  ],
+  "sites": [
+   "Tokopedia",
+   "Shopee Indonesia",
+   "Bukalapak",
+   "Traveloka"
+  ],
+  "language": "Indonesian (Bahasa Indonesia)",
+  "note": "Indonesia is Southeast Asia's largest e-commerce market with heavy flash-sale and app-based pricing, so local IPs are essential for accurate Tokopedia and Shopee data."
+ },
+ "vietnam": {
+  "isps": [
+   "Viettel",
+   "VNPT",
+   "FPT Telecom"
+  ],
+  "carriers": [
+   "Viettel Mobile",
+   "Vinaphone",
+   "Mobifone"
+  ],
+  "sites": [
+   "Shopee Vietnam",
+   "Lazada Vietnam",
+   "Tiki",
+   "Chotot"
+  ],
+  "language": "Vietnamese",
+  "note": "Vietnam is a fast-growing market where Shopee, Tiki and Chotot dominate, and local IPs are needed as some content is filtered and pricing is region-specific."
+ },
+ "thailand": {
+  "isps": [
+   "True Online",
+   "3BB",
+   "AIS Fibre"
+  ],
+  "carriers": [
+   "AIS",
+   "True Move H",
+   "DTAC"
+  ],
+  "sites": [
+   "Shopee Thailand",
+   "Lazada Thailand",
+   "Kaidee",
+   "Pantip"
+  ],
+  "language": "Thai",
+  "note": "Thailand has a mature e-commerce market led by Shopee and Lazada, and local IPs are needed to view Thai-baht pricing and access geo-restricted content."
+ },
+ "philippines": {
+  "isps": [
+   "PLDT",
+   "Globe (Innove)",
+   "Converge ICT"
+  ],
+  "carriers": [
+   "Globe Telecom",
+   "Smart Communications",
+   "DITO Telecommunity"
+  ],
+  "sites": [
+   "Shopee Philippines",
+   "Lazada Philippines",
+   "Carousell PH",
+   "Zalora"
+  ],
+  "language": "Filipino (Tagalog), English",
+  "note": "The Philippines is a major mobile-first e-commerce market where Shopee and Lazada lead, and local IPs are essential for accurate peso pricing and app promotions."
+ },
+ "malaysia": {
+  "isps": [
+   "TM (Unifi)",
+   "Maxis",
+   "Time dotCom"
+  ],
+  "carriers": [
+   "Maxis",
+   "Celcom",
+   "Digi"
+  ],
+  "sites": [
+   "Shopee Malaysia",
+   "Lazada Malaysia",
+   "Mudah.my",
+   "PGMall"
+  ],
+  "language": "Malay (Bahasa Malaysia), English",
+  "note": "Malaysia's e-commerce is led by Shopee and Lazada with classifieds on Mudah.my, and local IPs are needed to access ringgit pricing and local-only deals."
+ },
+ "singapore": {
+  "isps": [
+   "Singtel",
+   "StarHub",
+   "M1"
+  ],
+  "carriers": [
+   "Singtel",
+   "StarHub",
+   "M1"
+  ],
+  "sites": [
+   "Shopee Singapore",
+   "Lazada Singapore",
+   "Carousell",
+   "Qoo10"
+  ],
+  "language": "English, Malay, Mandarin, Tamil",
+  "note": "Singapore is a top-tier data-center hub with excellent connectivity, widely used as a clean, low-latency exit point for scraping across Southeast Asia."
+ },
+ "myanmar": {
+  "isps": [
+   "Myanmar Posts and Telecommunications (MPT)",
+   "Ooredoo Myanmar",
+   "5BB Broadband"
+  ],
+  "carriers": [
+   "MPT",
+   "Atom (formerly Telenor)",
+   "Ooredoo Myanmar"
+  ],
+  "sites": [
+   "Shop.com.mm",
+   "iMyanmarHouse",
+   "CarsDB",
+   "Myanmar Yellow Pages"
+  ],
+  "language": "Burmese (Myanmar)",
+  "note": "Myanmar has heavy internet restrictions and frequent shutdowns, and local IPs are difficult to source with the state-linked MPT dominating connectivity."
+ },
+ "cambodia": {
+  "isps": [
+   "Cellcard",
+   "Metfone",
+   "Ezecom"
+  ],
+  "carriers": [
+   "Cellcard",
+   "Smart Axiata",
+   "Metfone"
+  ],
+  "sites": [
+   "Khmer24",
+   "Nham24",
+   "Wing",
+   "Little Fashion"
+  ],
+  "language": "Khmer",
+  "note": "Cambodia's classifieds are dominated by Khmer24 and connectivity is largely mobile-based, so local IPs are needed to access Khmer-language listings."
+ },
+ "laos": {
+  "isps": [
+   "Lao Telecom",
+   "Unitel Laos",
+   "ETL"
+  ],
+  "carriers": [
+   "Lao Telecom",
+   "Unitel",
+   "ETL Mobile"
+  ],
+  "sites": [
+   "Plazakhmer",
+   "Yula.la",
+   "Lao42",
+   "108Jobs"
+  ],
+  "language": "Lao",
+  "note": "Laos is a small internet market with limited residential IP availability, dominated by state-linked Lao Telecom and Unitel."
+ },
+ "brunei": {
+  "isps": [
+   "Unified National Networks (UNN)",
+   "imagine (formerly TelBru)",
+   "DST"
+  ],
+  "carriers": [
+   "DST",
+   "imagine",
+   "Progresif"
+  ],
+  "sites": [
+   "BruDirect",
+   "Beribi",
+   "Muara.com.bn",
+   "Borneo Bulletin"
+  ],
+  "language": "Malay, English",
+  "note": "Brunei is a very small market where all broadband runs over the state UNN backbone, so residential IPs are scarce and concentrated among a few carriers."
+ },
+ "timor-leste": {
+  "isps": [
+   "Timor Telecom",
+   "Telkomcel",
+   "Telemor"
+  ],
+  "carriers": [
+   "Timor Telecom",
+   "Telemor (Viettel)",
+   "Telkomcel"
+  ],
+  "sites": [
+   "Tatoli.tl",
+   "Timor Post",
+   "GMN TV",
+   "Jornal Independente"
+  ],
+  "language": "Tetum, Portuguese",
+  "note": "Timor-Leste has one of Asia's least-developed internet markets with sparse residential IP space, mostly served through mobile carriers."
+ },
+ "kazakhstan": {
+  "isps": [
+   "Kazakhtelecom",
+   "Beeline Kazakhstan",
+   "Kcell"
+  ],
+  "carriers": [
+   "Kcell",
+   "Beeline Kazakhstan",
+   "Tele2/Altel"
+  ],
+  "sites": [
+   "Kaspi.kz",
+   "OLX.kz",
+   "Krisha.kz",
+   "Kolesa.kz"
+  ],
+  "language": "Kazakh, Russian",
+  "note": "Kazakhstan's digital economy is dominated by the Kaspi.kz super-app, and local IPs are needed as the country operates internet monitoring and occasional restrictions."
+ },
+ "uzbekistan": {
+  "isps": [
+   "Uztelecom",
+   "Beeline Uzbekistan",
+   "UMS"
+  ],
+  "carriers": [
+   "Beeline Uzbekistan",
+   "Ucell",
+   "Mobiuz (UMS)"
+  ],
+  "sites": [
+   "OLX.uz",
+   "Uzum Market",
+   "Avtoelon.uz",
+   "Kun.uz"
+  ],
+  "language": "Uzbek, Russian",
+  "note": "Uzbekistan's online market is growing around Uzum and OLX.uz, and local IPs are needed as international bandwidth is state-controlled and some sites are filtered."
+ },
+ "turkmenistan": {
+  "isps": [
+   "Turkmentelecom",
+   "TM Cell (Altyn Asyr)",
+   "Ashgabat City Telephone Network"
+  ],
+  "carriers": [
+   "TM Cell (Altyn Asyr)",
+   "Turkmentelecom"
+  ],
+  "sites": [
+   "Turkmenportal",
+   "Sanly.tm",
+   "Belarwsy",
+   "TDH (state news)"
+  ],
+  "language": "Turkmen",
+  "note": "Turkmenistan has one of the world's most restricted and heavily censored internets with almost no open residential IP availability, all routed through the state Turkmentelecom."
+ },
+ "kyrgyzstan": {
+  "isps": [
+   "MegaLine (Kyrgyztelecom)",
+   "Saima Telecom",
+   "ElCat"
+  ],
+  "carriers": [
+   "Beeline (Sky Mobile)",
+   "MegaCom",
+   "O! (NUR Telecom)"
+  ],
+  "sites": [
+   "Lalafo.kg",
+   "Agent.kg",
+   "Namba.kg",
+   "Stroka.kg"
+  ],
+  "language": "Kyrgyz, Russian",
+  "note": "Kyrgyzstan is a small internet market where Russian is widely used online, so local IPs are mainly needed for regional classifieds and pricing checks."
+ },
+ "tajikistan": {
+  "isps": [
+   "Tojiktelecom",
+   "Babilon-T",
+   "Saturn Online"
+  ],
+  "carriers": [
+   "Tcell",
+   "Megafon Tajikistan",
+   "Babilon-Mobile"
+  ],
+  "sites": [
+   "Somon.tj",
+   "Salom.tj",
+   "Vecher.tj"
+  ],
+  "language": "Tajik, Russian",
+  "note": "Tajikistan has heavy state internet control and frequently blocks social media and messaging apps, so residential IP availability is limited."
+ },
+ "united-kingdom": {
+  "isps": [
+   "BT",
+   "Virgin Media",
+   "Sky",
+   "TalkTalk"
+  ],
+  "carriers": [
+   "EE",
+   "Virgin Media O2",
+   "Vodafone UK",
+   "Three UK"
+  ],
+  "sites": [
+   "Amazon.co.uk",
+   "Argos",
+   "ASOS",
+   "Rightmove"
+  ],
+  "language": "English",
+  "note": "The UK is a large e-commerce market and streaming services like BBC iPlayer and ITVX restrict content to UK IPs, so local IPs are essential for accurate access."
+ },
+ "germany": {
+  "isps": [
+   "Deutsche Telekom",
+   "Vodafone Germany",
+   "1&1"
+  ],
+  "carriers": [
+   "Telekom",
+   "Vodafone",
+   "O2 Telefonica"
+  ],
+  "sites": [
+   "Amazon.de",
+   "Otto",
+   "idealo",
+   "Zalando"
+  ],
+  "language": "German",
+  "note": "Germany enforces strict GDPR data rules and many retailers geo-price by region, so local German IPs are essential for accurate market data."
+ },
+ "france": {
+  "isps": [
+   "Orange",
+   "SFR",
+   "Free (Iliad)",
+   "Bouygues Telecom"
+  ],
+  "carriers": [
+   "Orange",
+   "SFR",
+   "Bouygues Telecom",
+   "Free Mobile"
+  ],
+  "sites": [
+   "Amazon.fr",
+   "Cdiscount",
+   "Leboncoin",
+   "Fnac"
+  ],
+  "language": "French",
+  "note": "France is a top-five EU e-commerce market and Leboncoin classifieds and local price checks commonly require French residential IPs."
+ },
+ "italy": {
+  "isps": [
+   "TIM (Telecom Italia)",
+   "Vodafone Italy",
+   "Fastweb",
+   "WindTre"
+  ],
+  "carriers": [
+   "TIM",
+   "Vodafone",
+   "WindTre",
+   "Iliad"
+  ],
+  "sites": [
+   "Amazon.it",
+   "Subito.it",
+   "eBay.it",
+   "idealo"
+  ],
+  "language": "Italian",
+  "note": "Italy's largest classifieds site Subito.it and regional retail pricing are commonly targeted, and local IPs help avoid access blocks."
+ },
+ "spain": {
+  "isps": [
+   "Movistar (Telefonica)",
+   "Orange Spain",
+   "Vodafone Spain",
+   "MasMovil"
+  ],
+  "carriers": [
+   "Movistar",
+   "Vodafone",
+   "Orange",
+   "Yoigo"
+  ],
+  "sites": [
+   "Amazon.es",
+   "El Corte Ingles",
+   "Wallapop",
+   "Idealista"
+  ],
+  "language": "Spanish (Castilian)",
+  "note": "Wallapop and Idealista are the key local marketplaces, and Spanish IPs are needed to see regional pricing and listings accurately."
+ },
+ "poland": {
+  "isps": [
+   "Orange Polska",
+   "Play (P4)",
+   "Netia",
+   "Vectra"
+  ],
+  "carriers": [
+   "Play",
+   "Orange",
+   "Plus (Polkomtel)",
+   "T-Mobile Poland"
+  ],
+  "sites": [
+   "Allegro",
+   "OLX.pl",
+   "Ceneo",
+   "Empik"
+  ],
+  "language": "Polish",
+  "note": "Allegro dominates Polish e-commerce, making local IPs important for accurate pricing and listing data."
+ },
+ "ireland": {
+  "isps": [
+   "Eir",
+   "Virgin Media Ireland",
+   "Vodafone Ireland",
+   "Sky Ireland"
+  ],
+  "carriers": [
+   "Vodafone Ireland",
+   "Three Ireland",
+   "Eir Mobile"
+  ],
+  "sites": [
+   "DoneDeal",
+   "Daft.ie",
+   "Adverts.ie",
+   "Amazon.co.uk"
+  ],
+  "language": "English, Irish",
+  "note": "Ireland shares much retail with the UK, but property site Daft.ie and DoneDeal classifieds are the main local targets requiring Irish IPs."
+ },
+ "netherlands": {
+  "isps": [
+   "KPN",
+   "Ziggo (VodafoneZiggo)",
+   "Odido",
+   "Delta"
+  ],
+  "carriers": [
+   "KPN",
+   "VodafoneZiggo",
+   "Odido"
+  ],
+  "sites": [
+   "Bol.com",
+   "Marktplaats",
+   "Coolblue",
+   "Amazon.nl"
+  ],
+  "language": "Dutch",
+  "note": "Bol.com and Marktplaats dominate the Dutch market, so local IPs are needed for accurate pricing and marketplace data."
+ },
+ "belgium": {
+  "isps": [
+   "Proximus",
+   "Telenet",
+   "VOO",
+   "Orange Belgium"
+  ],
+  "carriers": [
+   "Proximus",
+   "Orange Belgium",
+   "Base (Telenet)"
+  ],
+  "sites": [
+   "Bol.com",
+   "2dehands",
+   "Coolblue",
+   "Vinted"
+  ],
+  "language": "Dutch, French, German",
+  "note": "Belgium is a trilingual market where site content varies between Flemish and Walloon regions, so language and region targeting matter."
+ },
+ "portugal": {
+  "isps": [
+   "MEO (Altice)",
+   "NOS",
+   "Vodafone Portugal",
+   "NOWO"
+  ],
+  "carriers": [
+   "MEO",
+   "NOS",
+   "Vodafone"
+  ],
+  "sites": [
+   "Worten",
+   "OLX.pt",
+   "Continente",
+   "CustoJusto"
+  ],
+  "language": "Portuguese",
+  "note": "OLX.pt classifieds and retailers Worten and Continente are the main local targets requiring Portuguese IPs."
+ },
+ "switzerland": {
+  "isps": [
+   "Swisscom",
+   "Sunrise",
+   "Salt"
+  ],
+  "carriers": [
+   "Swisscom",
+   "Sunrise",
+   "Salt"
+  ],
+  "sites": [
+   "Digitec Galaxus",
+   "Ricardo.ch",
+   "Tutti.ch",
+   "Comparis"
+  ],
+  "language": "German, French, Italian",
+  "note": "Switzerland is a high-value market where Ricardo and Tutti are the main local marketplaces and content differs across three language regions."
+ },
+ "austria": {
+  "isps": [
+   "A1 Telekom Austria",
+   "Magenta Telekom",
+   "Drei (Hutchison)"
+  ],
+  "carriers": [
+   "A1",
+   "Magenta",
+   "Drei"
+  ],
+  "sites": [
+   "Willhaben",
+   "Geizhals",
+   "Amazon.de",
+   "Shpock"
+  ],
+  "language": "German",
+  "note": "Willhaben is the dominant Austrian classifieds and marketplace site, and Austrian IPs are needed to separate its data from the German market."
+ },
+ "sweden": {
+  "isps": [
+   "Telia",
+   "Tele2",
+   "Telenor Sweden",
+   "Bahnhof"
+  ],
+  "carriers": [
+   "Telia",
+   "Tele2",
+   "Telenor",
+   "Tre (Three)"
+  ],
+  "sites": [
+   "Blocket",
+   "Tradera",
+   "Amazon.se",
+   "Prisjakt"
+  ],
+  "language": "Swedish",
+  "note": "Blocket classifieds and Prisjakt price comparison are key targets, and Swedish IPs are needed to view accurate local listings."
+ },
+ "norway": {
+  "isps": [
+   "Telenor",
+   "Telia Norway",
+   "Altibox"
+  ],
+  "carriers": [
+   "Telenor",
+   "Telia",
+   "Ice"
+  ],
+  "sites": [
+   "Finn.no",
+   "Komplett",
+   "Prisjakt",
+   "Elkjop"
+  ],
+  "language": "Norwegian",
+  "note": "Finn.no is the dominant Norwegian classifieds marketplace and typically requires local IPs for full access."
+ },
+ "denmark": {
+  "isps": [
+   "TDC/YouSee",
+   "Telia Denmark",
+   "Telenor Denmark",
+   "Stofa"
+  ],
+  "carriers": [
+   "TDC/Nuuday",
+   "Telia",
+   "Telenor",
+   "3 (Three)"
+  ],
+  "sites": [
+   "DBA.dk",
+   "Elgiganten",
+   "Pricerunner",
+   "Bilbasen"
+  ],
+  "language": "Danish",
+  "note": "DBA.dk classifieds and PriceRunner comparison are common targets requiring Danish IPs for accurate local data."
+ },
+ "finland": {
+  "isps": [
+   "Telia Finland",
+   "Elisa",
+   "DNA"
+  ],
+  "carriers": [
+   "Elisa",
+   "Telia",
+   "DNA"
+  ],
+  "sites": [
+   "Tori.fi",
+   "Verkkokauppa.com",
+   "Gigantti",
+   "Hintaseuranta"
+  ],
+  "language": "Finnish, Swedish",
+  "note": "Tori.fi and Verkkokauppa.com are the main local e-commerce sites, and Finnish IPs are needed to view accurate regional listings."
+ },
+ "iceland": {
+  "isps": [
+   "Siminn",
+   "Vodafone Iceland (Syn)",
+   "Nova"
+  ],
+  "carriers": [
+   "Siminn",
+   "Vodafone (Syn)",
+   "Nova"
+  ],
+  "sites": [
+   "Bland.is",
+   "Aha.is",
+   "Heimkaup.is"
+  ],
+  "language": "Icelandic",
+  "note": "Iceland is a very small market with limited local IP pools, so residential proxy coverage there is scarce and often expensive."
+ },
+ "estonia": {
+  "isps": [
+   "Telia Estonia",
+   "Elisa Estonia",
+   "Tele2 Estonia"
+  ],
+  "carriers": [
+   "Telia",
+   "Elisa",
+   "Tele2"
+  ],
+  "sites": [
+   "Osta.ee",
+   "Okidoki.ee",
+   "Hind.ee",
+   "Rimi"
+  ],
+  "language": "Estonian",
+  "note": "Estonia is a highly digital society with strong e-government, and marketplaces like Osta.ee are the main local targets."
+ },
+ "latvia": {
+  "isps": [
+   "Tet (Lattelecom)",
+   "Bite Latvia",
+   "Tele2 Latvia"
+  ],
+  "carriers": [
+   "LMT",
+   "Tele2",
+   "Bite"
+  ],
+  "sites": [
+   "SS.lv",
+   "220.lv",
+   "Rimi",
+   "Pigu.lv"
+  ],
+  "language": "Latvian",
+  "note": "SS.lv (SS.com) is the dominant Latvian classifieds portal and typically needs local IPs for full listing access."
+ },
+ "lithuania": {
+  "isps": [
+   "Telia Lithuania",
+   "Bite Lithuania",
+   "Tele2 Lithuania"
+  ],
+  "carriers": [
+   "Telia",
+   "Bite",
+   "Tele2"
+  ],
+  "sites": [
+   "Skelbiu.lt",
+   "Pigu.lt",
+   "Autoplius.lt",
+   "Varle.lt"
+  ],
+  "language": "Lithuanian",
+  "note": "Skelbiu.lt and Pigu.lt are the primary local marketplaces, and Lithuanian IPs are needed for accurate pricing and listings."
+ },
+ "czech-republic": {
+  "isps": [
+   "O2 Czech Republic",
+   "T-Mobile Czech",
+   "Vodafone Czech"
+  ],
+  "carriers": [
+   "O2",
+   "T-Mobile",
+   "Vodafone"
+  ],
+  "sites": [
+   "Alza.cz",
+   "Heureka.cz",
+   "Mall.cz",
+   "Bazos.cz"
+  ],
+  "language": "Czech",
+  "note": "Alza.cz and the Heureka price comparison engine dominate Czech e-commerce, making local IPs important for pricing research."
+ },
+ "slovakia": {
+  "isps": [
+   "Slovak Telekom",
+   "Orange Slovensko",
+   "O2 Slovakia",
+   "4ka (Swan)"
+  ],
+  "carriers": [
+   "Orange",
+   "Telekom",
+   "O2",
+   "4ka"
+  ],
+  "sites": [
+   "Bazos.sk",
+   "Alza.sk",
+   "Heureka.sk",
+   "Aukro"
+  ],
+  "language": "Slovak",
+  "note": "Bazos.sk classifieds and Alza.sk retail are common targets requiring Slovak IPs to separate them from the neighboring Czech market."
+ },
+ "hungary": {
+  "isps": [
+   "Magyar Telekom",
+   "DIGI",
+   "One (Vodafone Hungary)"
+  ],
+  "carriers": [
+   "Magyar Telekom",
+   "Yettel",
+   "One (Vodafone)"
+  ],
+  "sites": [
+   "Jofogas.hu",
+   "Vatera.hu",
+   "Arukereso.hu",
+   "eMAG.hu"
+  ],
+  "language": "Hungarian",
+  "note": "eMAG and the Arukereso price comparison site plus Jofogas classifieds are the key local targets requiring Hungarian IPs."
+ },
+ "romania": {
+  "isps": [
+   "Digi (RCS & RDS)",
+   "Orange Romania",
+   "Vodafone Romania"
+  ],
+  "carriers": [
+   "Orange Romania",
+   "Vodafone Romania",
+   "Digi Mobil"
+  ],
+  "sites": [
+   "eMAG.ro",
+   "OLX.ro",
+   "Altex.ro",
+   "Publi24.ro"
+  ],
+  "language": "Romanian",
+  "note": "eMAG dominates Romanian e-commerce and OLX leads classifieds, so local IPs are needed to see accurate pricing and listing availability across the country."
+ },
+ "bulgaria": {
+  "isps": [
+   "Vivacom",
+   "A1 Bulgaria",
+   "Yettel Bulgaria"
+  ],
+  "carriers": [
+   "A1 Bulgaria",
+   "Yettel Bulgaria",
+   "Vivacom"
+  ],
+  "sites": [
+   "eMAG.bg",
+   "OLX.bg",
+   "Bazar.bg",
+   "Technopolis.bg"
+  ],
+  "language": "Bulgarian",
+  "note": "Bulgaria is a smaller EU market where eMAG and OLX dominate, and Cyrillic-language listings often differ from what non-local IPs are served."
+ },
+ "greece": {
+  "isps": [
+   "Cosmote (OTE)",
+   "Vodafone Greece",
+   "Nova (Wind)"
+  ],
+  "carriers": [
+   "Cosmote",
+   "Vodafone Greece",
+   "Nova"
+  ],
+  "sites": [
+   "Skroutz.gr",
+   "Public.gr",
+   "Car.gr",
+   "Plaisio.gr"
+  ],
+  "language": "Greek",
+  "note": "Skroutz is the dominant Greek price-comparison marketplace, making Greek residential IPs important for tracking retail pricing and stock."
+ },
+ "croatia": {
+  "isps": [
+   "Hrvatski Telekom",
+   "A1 Croatia",
+   "Telemach Croatia"
+  ],
+  "carriers": [
+   "Hrvatski Telekom",
+   "A1 Croatia",
+   "Telemach"
+  ],
+  "sites": [
+   "Njuskalo.hr",
+   "Index.hr",
+   "eKupi.hr",
+   "Jutarnji.hr"
+  ],
+  "language": "Croatian",
+  "note": "Njuskalo is the leading Croatian classifieds site and enforces regional access controls, so local IPs help avoid blocks when monitoring listings."
+ },
+ "slovenia": {
+  "isps": [
+   "Telekom Slovenije",
+   "A1 Slovenia",
+   "Telemach Slovenia"
+  ],
+  "carriers": [
+   "Telekom Slovenije",
+   "A1 Slovenia",
+   "Telemach"
+  ],
+  "sites": [
+   "Bolha.com",
+   "Mimovrste.com",
+   "24ur.com",
+   "Rtvslo.si"
+  ],
+  "language": "Slovenian",
+  "note": "Slovenia is a compact EU market where Bolha classifieds and Mimovrste retail lead, and Slovenian IPs are needed for locale-specific pricing."
+ },
+ "serbia": {
+  "isps": [
+   "Telekom Srbija (mts)",
+   "SBB (Serbia Broadband)",
+   "Orion Telekom"
+  ],
+  "carriers": [
+   "Telekom Srbija (mts)",
+   "Yettel Serbia",
+   "A1 Serbia"
+  ],
+  "sites": [
+   "KupujemProdajem.com",
+   "Blic.rs",
+   "Gigatron.rs",
+   "Tehnomanija.rs"
+  ],
+  "language": "Serbian",
+  "note": "KupujemProdajem is Serbia's dominant classifieds platform and Serbia sits outside the EU, so local IPs matter for both access and accurate market data."
+ },
+ "bosnia-and-herzegovina": {
+  "isps": [
+   "BH Telecom",
+   "m:tel (Telekom Srpske)",
+   "HT Eronet"
+  ],
+  "carriers": [
+   "BH Telecom",
+   "m:tel",
+   "HT Eronet"
+  ],
+  "sites": [
+   "OLX.ba",
+   "Klix.ba",
+   "Avaz.ba",
+   "Nekretnine.ba"
+  ],
+  "language": "Bosnian, Croatian, Serbian",
+  "note": "OLX.ba is the country's dominant online marketplace, and the three telecoms are split along entity lines, so local IPs are useful for consistent access."
+ },
+ "montenegro": {
+  "isps": [
+   "Crnogorski Telekom",
+   "One Montenegro",
+   "m:tel Montenegro"
+  ],
+  "carriers": [
+   "Crnogorski Telekom",
+   "One Montenegro",
+   "m:tel"
+  ],
+  "sites": [
+   "Vijesti.me",
+   "CdM.me",
+   "RTCG.me",
+   "Analitika (portalanalitika.me)"
+  ],
+  "language": "Montenegrin",
+  "note": "Montenegro is a very small market of roughly 620,000 people, so local IP pools are limited and news portals are the main scrape targets."
+ },
+ "north-macedonia": {
+  "isps": [
+   "Makedonski Telekom",
+   "A1 Macedonia",
+   "Telekabel"
+  ],
+  "carriers": [
+   "Makedonski Telekom",
+   "A1 Macedonia",
+   "Lycamobile North Macedonia"
+  ],
+  "sites": [
+   "Pazar3.mk",
+   "Reklama5.mk",
+   "Time.mk",
+   "Grouper.mk"
+  ],
+  "language": "Macedonian",
+  "note": "North Macedonia has effectively two mobile network operators (Makedonski Telekom and A1), and Pazar3 is the main local classifieds target."
+ },
+ "albania": {
+  "isps": [
+   "Albtelecom",
+   "ABCom",
+   "Digicom"
+  ],
+  "carriers": [
+   "Vodafone Albania",
+   "One Albania"
+  ],
+  "sites": [
+   "MerrJep.al",
+   "Gjirafa.com",
+   "Balkanweb.com",
+   "Gjirafa50.com"
+  ],
+  "language": "Albanian",
+  "note": "Gjirafa is Albania's leading local search and e-commerce platform, and the mobile market consolidated to two operators (Vodafone and One) after mergers."
+ },
+ "kosovo": {
+  "isps": [
+   "IPKO",
+   "Kujtesa",
+   "Telekomi i Kosoves (Vala)"
+  ],
+  "carriers": [
+   "Vala (Telekomi i Kosoves)",
+   "IPKO",
+   "Z Mobile"
+  ],
+  "sites": [
+   "Merrjep.com",
+   "Gjirafa50.com",
+   "Telegrafi.com",
+   "Koha.net"
+  ],
+  "language": "Albanian, Serbian",
+  "note": "Kosovo lacks its own ISO country calling code standard historically and has limited IP allocation, so dedicated Kosovo IPs are relatively scarce."
+ },
+ "ukraine": {
+  "isps": [
+   "Kyivstar",
+   "Ukrtelecom",
+   "Volia (Datagroup-Volia)"
+  ],
+  "carriers": [
+   "Kyivstar",
+   "Vodafone Ukraine",
+   "lifecell"
+  ],
+  "sites": [
+   "Rozetka.com.ua",
+   "OLX.ua",
+   "Prom.ua",
+   "NovaPoshta.ua"
+  ],
+  "language": "Ukrainian, Russian",
+  "note": "Rozetka is Ukraine's largest online retailer and OLX leads classifieds; wartime disruptions make IP availability and routing less stable than in the EU."
+ },
+ "belarus": {
+  "isps": [
+   "Beltelecom (ByFly)",
+   "A1 Belarus",
+   "MTS Belarus"
+  ],
+  "carriers": [
+   "A1 Belarus",
+   "MTS Belarus",
+   "life:)"
+  ],
+  "sites": [
+   "Onliner.by",
+   "Kufar.by",
+   "Deal.by",
+   "Wildberries.by"
+  ],
+  "language": "Belarusian, Russian",
+  "note": "Onliner and Kufar dominate Belarusian e-commerce and classifieds, but international sanctions and state control complicate access from foreign IPs."
+ },
+ "moldova": {
+  "isps": [
+   "Moldtelecom",
+   "StarNet",
+   "Orange Moldova"
+  ],
+  "carriers": [
+   "Orange Moldova",
+   "Moldcell",
+   "Unite (Moldtelecom)"
+  ],
+  "sites": [
+   "999.md",
+   "Makler.md",
+   "Point.md",
+   "Darwin.md"
+  ],
+  "language": "Romanian, Russian",
+  "note": "999.md is by far the dominant Moldovan marketplace, so local IPs are essential for monitoring its listings and regional pricing."
+ },
+ "luxembourg": {
+  "isps": [
+   "POST Luxembourg",
+   "Orange Luxembourg",
+   "Tango (Proximus)"
+  ],
+  "carriers": [
+   "POST Luxembourg",
+   "Orange Luxembourg",
+   "Tango"
+  ],
+  "sites": [
+   "RTL.lu",
+   "Wort.lu",
+   "athome.lu",
+   "Luxauto.lu"
+  ],
+  "language": "Luxembourgish, French, German",
+  "note": "Luxembourg is a small, wealthy, trilingual market where content is served in French, German or Luxembourgish, so local IPs help capture the right locale."
+ },
+ "malta": {
+  "isps": [
+   "GO",
+   "Melita",
+   "Epic"
+  ],
+  "carriers": [
+   "GO",
+   "Epic",
+   "Melita"
+  ],
+  "sites": [
+   "Maltapark.com",
+   "Timesofmalta.com",
+   "MaltaToday.com.mt"
+  ],
+  "language": "Maltese, English",
+  "note": "English is widely used and Maltapark leads local classifieds; Malta is also a major iGaming hub, driving demand for local IP verification."
+ },
+ "cyprus": {
+  "isps": [
+   "Cyta",
+   "Epic Cyprus",
+   "PrimeTel",
+   "Cablenet"
+  ],
+  "carriers": [
+   "Cyta (Cytamobile-Vodafone)",
+   "Epic",
+   "PrimeTel"
+  ],
+  "sites": [
+   "Bazaraki.com",
+   "SigmaLive.com",
+   "Cyprus-mail.com",
+   "InCyprus.com"
+  ],
+  "language": "Greek, Turkish, English",
+  "note": "Bazaraki is the dominant Cypriot classifieds site, and the island's political division means IP geolocation can differ between the north and south."
+ },
+ "andorra": {
+  "isps": [
+   "Andorra Telecom"
+  ],
+  "carriers": [
+   "Mobiland (Andorra Telecom)"
+  ],
+  "sites": [
+   "Diariandorra.ad",
+   "Bondia.ad",
+   "Altaveu.com"
+  ],
+  "language": "Catalan, Spanish, French",
+  "note": "Andorra has a single state telecom monopoly (Andorra Telecom), so residential and mobile IPs all originate from one operator and pools are very small."
+ },
+ "monaco": {
+  "isps": [
+   "Monaco Telecom"
+  ],
+  "carriers": [
+   "Monaco Telecom"
+  ],
+  "sites": [
+   "Monacomatin.mc",
+   "HelloMonaco.com",
+   "Monaco-tribune.com"
+  ],
+  "language": "French",
+  "note": "Monaco Telecom is effectively the sole operator in this tiny high-wealth city-state, so dedicated Monaco IPs are rare and often shared with French ranges."
+ },
+ "liechtenstein": {
+  "isps": [
+   "Telecom Liechtenstein (FL1)",
+   "Swisscom (Liechtenstein)",
+   "First Mobile"
+  ],
+  "carriers": [
+   "FL1 (Telecom Liechtenstein)",
+   "Salt Liechtenstein",
+   "Swisscom (Liechtenstein)"
+  ],
+  "sites": [
+   "Vaterland.li",
+   "Volksblatt.li",
+   "1815.li"
+  ],
+  "language": "German",
+  "note": "Liechtenstein uses the Swiss franc and shares mobile infrastructure with Swiss operators, so its IP space is minimal and often overlaps with Switzerland."
+ },
+ "san-marino": {
+  "isps": [
+   "TIM San Marino",
+   "San Marino Telecom"
+  ],
+  "carriers": [
+   "TIM San Marino",
+   "San Marino Telecom"
+  ],
+  "sites": [
+   "SanMarinoRTV.sm",
+   "Libertas.sm",
+   "Giornalesm.com"
+  ],
+  "language": "Italian",
+  "note": "San Marino is an enclave fully surrounded by Italy and relies on Italian telecom infrastructure, so genuine San Marino IPs are extremely limited."
+ }
+}

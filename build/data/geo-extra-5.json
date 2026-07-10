@@ -1,0 +1,149 @@
+{
+  "romania": {
+    "isps": ["Digi (RCS & RDS)", "Orange Romania", "Vodafone Romania"],
+    "carriers": ["Orange Romania", "Vodafone Romania", "Digi Mobil"],
+    "sites": ["eMAG.ro", "OLX.ro", "Altex.ro", "Publi24.ro"],
+    "language": "Romanian",
+    "note": "eMAG dominates Romanian e-commerce and OLX leads classifieds, so local IPs are needed to see accurate pricing and listing availability across the country."
+  },
+  "bulgaria": {
+    "isps": ["Vivacom", "A1 Bulgaria", "Yettel Bulgaria"],
+    "carriers": ["A1 Bulgaria", "Yettel Bulgaria", "Vivacom"],
+    "sites": ["eMAG.bg", "OLX.bg", "Bazar.bg", "Technopolis.bg"],
+    "language": "Bulgarian",
+    "note": "Bulgaria is a smaller EU market where eMAG and OLX dominate, and Cyrillic-language listings often differ from what non-local IPs are served."
+  },
+  "greece": {
+    "isps": ["Cosmote (OTE)", "Vodafone Greece", "Nova (Wind)"],
+    "carriers": ["Cosmote", "Vodafone Greece", "Nova"],
+    "sites": ["Skroutz.gr", "Public.gr", "Car.gr", "Plaisio.gr"],
+    "language": "Greek",
+    "note": "Skroutz is the dominant Greek price-comparison marketplace, making Greek residential IPs important for tracking retail pricing and stock."
+  },
+  "croatia": {
+    "isps": ["Hrvatski Telekom", "A1 Croatia", "Telemach Croatia"],
+    "carriers": ["Hrvatski Telekom", "A1 Croatia", "Telemach"],
+    "sites": ["Njuskalo.hr", "Index.hr", "eKupi.hr", "Jutarnji.hr"],
+    "language": "Croatian",
+    "note": "Njuskalo is the leading Croatian classifieds site and enforces regional access controls, so local IPs help avoid blocks when monitoring listings."
+  },
+  "slovenia": {
+    "isps": ["Telekom Slovenije", "A1 Slovenia", "Telemach Slovenia"],
+    "carriers": ["Telekom Slovenije", "A1 Slovenia", "Telemach"],
+    "sites": ["Bolha.com", "Mimovrste.com", "24ur.com", "Rtvslo.si"],
+    "language": "Slovenian",
+    "note": "Slovenia is a compact EU market where Bolha classifieds and Mimovrste retail lead, and Slovenian IPs are needed for locale-specific pricing."
+  },
+  "serbia": {
+    "isps": ["Telekom Srbija (mts)", "SBB (Serbia Broadband)", "Orion Telekom"],
+    "carriers": ["Telekom Srbija (mts)", "Yettel Serbia", "A1 Serbia"],
+    "sites": ["KupujemProdajem.com", "Blic.rs", "Gigatron.rs", "Tehnomanija.rs"],
+    "language": "Serbian",
+    "note": "KupujemProdajem is Serbia's dominant classifieds platform and Serbia sits outside the EU, so local IPs matter for both access and accurate market data."
+  },
+  "bosnia-and-herzegovina": {
+    "isps": ["BH Telecom", "m:tel (Telekom Srpske)", "HT Eronet"],
+    "carriers": ["BH Telecom", "m:tel", "HT Eronet"],
+    "sites": ["OLX.ba", "Klix.ba", "Avaz.ba", "Nekretnine.ba"],
+    "language": "Bosnian, Croatian, Serbian",
+    "note": "OLX.ba is the country's dominant online marketplace, and the three telecoms are split along entity lines, so local IPs are useful for consistent access."
+  },
+  "montenegro": {
+    "isps": ["Crnogorski Telekom", "One Montenegro", "m:tel Montenegro"],
+    "carriers": ["Crnogorski Telekom", "One Montenegro", "m:tel"],
+    "sites": ["Vijesti.me", "CdM.me", "RTCG.me", "Analitika (portalanalitika.me)"],
+    "language": "Montenegrin",
+    "note": "Montenegro is a very small market of roughly 620,000 people, so local IP pools are limited and news portals are the main scrape targets."
+  },
+  "north-macedonia": {
+    "isps": ["Makedonski Telekom", "A1 Macedonia", "Telekabel"],
+    "carriers": ["Makedonski Telekom", "A1 Macedonia", "Lycamobile North Macedonia"],
+    "sites": ["Pazar3.mk", "Reklama5.mk", "Time.mk", "Grouper.mk"],
+    "language": "Macedonian",
+    "note": "North Macedonia has effectively two mobile network operators (Makedonski Telekom and A1), and Pazar3 is the main local classifieds target."
+  },
+  "albania": {
+    "isps": ["Albtelecom", "ABCom", "Digicom"],
+    "carriers": ["Vodafone Albania", "One Albania"],
+    "sites": ["MerrJep.al", "Gjirafa.com", "Balkanweb.com", "Gjirafa50.com"],
+    "language": "Albanian",
+    "note": "Gjirafa is Albania's leading local search and e-commerce platform, and the mobile market consolidated to two operators (Vodafone and One) after mergers."
+  },
+  "kosovo": {
+    "isps": ["IPKO", "Kujtesa", "Telekomi i Kosoves (Vala)"],
+    "carriers": ["Vala (Telekomi i Kosoves)", "IPKO", "Z Mobile"],
+    "sites": ["Merrjep.com", "Gjirafa50.com", "Telegrafi.com", "Koha.net"],
+    "language": "Albanian, Serbian",
+    "note": "Kosovo lacks its own ISO country calling code standard historically and has limited IP allocation, so dedicated Kosovo IPs are relatively scarce."
+  },
+  "ukraine": {
+    "isps": ["Kyivstar", "Ukrtelecom", "Volia (Datagroup-Volia)"],
+    "carriers": ["Kyivstar", "Vodafone Ukraine", "lifecell"],
+    "sites": ["Rozetka.com.ua", "OLX.ua", "Prom.ua", "NovaPoshta.ua"],
+    "language": "Ukrainian, Russian",
+    "note": "Rozetka is Ukraine's largest online retailer and OLX leads classifieds; wartime disruptions make IP availability and routing less stable than in the EU."
+  },
+  "belarus": {
+    "isps": ["Beltelecom (ByFly)", "A1 Belarus", "MTS Belarus"],
+    "carriers": ["A1 Belarus", "MTS Belarus", "life:)"],
+    "sites": ["Onliner.by", "Kufar.by", "Deal.by", "Wildberries.by"],
+    "language": "Belarusian, Russian",
+    "note": "Onliner and Kufar dominate Belarusian e-commerce and classifieds, but international sanctions and state control complicate access from foreign IPs."
+  },
+  "moldova": {
+    "isps": ["Moldtelecom", "StarNet", "Orange Moldova"],
+    "carriers": ["Orange Moldova", "Moldcell", "Unite (Moldtelecom)"],
+    "sites": ["999.md", "Makler.md", "Point.md", "Darwin.md"],
+    "language": "Romanian, Russian",
+    "note": "999.md is by far the dominant Moldovan marketplace, so local IPs are essential for monitoring its listings and regional pricing."
+  },
+  "luxembourg": {
+    "isps": ["POST Luxembourg", "Orange Luxembourg", "Tango (Proximus)"],
+    "carriers": ["POST Luxembourg", "Orange Luxembourg", "Tango"],
+    "sites": ["RTL.lu", "Wort.lu", "athome.lu", "Luxauto.lu"],
+    "language": "Luxembourgish, French, German",
+    "note": "Luxembourg is a small, wealthy, trilingual market where content is served in French, German or Luxembourgish, so local IPs help capture the right locale."
+  },
+  "malta": {
+    "isps": ["GO", "Melita", "Epic"],
+    "carriers": ["GO", "Epic", "Melita"],
+    "sites": ["Maltapark.com", "Timesofmalta.com", "MaltaToday.com.mt"],
+    "language": "Maltese, English",
+    "note": "English is widely used and Maltapark leads local classifieds; Malta is also a major iGaming hub, driving demand for local IP verification."
+  },
+  "cyprus": {
+    "isps": ["Cyta", "Epic Cyprus", "PrimeTel", "Cablenet"],
+    "carriers": ["Cyta (Cytamobile-Vodafone)", "Epic", "PrimeTel"],
+    "sites": ["Bazaraki.com", "SigmaLive.com", "Cyprus-mail.com", "InCyprus.com"],
+    "language": "Greek, Turkish, English",
+    "note": "Bazaraki is the dominant Cypriot classifieds site, and the island's political division means IP geolocation can differ between the north and south."
+  },
+  "andorra": {
+    "isps": ["Andorra Telecom"],
+    "carriers": ["Mobiland (Andorra Telecom)"],
+    "sites": ["Diariandorra.ad", "Bondia.ad", "Altaveu.com"],
+    "language": "Catalan, Spanish, French",
+    "note": "Andorra has a single state telecom monopoly (Andorra Telecom), so residential and mobile IPs all originate from one operator and pools are very small."
+  },
+  "monaco": {
+    "isps": ["Monaco Telecom"],
+    "carriers": ["Monaco Telecom"],
+    "sites": ["Monacomatin.mc", "HelloMonaco.com", "Monaco-tribune.com"],
+    "language": "French",
+    "note": "Monaco Telecom is effectively the sole operator in this tiny high-wealth city-state, so dedicated Monaco IPs are rare and often shared with French ranges."
+  },
+  "liechtenstein": {
+    "isps": ["Telecom Liechtenstein (FL1)", "Swisscom (Liechtenstein)", "First Mobile"],
+    "carriers": ["FL1 (Telecom Liechtenstein)", "Salt Liechtenstein", "Swisscom (Liechtenstein)"],
+    "sites": ["Vaterland.li", "Volksblatt.li", "1815.li"],
+    "language": "German",
+    "note": "Liechtenstein uses the Swiss franc and shares mobile infrastructure with Swiss operators, so its IP space is minimal and often overlaps with Switzerland."
+  },
+  "san-marino": {
+    "isps": ["TIM San Marino", "San Marino Telecom"],
+    "carriers": ["TIM San Marino", "San Marino Telecom"],
+    "sites": ["SanMarinoRTV.sm", "Libertas.sm", "Giornalesm.com"],
+    "language": "Italian",
+    "note": "San Marino is an enclave fully surrounded by Italy and relies on Italian telecom infrastructure, so genuine San Marino IPs are extremely limited."
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "brazil": {
+    "isps": ["Vivo (Telefonica)", "Claro/NET", "Oi"],
+    "carriers": ["Vivo", "Claro", "TIM"],
+    "sites": ["Mercado Livre", "Amazon.com.br", "Americanas", "OLX Brasil"],
+    "language": "Portuguese",
+    "note": "Brazil is Latin America's largest e-commerce market, and many retailers and streaming services geo-restrict catalogs and pricing to Brazilian IPs, so local residential IPs are needed for accurate data."
+  },
+  "argentina": {
+    "isps": ["Fibertel (Cablevision)", "Telecentro", "Movistar"],
+    "carriers": ["Claro", "Movistar", "Personal"],
+    "sites": ["MercadoLibre", "OLX", "Despegar", "Garbarino"],
+    "language": "Spanish",
+    "note": "Argentina's currency controls and frequent price volatility mean local IPs are important for capturing accurate peso pricing that differs sharply from prices shown to foreign visitors."
+  },
+  "colombia": {
+    "isps": ["Claro Colombia", "Movistar", "Tigo (UNE)"],
+    "carriers": ["Claro", "Movistar", "Tigo"],
+    "sites": ["MercadoLibre", "Falabella", "Exito", "OLX"],
+    "language": "Spanish",
+    "note": "Colombia is one of the fastest-growing e-commerce markets in the Andean region, and retailers like Exito and Falabella localize promotions by region, so Colombian IPs are used for market-price monitoring."
+  },
+  "chile": {
+    "isps": ["Movistar", "VTR", "Entel"],
+    "carriers": ["Entel", "Movistar", "Claro"],
+    "sites": ["MercadoLibre", "Falabella", "Ripley", "Paris"],
+    "language": "Spanish",
+    "note": "Chile has the highest internet penetration in South America and mature online retail, so Chilean IPs are commonly used to track competitive pricing across Falabella, Ripley and Paris."
+  },
+  "peru": {
+    "isps": ["Movistar", "Claro Peru", "Entel"],
+    "carriers": ["Claro", "Movistar", "Entel", "Bitel"],
+    "sites": ["MercadoLibre", "Falabella", "Ripley", "Linio"],
+    "language": "Spanish",
+    "note": "Peru's online retail is concentrated in Lima and dominated by Falabella and Ripley, and local IPs help capture region-specific shipping and pricing that vary from foreign views."
+  },
+  "venezuela": {
+    "isps": ["CANTV", "Movistar", "Inter (Intercable)"],
+    "carriers": ["Movistar", "Digitel", "Movilnet"],
+    "sites": ["MercadoLibre", "Tucarro", "OLX"],
+    "language": "Spanish",
+    "note": "Venezuela has heavy state internet controls and periodic blocking of sites, so local IPs are used to reach content and pricing that is otherwise filtered or geo-restricted for outside visitors."
+  },
+  "ecuador": {
+    "isps": ["CNT", "Claro (Ecuadortelecom)", "Netlife"],
+    "carriers": ["Claro", "Movistar", "CNT"],
+    "sites": ["MercadoLibre", "OLX", "Marathon Sports"],
+    "language": "Spanish",
+    "note": "Ecuador uses the US dollar, and while pricing is stable, local IPs are still needed to access region-locked promotions and classifieds listings restricted to Ecuadorian visitors."
+  },
+  "bolivia": {
+    "isps": ["Entel Bolivia", "Tigo", "Cotas"],
+    "carriers": ["Entel", "Tigo", "Viva"],
+    "sites": ["MercadoLibre", "OLX", "Ultra Casas"],
+    "language": "Spanish",
+    "note": "Bolivia has lower e-commerce penetration and much retail happens via classifieds and social marketplaces, so local IPs are used mainly for accessing region-restricted listings and ad content."
+  },
+  "paraguay": {
+    "isps": ["Tigo", "Personal (Nucleo)", "Copaco"],
+    "carriers": ["Tigo", "Personal", "Claro"],
+    "sites": ["MercadoLibre", "Clasipar", "OLX"],
+    "language": "Spanish, Guarani",
+    "note": "Paraguay is a smaller bilingual market where much commerce runs through classifieds like Clasipar, and local IPs are needed to view listings and offers geo-limited to Paraguayan users."
+  },
+  "uruguay": {
+    "isps": ["Antel", "Movistar", "Claro"],
+    "carriers": ["Antel", "Movistar", "Claro"],
+    "sites": ["MercadoLibre", "Gallito", "OLX"],
+    "language": "Spanish",
+    "note": "Uruguay's fixed broadband is dominated by the state operator Antel, and Uruguayan IPs are used to access local classifieds like Gallito and region-restricted retail pricing."
+  },
+  "guyana": {
+    "isps": ["GTT (Guyana Telephone & Telegraph)", "Digicel", "ENet"],
+    "carriers": ["Digicel", "GTT (Cellink)"],
+    "sites": ["Guyana Classifieds", "SabgaSweets", "iNews Guyana"],
+    "language": "English",
+    "note": "Guyana is a small English-speaking market with a fast-growing oil economy, and local IPs are used to reach region-restricted classifieds and news content limited to Guyanese visitors."
+  },
+  "suriname": {
+    "isps": ["Telesur", "Digicel"],
+    "carriers": ["Telesur (Tele2)", "Digicel"],
+    "sites": ["Surinam Classifieds", "Waterkant", "Starnieuws"],
+    "language": "Dutch",
+    "note": "Suriname is a Dutch-speaking market with fixed and mobile service dominated by state operator Telesur, and local IPs help access region-limited local media and classifieds."
+  },
+  "nigeria": {
+    "isps": ["MTN Nigeria", "Airtel", "Spectranet"],
+    "carriers": ["MTN", "Airtel", "Glo", "9mobile"],
+    "sites": ["Jumia", "Konga", "Jiji", "Nairaland"],
+    "language": "English",
+    "note": "Nigeria is Africa's largest e-commerce and mobile market, and platforms like Jumia and Jiji localize by region, so Nigerian IPs are essential for accurate price and listing data."
+  },
+  "south-africa": {
+    "isps": ["Telkom", "Vodacom", "Afrihost"],
+    "carriers": ["Vodacom", "MTN", "Cell C", "Telkom"],
+    "sites": ["Takealot", "Gumtree", "bidorbuy", "Superbalist"],
+    "language": "English (plus Zulu, Afrikaans)",
+    "note": "South Africa is the continent's most developed online retail market led by Takealot, and many services geo-restrict streaming and pricing, so local IPs are needed for market data."
+  },
+  "egypt": {
+    "isps": ["TE Data (WE)", "Vodafone Egypt", "Orange Egypt"],
+    "carriers": ["Vodafone Egypt", "Orange", "Etisalat (e&)", "WE"],
+    "sites": ["Amazon.eg", "Jumia", "OLX/Dubizzle", "Noon"],
+    "language": "Arabic",
+    "note": "Egypt is the largest e-commerce market in North Africa, and retailers geo-price in Egyptian pounds while some content is filtered, so local IPs are used for accurate pricing and access."
+  },
+  "kenya": {
+    "isps": ["Safaricom", "Zuku (Wananchi)", "Faiba (Jamii Telecom)"],
+    "carriers": ["Safaricom", "Airtel", "Telkom Kenya"],
+    "sites": ["Jumia", "Jiji", "Kilimall", "PigiaMe"],
+    "language": "English, Swahili",
+    "note": "Kenya's e-commerce is tightly linked to Safaricom's M-Pesa mobile money, and many checkout and pricing flows only work correctly from Kenyan IPs."
+  },
+  "ghana": {
+    "isps": ["MTN Ghana", "Telecel (Vodafone)", "AirtelTigo"],
+    "carriers": ["MTN", "Telecel", "AirtelTigo"],
+    "sites": ["Jumia", "Tonaton", "Jiji"],
+    "language": "English",
+    "note": "Ghana has a rapidly growing mobile-first internet economy dominated by MTN, and local IPs are used to access region-restricted classifieds and localized retail pricing."
+  },
+  "morocco": {
+    "isps": ["Maroc Telecom", "Orange Morocco", "Inwi"],
+    "carriers": ["Maroc Telecom", "Orange", "Inwi"],
+    "sites": ["Avito", "Jumia", "Marjane", "Hmizate"],
+    "language": "Arabic, French",
+    "note": "Morocco's online market runs heavily through classifieds like Avito, and content is often bilingual, so local IPs are used to view listings and offers geo-limited to Moroccan users."
+  },
+  "algeria": {
+    "isps": ["Algerie Telecom (Idoom)", "Mobilis", "Djezzy"],
+    "carriers": ["Djezzy", "Mobilis", "Ooredoo"],
+    "sites": ["Ouedkniss", "Jumia", "Batolis"],
+    "language": "Arabic, French",
+    "note": "Algeria's online commerce centers on the classifieds site Ouedkniss, and periodic internet restrictions make Algerian IPs useful for reaching local listings and content reliably."
+  },
+  "tunisia": {
+    "isps": ["Tunisie Telecom", "Ooredoo Tunisia", "Orange Tunisia"],
+    "carriers": ["Ooredoo", "Tunisie Telecom", "Orange"],
+    "sites": ["Tayara", "Jumia", "Mytek"],
+    "language": "Arabic, French",
+    "note": "Tunisia's e-commerce leans on classifieds like Tayara, and local bilingual content and pricing are best captured with Tunisian IPs."
+  },
+  "ethiopia": {
+    "isps": ["Ethio Telecom", "Safaricom Ethiopia"],
+    "carriers": ["Ethio Telecom", "Safaricom Ethiopia"],
+    "sites": ["Jiji Ethiopia", "Qefira", "Engocha"],
+    "language": "Amharic",
+    "note": "Ethiopia's telecom sector was long a state monopoly under Ethio Telecom and has seen periodic internet shutdowns, so local IPs are used to reach region-restricted listings and content."
+  },
+  "tanzania": {
+    "isps": ["Vodacom Tanzania", "Airtel", "TTCL"],
+    "carriers": ["Vodacom", "Airtel", "Yas (Tigo)", "Halotel"],
+    "sites": ["Jumia", "Jiji", "Kupatana"],
+    "language": "Swahili, English",
+    "note": "Tanzania is a fast-growing mobile-money market where much retail runs through classifieds, and local IPs help access region-limited listings and Swahili-language content."
+  },
+  "uganda": {
+    "isps": ["MTN Uganda", "Airtel Uganda", "Roke Telkom"],
+    "carriers": ["MTN", "Airtel", "Lycamobile", "Uganda Telecom"],
+    "sites": ["Jumia", "Jiji", "Cheki"],
+    "language": "English, Swahili",
+    "note": "Uganda has occasionally imposed social media and internet taxes and shutdowns, so Ugandan IPs are used to reliably reach local classifieds and geo-restricted content."
+  },
+  "angola": {
+    "isps": ["Unitel", "Movicel", "Angola Telecom"],
+    "carriers": ["Unitel", "Movicel", "Africell Angola"],
+    "sites": ["Ronga", "Jiji Angola", "Angotic"],
+    "language": "Portuguese",
+    "note": "Angola is a Portuguese-speaking market dominated by mobile operator Unitel, and local IPs are used to access region-restricted classifieds and localized pricing in kwanza."
+  },
+  "cameroon": {
+    "isps": ["Camtel", "MTN Cameroon", "Orange Cameroon"],
+    "carriers": ["MTN", "Orange", "Nexttel", "Camtel (Blue)"],
+    "sites": ["Jumia", "CoinAfrique", "Kerawa"],
+    "language": "French, English",
+    "note": "Cameroon is a bilingual market where much commerce runs through classifieds like CoinAfrique, and local IPs are used to view listings and content geo-limited to Cameroonian users."
+  }
+}

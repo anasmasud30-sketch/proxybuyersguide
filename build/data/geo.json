@@ -1,0 +1,2567 @@
+{
+ "countries": [
+  {
+   "name": "Brazil",
+   "demonym": "Brazilian",
+   "region": "Latin America",
+   "capital": "Brasília",
+   "cities": [
+    "São Paulo",
+    "Rio de Janeiro",
+    "Brasília",
+    "Salvador",
+    "Fortaleza",
+    "Belo Horizonte",
+    "Manaus",
+    "Curitiba",
+    "Recife",
+    "Goiânia",
+    "Belém",
+    "Porto Alegre",
+    "Guarulhos",
+    "Campinas",
+    "São Luís",
+    "São Gonçalo",
+    "Maceió",
+    "Duque de Caxias",
+    "Natal",
+    "Campo Grande",
+    "Teresina",
+    "Nova Iguaçu"
+   ]
+  },
+  {
+   "name": "Argentina",
+   "demonym": "Argentine",
+   "region": "Latin America",
+   "capital": "Buenos Aires",
+   "cities": [
+    "Buenos Aires",
+    "Córdoba",
+    "Rosario",
+    "Mendoza",
+    "La Plata",
+    "San Miguel de Tucumán",
+    "Mar del Plata",
+    "Salta",
+    "Santa Fe",
+    "San Juan",
+    "Resistencia",
+    "Neuquén",
+    "Santiago del Estero",
+    "Corrientes"
+   ]
+  },
+  {
+   "name": "Colombia",
+   "demonym": "Colombian",
+   "region": "Latin America",
+   "capital": "Bogotá",
+   "cities": [
+    "Bogotá",
+    "Medellín",
+    "Cali",
+    "Barranquilla",
+    "Cartagena",
+    "Cúcuta",
+    "Bucaramanga",
+    "Pereira",
+    "Santa Marta",
+    "Ibagué",
+    "Manizales",
+    "Villavicencio",
+    "Pasto",
+    "Neiva"
+   ]
+  },
+  {
+   "name": "Chile",
+   "demonym": "Chilean",
+   "region": "Latin America",
+   "capital": "Santiago",
+   "cities": [
+    "Santiago",
+    "Valparaíso",
+    "Concepción",
+    "Antofagasta",
+    "Viña del Mar",
+    "Temuco",
+    "Rancagua",
+    "Talca",
+    "Arica",
+    "Iquique"
+   ]
+  },
+  {
+   "name": "Peru",
+   "demonym": "Peruvian",
+   "region": "Latin America",
+   "capital": "Lima",
+   "cities": [
+    "Lima",
+    "Arequipa",
+    "Trujillo",
+    "Chiclayo",
+    "Piura",
+    "Iquitos",
+    "Cusco",
+    "Chimbote",
+    "Huancayo",
+    "Tacna"
+   ]
+  },
+  {
+   "name": "Venezuela",
+   "demonym": "Venezuelan",
+   "region": "Latin America",
+   "capital": "Caracas",
+   "cities": [
+    "Caracas",
+    "Maracaibo",
+    "Valencia",
+    "Barquisimeto",
+    "Maracay",
+    "Ciudad Guayana",
+    "Maturín",
+    "Barcelona",
+    "San Cristóbal",
+    "Ciudad Bolívar"
+   ]
+  },
+  {
+   "name": "Ecuador",
+   "demonym": "Ecuadorian",
+   "region": "Latin America",
+   "capital": "Quito",
+   "cities": [
+    "Guayaquil",
+    "Quito",
+    "Cuenca",
+    "Santo Domingo",
+    "Machala",
+    "Durán",
+    "Manta",
+    "Portoviejo",
+    "Ambato",
+    "Loja"
+   ]
+  },
+  {
+   "name": "Bolivia",
+   "demonym": "Bolivian",
+   "region": "Latin America",
+   "capital": "Sucre",
+   "cities": [
+    "Santa Cruz de la Sierra",
+    "El Alto",
+    "La Paz",
+    "Cochabamba",
+    "Sucre",
+    "Oruro",
+    "Tarija",
+    "Potosí"
+   ]
+  },
+  {
+   "name": "Paraguay",
+   "demonym": "Paraguayan",
+   "region": "Latin America",
+   "capital": "Asunción",
+   "cities": [
+    "Asunción",
+    "Ciudad del Este",
+    "San Lorenzo",
+    "Luque",
+    "Capiatá",
+    "Lambaré",
+    "Fernando de la Mora",
+    "Encarnación"
+   ]
+  },
+  {
+   "name": "Uruguay",
+   "demonym": "Uruguayan",
+   "region": "Latin America",
+   "capital": "Montevideo",
+   "cities": [
+    "Montevideo",
+    "Salto",
+    "Ciudad de la Costa",
+    "Paysandú",
+    "Las Piedras",
+    "Rivera",
+    "Maldonado",
+    "Tacuarembó"
+   ]
+  },
+  {
+   "name": "Guyana",
+   "demonym": "Guyanese",
+   "region": "Latin America",
+   "capital": "Georgetown",
+   "cities": [
+    "Georgetown",
+    "Linden",
+    "New Amsterdam",
+    "Anna Regina",
+    "Bartica",
+    "Corriverton",
+    "Rose Hall"
+   ]
+  },
+  {
+   "name": "Suriname",
+   "demonym": "Surinamese",
+   "region": "Latin America",
+   "capital": "Paramaribo",
+   "cities": [
+    "Paramaribo",
+    "Lelydorp",
+    "Nieuw Nickerie",
+    "Moengo",
+    "Nieuw Amsterdam",
+    "Albina"
+   ]
+  },
+  {
+   "name": "Nigeria",
+   "demonym": "Nigerian",
+   "region": "Africa",
+   "capital": "Abuja",
+   "cities": [
+    "Lagos",
+    "Kano",
+    "Ibadan",
+    "Abuja",
+    "Port Harcourt",
+    "Benin City",
+    "Kaduna",
+    "Maiduguri",
+    "Zaria",
+    "Aba",
+    "Jos",
+    "Ilorin",
+    "Onitsha",
+    "Enugu"
+   ]
+  },
+  {
+   "name": "South Africa",
+   "demonym": "South African",
+   "region": "Africa",
+   "capital": "Pretoria",
+   "cities": [
+    "Johannesburg",
+    "Cape Town",
+    "Durban",
+    "Pretoria",
+    "Port Elizabeth",
+    "Soweto",
+    "Bloemfontein",
+    "East London",
+    "Pietermaritzburg",
+    "Polokwane",
+    "Vereeniging",
+    "Rustenburg",
+    "Nelspruit",
+    "Kimberley"
+   ]
+  },
+  {
+   "name": "Egypt",
+   "demonym": "Egyptian",
+   "region": "Africa",
+   "capital": "Cairo",
+   "cities": [
+    "Cairo",
+    "Alexandria",
+    "Giza",
+    "Shubra El-Kheima",
+    "Port Said",
+    "Suez",
+    "Luxor",
+    "Mansoura",
+    "Tanta",
+    "Asyut",
+    "Ismailia",
+    "Faiyum",
+    "Zagazig",
+    "Aswan"
+   ]
+  },
+  {
+   "name": "Kenya",
+   "demonym": "Kenyan",
+   "region": "Africa",
+   "capital": "Nairobi",
+   "cities": [
+    "Nairobi",
+    "Mombasa",
+    "Nakuru",
+    "Eldoret",
+    "Kisumu",
+    "Ruiru",
+    "Kikuyu",
+    "Thika",
+    "Nyeri",
+    "Machakos"
+   ]
+  },
+  {
+   "name": "Ghana",
+   "demonym": "Ghanaian",
+   "region": "Africa",
+   "capital": "Accra",
+   "cities": [
+    "Accra",
+    "Kumasi",
+    "Tamale",
+    "Sekondi-Takoradi",
+    "Ashaiman",
+    "Sunyani",
+    "Cape Coast",
+    "Obuasi",
+    "Tema",
+    "Koforidua"
+   ]
+  },
+  {
+   "name": "Morocco",
+   "demonym": "Moroccan",
+   "region": "Africa",
+   "capital": "Rabat",
+   "cities": [
+    "Casablanca",
+    "Rabat",
+    "Fez",
+    "Marrakesh",
+    "Tangier",
+    "Sale",
+    "Meknes",
+    "Agadir",
+    "Oujda",
+    "Kenitra"
+   ]
+  },
+  {
+   "name": "Algeria",
+   "demonym": "Algerian",
+   "region": "Africa",
+   "capital": "Algiers",
+   "cities": [
+    "Algiers",
+    "Oran",
+    "Constantine",
+    "Annaba",
+    "Blida",
+    "Batna",
+    "Setif"
+   ]
+  },
+  {
+   "name": "Tunisia",
+   "demonym": "Tunisian",
+   "region": "Africa",
+   "capital": "Tunis",
+   "cities": [
+    "Tunis",
+    "Sfax",
+    "Sousse",
+    "Kairouan",
+    "Bizerte",
+    "Gabes"
+   ]
+  },
+  {
+   "name": "Ethiopia",
+   "demonym": "Ethiopian",
+   "region": "Africa",
+   "capital": "Addis Ababa",
+   "cities": [
+    "Addis Ababa",
+    "Dire Dawa",
+    "Mekelle",
+    "Gondar",
+    "Adama",
+    "Hawassa",
+    "Bahir Dar"
+   ]
+  },
+  {
+   "name": "Tanzania",
+   "demonym": "Tanzanian",
+   "region": "Africa",
+   "capital": "Dodoma",
+   "cities": [
+    "Dar es Salaam",
+    "Mwanza",
+    "Dodoma",
+    "Arusha",
+    "Mbeya",
+    "Morogoro",
+    "Zanzibar City"
+   ]
+  },
+  {
+   "name": "Uganda",
+   "demonym": "Ugandan",
+   "region": "Africa",
+   "capital": "Kampala",
+   "cities": [
+    "Kampala",
+    "Nansana",
+    "Kira",
+    "Mbarara",
+    "Gulu",
+    "Jinja"
+   ]
+  },
+  {
+   "name": "Angola",
+   "demonym": "Angolan",
+   "region": "Africa",
+   "capital": "Luanda",
+   "cities": [
+    "Luanda",
+    "Huambo",
+    "Lobito",
+    "Benguela",
+    "Lubango",
+    "Cabinda"
+   ]
+  },
+  {
+   "name": "Cameroon",
+   "demonym": "Cameroonian",
+   "region": "Africa",
+   "capital": "Yaounde",
+   "cities": [
+    "Douala",
+    "Yaounde",
+    "Garoua",
+    "Bamenda",
+    "Maroua",
+    "Bafoussam"
+   ]
+  },
+  {
+   "name": "Senegal",
+   "demonym": "Senegalese",
+   "region": "Africa",
+   "capital": "Dakar",
+   "cities": [
+    "Dakar",
+    "Touba",
+    "Thies",
+    "Kaolack",
+    "Saint-Louis",
+    "Ziguinchor"
+   ]
+  },
+  {
+   "name": "Ivory Coast",
+   "demonym": "Ivorian",
+   "region": "Africa",
+   "capital": "Yamoussoukro",
+   "cities": [
+    "Abidjan",
+    "Yamoussoukro",
+    "Bouake",
+    "Daloa",
+    "San-Pedro",
+    "Korhogo"
+   ]
+  },
+  {
+   "name": "Zimbabwe",
+   "demonym": "Zimbabwean",
+   "region": "Africa",
+   "capital": "Harare",
+   "cities": [
+    "Harare",
+    "Bulawayo",
+    "Chitungwiza",
+    "Mutare",
+    "Gweru",
+    "Kwekwe"
+   ]
+  },
+  {
+   "name": "Zambia",
+   "demonym": "Zambian",
+   "region": "Africa",
+   "capital": "Lusaka",
+   "cities": [
+    "Lusaka",
+    "Kitwe",
+    "Ndola",
+    "Kabwe",
+    "Chingola",
+    "Livingstone"
+   ]
+  },
+  {
+   "name": "Mozambique",
+   "demonym": "Mozambican",
+   "region": "Africa",
+   "capital": "Maputo",
+   "cities": [
+    "Maputo",
+    "Matola",
+    "Nampula",
+    "Beira",
+    "Chimoio",
+    "Nacala"
+   ]
+  },
+  {
+   "name": "Rwanda",
+   "demonym": "Rwandan",
+   "region": "Africa",
+   "capital": "Kigali",
+   "cities": [
+    "Kigali",
+    "Butare",
+    "Gisenyi",
+    "Musanze",
+    "Gitarama"
+   ]
+  },
+  {
+   "name": "Botswana",
+   "demonym": "Botswanan",
+   "region": "Africa",
+   "capital": "Gaborone",
+   "cities": [
+    "Gaborone",
+    "Francistown",
+    "Molepolole",
+    "Maun",
+    "Serowe"
+   ]
+  },
+  {
+   "name": "Namibia",
+   "demonym": "Namibian",
+   "region": "Africa",
+   "capital": "Windhoek",
+   "cities": [
+    "Windhoek",
+    "Rundu",
+    "Walvis Bay",
+    "Swakopmund",
+    "Oshakati"
+   ]
+  },
+  {
+   "name": "Democratic Republic of the Congo",
+   "demonym": "Congolese",
+   "region": "Africa",
+   "capital": "Kinshasa",
+   "cities": [
+    "Kinshasa",
+    "Lubumbashi",
+    "Mbuji-Mayi",
+    "Kananga",
+    "Kisangani",
+    "Bukavu",
+    "Goma"
+   ]
+  },
+  {
+   "name": "Libya",
+   "demonym": "Libyan",
+   "region": "Africa",
+   "capital": "Tripoli",
+   "cities": [
+    "Tripoli",
+    "Benghazi",
+    "Misrata",
+    "Bayda",
+    "Zawiya",
+    "Tobruk"
+   ]
+  },
+  {
+   "name": "Sudan",
+   "demonym": "Sudanese",
+   "region": "Africa",
+   "capital": "Khartoum",
+   "cities": [
+    "Khartoum",
+    "Omdurman",
+    "Port Sudan",
+    "Kassala",
+    "El Obeid",
+    "Nyala",
+    "Wad Madani"
+   ]
+  },
+  {
+   "name": "United Arab Emirates",
+   "demonym": "Emirati",
+   "region": "Middle East",
+   "capital": "Abu Dhabi",
+   "cities": [
+    "Dubai",
+    "Abu Dhabi",
+    "Sharjah",
+    "Al Ain",
+    "Ajman",
+    "Ras Al Khaimah",
+    "Fujairah",
+    "Umm Al Quwain",
+    "Khor Fakkan",
+    "Dibba Al-Fujairah",
+    "Kalba",
+    "Ruwais"
+   ]
+  },
+  {
+   "name": "Saudi Arabia",
+   "demonym": "Saudi",
+   "region": "Middle East",
+   "capital": "Riyadh",
+   "cities": [
+    "Riyadh",
+    "Jeddah",
+    "Mecca",
+    "Medina",
+    "Dammam",
+    "Taif",
+    "Tabuk",
+    "Buraydah",
+    "Khamis Mushait",
+    "Al Khobar",
+    "Abha",
+    "Hail"
+   ]
+  },
+  {
+   "name": "Israel",
+   "demonym": "Israeli",
+   "region": "Middle East",
+   "capital": "Jerusalem",
+   "cities": [
+    "Jerusalem",
+    "Tel Aviv",
+    "Haifa",
+    "Rishon LeZion",
+    "Petah Tikva",
+    "Ashdod",
+    "Netanya",
+    "Beersheba"
+   ]
+  },
+  {
+   "name": "Turkey",
+   "demonym": "Turkish",
+   "region": "Middle East",
+   "capital": "Ankara",
+   "cities": [
+    "Istanbul",
+    "Ankara",
+    "Izmir",
+    "Bursa",
+    "Antalya",
+    "Konya",
+    "Adana",
+    "Gaziantep",
+    "Mersin",
+    "Diyarbakir",
+    "Kayseri",
+    "Eskisehir",
+    "Sanliurfa",
+    "Samsun",
+    "Denizli",
+    "Malatya"
+   ]
+  },
+  {
+   "name": "Qatar",
+   "demonym": "Qatari",
+   "region": "Middle East",
+   "capital": "Doha",
+   "cities": [
+    "Doha",
+    "Al Rayyan",
+    "Al Wakrah",
+    "Al Khor",
+    "Umm Salal",
+    "Lusail"
+   ]
+  },
+  {
+   "name": "Kuwait",
+   "demonym": "Kuwaiti",
+   "region": "Middle East",
+   "capital": "Kuwait City",
+   "cities": [
+    "Kuwait City",
+    "Al Ahmadi",
+    "Hawalli",
+    "As Salimiyah",
+    "Sabah as Salim",
+    "Al Farwaniyah",
+    "Al Fahahil",
+    "Al Jahra"
+   ]
+  },
+  {
+   "name": "Bahrain",
+   "demonym": "Bahraini",
+   "region": "Middle East",
+   "capital": "Manama",
+   "cities": [
+    "Manama",
+    "Riffa",
+    "Muharraq",
+    "Hamad Town",
+    "A'ali",
+    "Isa Town"
+   ]
+  },
+  {
+   "name": "Oman",
+   "demonym": "Omani",
+   "region": "Middle East",
+   "capital": "Muscat",
+   "cities": [
+    "Muscat",
+    "Seeb",
+    "Salalah",
+    "Sohar",
+    "Sur",
+    "Nizwa"
+   ]
+  },
+  {
+   "name": "Jordan",
+   "demonym": "Jordanian",
+   "region": "Middle East",
+   "capital": "Amman",
+   "cities": [
+    "Amman",
+    "Zarqa",
+    "Irbid",
+    "Russeifa",
+    "Aqaba",
+    "As-Salt",
+    "Madaba",
+    "Mafraq"
+   ]
+  },
+  {
+   "name": "Lebanon",
+   "demonym": "Lebanese",
+   "region": "Middle East",
+   "capital": "Beirut",
+   "cities": [
+    "Beirut",
+    "Tripoli",
+    "Sidon",
+    "Tyre",
+    "Zahle",
+    "Jounieh"
+   ]
+  },
+  {
+   "name": "Iraq",
+   "demonym": "Iraqi",
+   "region": "Middle East",
+   "capital": "Baghdad",
+   "cities": [
+    "Baghdad",
+    "Basra",
+    "Mosul",
+    "Erbil",
+    "Sulaymaniyah",
+    "Najaf",
+    "Karbala",
+    "Kirkuk"
+   ]
+  },
+  {
+   "name": "Iran",
+   "demonym": "Iranian",
+   "region": "Middle East",
+   "capital": "Tehran",
+   "cities": [
+    "Tehran",
+    "Mashhad",
+    "Isfahan",
+    "Karaj",
+    "Shiraz",
+    "Tabriz",
+    "Qom",
+    "Ahvaz",
+    "Kermanshah",
+    "Urmia",
+    "Rasht",
+    "Zahedan"
+   ]
+  },
+  {
+   "name": "Yemen",
+   "demonym": "Yemeni",
+   "region": "Middle East",
+   "capital": "Sana'a",
+   "cities": [
+    "Sana'a",
+    "Aden",
+    "Taiz",
+    "Al Hudaydah",
+    "Ibb",
+    "Dhamar",
+    "Mukalla",
+    "Sayun"
+   ]
+  },
+  {
+   "name": "United States",
+   "demonym": "American",
+   "region": "North America",
+   "capital": "Washington, D.C.",
+   "cities": [
+    "New York",
+    "Los Angeles",
+    "Chicago",
+    "Houston",
+    "Phoenix",
+    "Philadelphia",
+    "San Antonio",
+    "San Diego",
+    "Dallas",
+    "San Jose",
+    "Austin",
+    "Jacksonville",
+    "Fort Worth",
+    "Columbus",
+    "Charlotte",
+    "San Francisco",
+    "Indianapolis",
+    "Seattle",
+    "Denver",
+    "Washington, D.C.",
+    "Boston",
+    "El Paso",
+    "Nashville",
+    "Detroit",
+    "Oklahoma City",
+    "Portland",
+    "Las Vegas",
+    "Memphis",
+    "Louisville",
+    "Baltimore"
+   ]
+  },
+  {
+   "name": "Canada",
+   "demonym": "Canadian",
+   "region": "North America",
+   "capital": "Ottawa",
+   "cities": [
+    "Toronto",
+    "Montreal",
+    "Calgary",
+    "Ottawa",
+    "Edmonton",
+    "Winnipeg",
+    "Mississauga",
+    "Vancouver",
+    "Brampton",
+    "Hamilton",
+    "Quebec City",
+    "Surrey",
+    "Laval",
+    "Halifax",
+    "London",
+    "Markham",
+    "Vaughan",
+    "Gatineau"
+   ]
+  },
+  {
+   "name": "Mexico",
+   "demonym": "Mexican",
+   "region": "North America",
+   "capital": "Mexico City",
+   "cities": [
+    "Mexico City",
+    "Tijuana",
+    "Ecatepec",
+    "Leon",
+    "Puebla",
+    "Ciudad Juarez",
+    "Guadalajara",
+    "Zapopan",
+    "Monterrey",
+    "Nezahualcoyotl",
+    "Chihuahua",
+    "Merida",
+    "San Luis Potosi",
+    "Aguascalientes",
+    "Queretaro"
+   ]
+  },
+  {
+   "name": "Guatemala",
+   "demonym": "Guatemalan",
+   "region": "North America",
+   "capital": "Guatemala City",
+   "cities": [
+    "Guatemala City",
+    "Mixco",
+    "Villa Nueva",
+    "Quetzaltenango",
+    "Escuintla",
+    "Chinautla"
+   ]
+  },
+  {
+   "name": "Honduras",
+   "demonym": "Honduran",
+   "region": "North America",
+   "capital": "Tegucigalpa",
+   "cities": [
+    "Tegucigalpa",
+    "San Pedro Sula",
+    "Choloma",
+    "La Ceiba",
+    "El Progreso",
+    "Choluteca"
+   ]
+  },
+  {
+   "name": "El Salvador",
+   "demonym": "Salvadoran",
+   "region": "North America",
+   "capital": "San Salvador",
+   "cities": [
+    "San Salvador",
+    "Soyapango",
+    "Santa Ana",
+    "San Miguel",
+    "Mejicanos",
+    "Santa Tecla"
+   ]
+  },
+  {
+   "name": "Nicaragua",
+   "demonym": "Nicaraguan",
+   "region": "North America",
+   "capital": "Managua",
+   "cities": [
+    "Managua",
+    "Leon",
+    "Masaya",
+    "Matagalpa",
+    "Chinandega",
+    "Granada"
+   ]
+  },
+  {
+   "name": "Costa Rica",
+   "demonym": "Costa Rican",
+   "region": "North America",
+   "capital": "San Jose",
+   "cities": [
+    "San Jose",
+    "Alajuela",
+    "Cartago",
+    "Heredia",
+    "Liberia",
+    "Puntarenas"
+   ]
+  },
+  {
+   "name": "Panama",
+   "demonym": "Panamanian",
+   "region": "North America",
+   "capital": "Panama City",
+   "cities": [
+    "Panama City",
+    "San Miguelito",
+    "Colon",
+    "David",
+    "La Chorrera",
+    "Santiago"
+   ]
+  },
+  {
+   "name": "Dominican Republic",
+   "demonym": "Dominican",
+   "region": "North America",
+   "capital": "Santo Domingo",
+   "cities": [
+    "Santo Domingo",
+    "Santiago de los Caballeros",
+    "Santo Domingo Este",
+    "San Pedro de Macoris",
+    "La Romana",
+    "San Cristobal",
+    "Puerto Plata"
+   ]
+  },
+  {
+   "name": "Jamaica",
+   "demonym": "Jamaican",
+   "region": "North America",
+   "capital": "Kingston",
+   "cities": [
+    "Kingston",
+    "Spanish Town",
+    "Portmore",
+    "Montego Bay",
+    "May Pen",
+    "Mandeville"
+   ]
+  },
+  {
+   "name": "Cuba",
+   "demonym": "Cuban",
+   "region": "North America",
+   "capital": "Havana",
+   "cities": [
+    "Havana",
+    "Santiago de Cuba",
+    "Camaguey",
+    "Holguin",
+    "Santa Clara",
+    "Guantanamo",
+    "Bayamo"
+   ]
+  },
+  {
+   "name": "Trinidad and Tobago",
+   "demonym": "Trinidadian and Tobagonian",
+   "region": "North America",
+   "capital": "Port of Spain",
+   "cities": [
+    "Chaguanas",
+    "San Fernando",
+    "Port of Spain",
+    "Arima",
+    "Point Fortin"
+   ]
+  },
+  {
+   "name": "The Bahamas",
+   "demonym": "Bahamian",
+   "region": "North America",
+   "capital": "Nassau",
+   "cities": [
+    "Nassau",
+    "Freeport",
+    "West End",
+    "Coopers Town",
+    "Marsh Harbour"
+   ]
+  },
+  {
+   "name": "Australia",
+   "demonym": "Australian",
+   "region": "Oceania",
+   "capital": "Canberra",
+   "cities": [
+    "Sydney",
+    "Melbourne",
+    "Brisbane",
+    "Perth",
+    "Adelaide",
+    "Gold Coast",
+    "Canberra",
+    "Newcastle",
+    "Sunshine Coast",
+    "Wollongong",
+    "Hobart",
+    "Geelong",
+    "Townsville",
+    "Cairns",
+    "Darwin",
+    "Toowoomba"
+   ]
+  },
+  {
+   "name": "New Zealand",
+   "demonym": "New Zealander",
+   "region": "Oceania",
+   "capital": "Wellington",
+   "cities": [
+    "Auckland",
+    "Christchurch",
+    "Wellington",
+    "Hamilton",
+    "Tauranga",
+    "Dunedin",
+    "Palmerston North",
+    "Napier",
+    "Nelson",
+    "Rotorua"
+   ]
+  },
+  {
+   "name": "Papua New Guinea",
+   "demonym": "Papua New Guinean",
+   "region": "Oceania",
+   "capital": "Port Moresby",
+   "cities": [
+    "Port Moresby",
+    "Lae",
+    "Mount Hagen",
+    "Madang",
+    "Popondetta"
+   ]
+  },
+  {
+   "name": "Fiji",
+   "demonym": "Fijian",
+   "region": "Oceania",
+   "capital": "Suva",
+   "cities": [
+    "Suva",
+    "Nadi",
+    "Lautoka",
+    "Nausori",
+    "Labasa"
+   ]
+  },
+  {
+   "name": "Solomon Islands",
+   "demonym": "Solomon Islander",
+   "region": "Oceania",
+   "capital": "Honiara",
+   "cities": [
+    "Honiara",
+    "Auki",
+    "Gizo",
+    "Munda",
+    "Tulagi"
+   ]
+  },
+  {
+   "name": "Vanuatu",
+   "demonym": "Ni-Vanuatu",
+   "region": "Oceania",
+   "capital": "Port Vila",
+   "cities": [
+    "Port Vila",
+    "Luganville",
+    "Norsup",
+    "Lakatoro",
+    "Isangel"
+   ]
+  },
+  {
+   "name": "Samoa",
+   "demonym": "Samoan",
+   "region": "Oceania",
+   "capital": "Apia",
+   "cities": [
+    "Apia",
+    "Vaitele",
+    "Faleula",
+    "Siusega"
+   ]
+  },
+  {
+   "name": "China",
+   "demonym": "Chinese",
+   "region": "Asia",
+   "capital": "Beijing",
+   "cities": [
+    "Shanghai",
+    "Beijing",
+    "Chongqing",
+    "Guangzhou",
+    "Shenzhen",
+    "Chengdu",
+    "Tianjin",
+    "Wuhan",
+    "Dongguan",
+    "Xi'an",
+    "Hangzhou",
+    "Nanjing",
+    "Shenyang",
+    "Qingdao",
+    "Zhengzhou",
+    "Jinan",
+    "Harbin",
+    "Kunming",
+    "Changsha",
+    "Dalian",
+    "Suzhou",
+    "Xiamen"
+   ]
+  },
+  {
+   "name": "Japan",
+   "demonym": "Japanese",
+   "region": "Asia",
+   "capital": "Tokyo",
+   "cities": [
+    "Tokyo",
+    "Yokohama",
+    "Osaka",
+    "Nagoya",
+    "Sapporo",
+    "Fukuoka",
+    "Kobe",
+    "Kyoto",
+    "Kawasaki",
+    "Saitama",
+    "Hiroshima",
+    "Sendai",
+    "Kitakyushu",
+    "Chiba",
+    "Sakai",
+    "Niigata"
+   ]
+  },
+  {
+   "name": "South Korea",
+   "demonym": "South Korean",
+   "region": "Asia",
+   "capital": "Seoul",
+   "cities": [
+    "Seoul",
+    "Busan",
+    "Incheon",
+    "Daegu",
+    "Daejeon",
+    "Gwangju",
+    "Suwon",
+    "Ulsan",
+    "Changwon",
+    "Goyang"
+   ]
+  },
+  {
+   "name": "North Korea",
+   "demonym": "North Korean",
+   "region": "Asia",
+   "capital": "Pyongyang",
+   "cities": [
+    "Pyongyang",
+    "Hamhung",
+    "Chongjin",
+    "Nampo",
+    "Wonsan",
+    "Sinuiju",
+    "Kaesong",
+    "Haeju"
+   ]
+  },
+  {
+   "name": "Taiwan",
+   "demonym": "Taiwanese",
+   "region": "Asia",
+   "capital": "Taipei",
+   "cities": [
+    "New Taipei",
+    "Taichung",
+    "Kaohsiung",
+    "Taipei",
+    "Taoyuan",
+    "Tainan",
+    "Hsinchu",
+    "Keelung"
+   ]
+  },
+  {
+   "name": "Hong Kong",
+   "demonym": "Hongkonger",
+   "region": "Asia",
+   "capital": "Victoria",
+   "cities": [
+    "Kowloon",
+    "Victoria",
+    "Tsuen Wan",
+    "Sha Tin",
+    "Tuen Mun",
+    "Yuen Long",
+    "Kwun Tong"
+   ]
+  },
+  {
+   "name": "Macau",
+   "demonym": "Macanese",
+   "region": "Asia",
+   "capital": "Macau",
+   "cities": [
+    "Macau",
+    "Taipa",
+    "Coloane",
+    "Cotai"
+   ]
+  },
+  {
+   "name": "Mongolia",
+   "demonym": "Mongolian",
+   "region": "Asia",
+   "capital": "Ulaanbaatar",
+   "cities": [
+    "Ulaanbaatar",
+    "Erdenet",
+    "Darkhan",
+    "Choibalsan",
+    "Murun",
+    "Bayankhongor",
+    "Ulaangom",
+    "Khovd"
+   ]
+  },
+  {
+   "name": "India",
+   "demonym": "Indian",
+   "region": "Asia",
+   "capital": "New Delhi",
+   "cities": [
+    "Mumbai",
+    "Delhi",
+    "Bangalore",
+    "Hyderabad",
+    "Ahmedabad",
+    "Chennai",
+    "Kolkata",
+    "Surat",
+    "Pune",
+    "Jaipur",
+    "Lucknow",
+    "Kanpur",
+    "Nagpur",
+    "Indore",
+    "Thane",
+    "Bhopal",
+    "Visakhapatnam",
+    "Patna",
+    "Vadodara",
+    "Ghaziabad",
+    "Ludhiana",
+    "Agra"
+   ]
+  },
+  {
+   "name": "Pakistan",
+   "demonym": "Pakistani",
+   "region": "Asia",
+   "capital": "Islamabad",
+   "cities": [
+    "Karachi",
+    "Lahore",
+    "Faisalabad",
+    "Rawalpindi",
+    "Gujranwala",
+    "Peshawar",
+    "Multan",
+    "Hyderabad",
+    "Islamabad",
+    "Quetta",
+    "Bahawalpur",
+    "Sargodha",
+    "Sialkot",
+    "Sukkur",
+    "Larkana",
+    "Sheikhupura"
+   ]
+  },
+  {
+   "name": "Bangladesh",
+   "demonym": "Bangladeshi",
+   "region": "Asia",
+   "capital": "Dhaka",
+   "cities": [
+    "Dhaka",
+    "Chittagong",
+    "Khulna",
+    "Rajshahi",
+    "Sylhet",
+    "Rangpur",
+    "Barisal",
+    "Comilla",
+    "Narayanganj",
+    "Mymensingh"
+   ]
+  },
+  {
+   "name": "Sri Lanka",
+   "demonym": "Sri Lankan",
+   "region": "Asia",
+   "capital": "Sri Jayawardenepura Kotte",
+   "cities": [
+    "Colombo",
+    "Dehiwala-Mount Lavinia",
+    "Moratuwa",
+    "Negombo",
+    "Kandy",
+    "Sri Jayawardenepura Kotte",
+    "Galle",
+    "Jaffna",
+    "Trincomalee",
+    "Batticaloa"
+   ]
+  },
+  {
+   "name": "Nepal",
+   "demonym": "Nepali",
+   "region": "Asia",
+   "capital": "Kathmandu",
+   "cities": [
+    "Kathmandu",
+    "Pokhara",
+    "Lalitpur",
+    "Bharatpur",
+    "Biratnagar",
+    "Birgunj",
+    "Dharan",
+    "Butwal",
+    "Hetauda",
+    "Janakpur"
+   ]
+  },
+  {
+   "name": "Bhutan",
+   "demonym": "Bhutanese",
+   "region": "Asia",
+   "capital": "Thimphu",
+   "cities": [
+    "Thimphu",
+    "Phuntsholing",
+    "Paro",
+    "Gelephu",
+    "Punakha",
+    "Jakar",
+    "Trashigang",
+    "Wangdue Phodrang"
+   ]
+  },
+  {
+   "name": "Maldives",
+   "demonym": "Maldivian",
+   "region": "Asia",
+   "capital": "Malé",
+   "cities": [
+    "Malé",
+    "Addu City",
+    "Fuvahmulah",
+    "Kulhudhuffushi",
+    "Thinadhoo",
+    "Naifaru"
+   ]
+  },
+  {
+   "name": "Afghanistan",
+   "demonym": "Afghan",
+   "region": "Asia",
+   "capital": "Kabul",
+   "cities": [
+    "Kabul",
+    "Kandahar",
+    "Herat",
+    "Mazar-i-Sharif",
+    "Kunduz",
+    "Jalalabad",
+    "Lashkar Gah",
+    "Taloqan",
+    "Puli Khumri",
+    "Ghazni"
+   ]
+  },
+  {
+   "name": "Indonesia",
+   "demonym": "Indonesian",
+   "region": "Asia",
+   "capital": "Jakarta",
+   "cities": [
+    "Jakarta",
+    "Surabaya",
+    "Bandung",
+    "Medan",
+    "Bekasi",
+    "Depok",
+    "Tangerang",
+    "Palembang",
+    "Semarang",
+    "Makassar",
+    "South Tangerang",
+    "Batam",
+    "Bandar Lampung",
+    "Bogor",
+    "Pekanbaru",
+    "Padang",
+    "Malang",
+    "Denpasar",
+    "Samarinda",
+    "Tasikmalaya",
+    "Banjarmasin",
+    "Pontianak"
+   ]
+  },
+  {
+   "name": "Vietnam",
+   "demonym": "Vietnamese",
+   "region": "Asia",
+   "capital": "Hanoi",
+   "cities": [
+    "Ho Chi Minh City",
+    "Hanoi",
+    "Haiphong",
+    "Da Nang",
+    "Can Tho",
+    "Bien Hoa",
+    "Hue",
+    "Nha Trang",
+    "Buon Ma Thuot",
+    "Vung Tau",
+    "Nam Dinh",
+    "Vinh",
+    "Rach Gia",
+    "Long Xuyen",
+    "Thai Nguyen",
+    "Ha Long"
+   ]
+  },
+  {
+   "name": "Thailand",
+   "demonym": "Thai",
+   "region": "Asia",
+   "capital": "Bangkok",
+   "cities": [
+    "Bangkok",
+    "Nonthaburi",
+    "Nakhon Ratchasima",
+    "Chiang Mai",
+    "Hat Yai",
+    "Udon Thani",
+    "Pak Kret",
+    "Khon Kaen",
+    "Nakhon Si Thammarat",
+    "Chon Buri"
+   ]
+  },
+  {
+   "name": "Philippines",
+   "demonym": "Filipino",
+   "region": "Asia",
+   "capital": "Manila",
+   "cities": [
+    "Quezon City",
+    "Manila",
+    "Davao City",
+    "Caloocan",
+    "Zamboanga City",
+    "Cebu City",
+    "Antipolo",
+    "Taguig",
+    "Pasig",
+    "Cagayan de Oro",
+    "Valenzuela",
+    "General Santos"
+   ]
+  },
+  {
+   "name": "Malaysia",
+   "demonym": "Malaysian",
+   "region": "Asia",
+   "capital": "Kuala Lumpur",
+   "cities": [
+    "Kuala Lumpur",
+    "George Town",
+    "Ipoh",
+    "Johor Bahru",
+    "Petaling Jaya",
+    "Shah Alam",
+    "Kuching",
+    "Kota Kinabalu",
+    "Malacca City",
+    "Kuantan"
+   ]
+  },
+  {
+   "name": "Singapore",
+   "demonym": "Singaporean",
+   "region": "Asia",
+   "capital": "Singapore",
+   "cities": [
+    "Singapore",
+    "Jurong West",
+    "Woodlands",
+    "Tampines",
+    "Bedok",
+    "Sengkang",
+    "Hougang",
+    "Yishun",
+    "Ang Mo Kio",
+    "Choa Chu Kang"
+   ]
+  },
+  {
+   "name": "Myanmar",
+   "demonym": "Burmese",
+   "region": "Asia",
+   "capital": "Naypyidaw",
+   "cities": [
+    "Yangon",
+    "Mandalay",
+    "Naypyidaw",
+    "Bago",
+    "Mawlamyine",
+    "Taunggyi",
+    "Monywa",
+    "Meiktila",
+    "Sittwe",
+    "Pathein"
+   ]
+  },
+  {
+   "name": "Cambodia",
+   "demonym": "Cambodian",
+   "region": "Asia",
+   "capital": "Phnom Penh",
+   "cities": [
+    "Phnom Penh",
+    "Siem Reap",
+    "Battambang",
+    "Sihanoukville",
+    "Poipet",
+    "Kampong Cham",
+    "Ta Khmau",
+    "Kampong Chhnang",
+    "Pursat",
+    "Kampot"
+   ]
+  },
+  {
+   "name": "Laos",
+   "demonym": "Lao",
+   "region": "Asia",
+   "capital": "Vientiane",
+   "cities": [
+    "Vientiane",
+    "Pakse",
+    "Savannakhet",
+    "Luang Prabang",
+    "Thakhek",
+    "Xam Neua",
+    "Phonsavan",
+    "Muang Xay"
+   ]
+  },
+  {
+   "name": "Brunei",
+   "demonym": "Bruneian",
+   "region": "Asia",
+   "capital": "Bandar Seri Begawan",
+   "cities": [
+    "Bandar Seri Begawan",
+    "Kuala Belait",
+    "Seria",
+    "Tutong",
+    "Bangar",
+    "Muara"
+   ]
+  },
+  {
+   "name": "Timor-Leste",
+   "demonym": "Timorese",
+   "region": "Asia",
+   "capital": "Dili",
+   "cities": [
+    "Dili",
+    "Baucau",
+    "Maliana",
+    "Suai",
+    "Liquiçá",
+    "Aileu",
+    "Same",
+    "Lospalos"
+   ]
+  },
+  {
+   "name": "Kazakhstan",
+   "demonym": "Kazakh",
+   "region": "Asia",
+   "capital": "Astana",
+   "cities": [
+    "Almaty",
+    "Astana",
+    "Shymkent",
+    "Karaganda",
+    "Aktobe",
+    "Taraz",
+    "Pavlodar",
+    "Ust-Kamenogorsk",
+    "Semey",
+    "Atyrau",
+    "Kostanay",
+    "Kyzylorda"
+   ]
+  },
+  {
+   "name": "Uzbekistan",
+   "demonym": "Uzbek",
+   "region": "Asia",
+   "capital": "Tashkent",
+   "cities": [
+    "Tashkent",
+    "Namangan",
+    "Samarkand",
+    "Andijan",
+    "Nukus",
+    "Bukhara",
+    "Fergana",
+    "Qarshi",
+    "Kokand",
+    "Margilan"
+   ]
+  },
+  {
+   "name": "Turkmenistan",
+   "demonym": "Turkmen",
+   "region": "Asia",
+   "capital": "Ashgabat",
+   "cities": [
+    "Ashgabat",
+    "Turkmenabat",
+    "Dashoguz",
+    "Mary",
+    "Balkanabat",
+    "Bayramaly",
+    "Turkmenbashi",
+    "Tejen"
+   ]
+  },
+  {
+   "name": "Kyrgyzstan",
+   "demonym": "Kyrgyz",
+   "region": "Asia",
+   "capital": "Bishkek",
+   "cities": [
+    "Bishkek",
+    "Osh",
+    "Jalal-Abad",
+    "Karakol",
+    "Tokmok",
+    "Uzgen",
+    "Naryn",
+    "Balykchy"
+   ]
+  },
+  {
+   "name": "Tajikistan",
+   "demonym": "Tajik",
+   "region": "Asia",
+   "capital": "Dushanbe",
+   "cities": [
+    "Dushanbe",
+    "Khujand",
+    "Kulob",
+    "Bokhtar",
+    "Istaravshan",
+    "Vahdat",
+    "Tursunzoda",
+    "Konibodom"
+   ]
+  },
+  {
+   "name": "United Kingdom",
+   "demonym": "British",
+   "region": "Europe",
+   "capital": "London",
+   "cities": [
+    "London",
+    "Birmingham",
+    "Manchester",
+    "Glasgow",
+    "Leeds",
+    "Liverpool",
+    "Newcastle",
+    "Sheffield",
+    "Bristol",
+    "Edinburgh",
+    "Leicester",
+    "Coventry",
+    "Cardiff",
+    "Belfast",
+    "Nottingham",
+    "Bradford",
+    "Southampton",
+    "Portsmouth"
+   ]
+  },
+  {
+   "name": "Germany",
+   "demonym": "German",
+   "region": "Europe",
+   "capital": "Berlin",
+   "cities": [
+    "Berlin",
+    "Hamburg",
+    "Munich",
+    "Cologne",
+    "Frankfurt",
+    "Stuttgart",
+    "Dusseldorf",
+    "Leipzig",
+    "Dortmund",
+    "Essen",
+    "Bremen",
+    "Dresden",
+    "Hanover",
+    "Nuremberg",
+    "Duisburg",
+    "Bochum",
+    "Wuppertal",
+    "Bielefeld"
+   ]
+  },
+  {
+   "name": "France",
+   "demonym": "French",
+   "region": "Europe",
+   "capital": "Paris",
+   "cities": [
+    "Paris",
+    "Marseille",
+    "Lyon",
+    "Toulouse",
+    "Nice",
+    "Nantes",
+    "Montpellier",
+    "Strasbourg",
+    "Bordeaux",
+    "Lille",
+    "Rennes",
+    "Reims",
+    "Toulon",
+    "Saint-Etienne",
+    "Le Havre",
+    "Grenoble",
+    "Dijon",
+    "Angers"
+   ]
+  },
+  {
+   "name": "Italy",
+   "demonym": "Italian",
+   "region": "Europe",
+   "capital": "Rome",
+   "cities": [
+    "Rome",
+    "Milan",
+    "Naples",
+    "Turin",
+    "Palermo",
+    "Genoa",
+    "Bologna",
+    "Florence",
+    "Bari",
+    "Catania",
+    "Venice",
+    "Verona",
+    "Messina",
+    "Padua",
+    "Trieste",
+    "Brescia",
+    "Parma",
+    "Modena"
+   ]
+  },
+  {
+   "name": "Spain",
+   "demonym": "Spanish",
+   "region": "Europe",
+   "capital": "Madrid",
+   "cities": [
+    "Madrid",
+    "Barcelona",
+    "Valencia",
+    "Seville",
+    "Zaragoza",
+    "Malaga",
+    "Murcia",
+    "Palma",
+    "Las Palmas",
+    "Bilbao",
+    "Alicante",
+    "Cordoba",
+    "Valladolid",
+    "Vigo",
+    "Gijon",
+    "Granada",
+    "A Coruna",
+    "Vitoria-Gasteiz"
+   ]
+  },
+  {
+   "name": "Poland",
+   "demonym": "Polish",
+   "region": "Europe",
+   "capital": "Warsaw",
+   "cities": [
+    "Warsaw",
+    "Krakow",
+    "Lodz",
+    "Wroclaw",
+    "Poznan",
+    "Gdansk",
+    "Szczecin",
+    "Bydgoszcz",
+    "Lublin",
+    "Bialystok",
+    "Katowice",
+    "Gdynia",
+    "Czestochowa",
+    "Radom",
+    "Sosnowiec",
+    "Torun",
+    "Kielce",
+    "Rzeszow"
+   ]
+  },
+  {
+   "name": "Ireland",
+   "demonym": "Irish",
+   "region": "Europe",
+   "capital": "Dublin",
+   "cities": [
+    "Dublin",
+    "Cork",
+    "Limerick",
+    "Galway",
+    "Waterford",
+    "Drogheda",
+    "Dundalk",
+    "Bray"
+   ]
+  },
+  {
+   "name": "Netherlands",
+   "demonym": "Dutch",
+   "region": "Europe",
+   "capital": "Amsterdam",
+   "cities": [
+    "Amsterdam",
+    "Rotterdam",
+    "The Hague",
+    "Utrecht",
+    "Eindhoven",
+    "Groningen",
+    "Tilburg",
+    "Almere",
+    "Breda",
+    "Nijmegen",
+    "Enschede",
+    "Haarlem"
+   ]
+  },
+  {
+   "name": "Belgium",
+   "demonym": "Belgian",
+   "region": "Europe",
+   "capital": "Brussels",
+   "cities": [
+    "Brussels",
+    "Antwerp",
+    "Ghent",
+    "Charleroi",
+    "Liege",
+    "Bruges",
+    "Namur",
+    "Leuven",
+    "Mons",
+    "Aalst",
+    "Mechelen",
+    "Kortrijk"
+   ]
+  },
+  {
+   "name": "Portugal",
+   "demonym": "Portuguese",
+   "region": "Europe",
+   "capital": "Lisbon",
+   "cities": [
+    "Lisbon",
+    "Porto",
+    "Amadora",
+    "Braga",
+    "Coimbra",
+    "Funchal",
+    "Setubal",
+    "Aveiro",
+    "Faro",
+    "Guimaraes",
+    "Sintra",
+    "Cascais"
+   ]
+  },
+  {
+   "name": "Switzerland",
+   "demonym": "Swiss",
+   "region": "Europe",
+   "capital": "Bern",
+   "cities": [
+    "Zurich",
+    "Geneva",
+    "Basel",
+    "Bern",
+    "Lausanne",
+    "Lucerne",
+    "Winterthur",
+    "St. Gallen",
+    "Lugano",
+    "Biel",
+    "Thun",
+    "Fribourg"
+   ]
+  },
+  {
+   "name": "Austria",
+   "demonym": "Austrian",
+   "region": "Europe",
+   "capital": "Vienna",
+   "cities": [
+    "Vienna",
+    "Graz",
+    "Linz",
+    "Salzburg",
+    "Innsbruck",
+    "Klagenfurt",
+    "Villach",
+    "Wels",
+    "St. Polten",
+    "Dornbirn",
+    "Wiener Neustadt",
+    "Steyr"
+   ]
+  },
+  {
+   "name": "Sweden",
+   "demonym": "Swedish",
+   "region": "Europe",
+   "capital": "Stockholm",
+   "cities": [
+    "Stockholm",
+    "Gothenburg",
+    "Malmo",
+    "Uppsala",
+    "Vasteras",
+    "Orebro",
+    "Linkoping",
+    "Helsingborg",
+    "Jonkoping",
+    "Norrkoping",
+    "Lund",
+    "Umea"
+   ]
+  },
+  {
+   "name": "Norway",
+   "demonym": "Norwegian",
+   "region": "Europe",
+   "capital": "Oslo",
+   "cities": [
+    "Oslo",
+    "Bergen",
+    "Trondheim",
+    "Stavanger",
+    "Drammen",
+    "Fredrikstad",
+    "Kristiansand",
+    "Tromso",
+    "Sandnes",
+    "Bodo",
+    "Alesund",
+    "Sarpsborg"
+   ]
+  },
+  {
+   "name": "Denmark",
+   "demonym": "Danish",
+   "region": "Europe",
+   "capital": "Copenhagen",
+   "cities": [
+    "Copenhagen",
+    "Aarhus",
+    "Odense",
+    "Aalborg",
+    "Esbjerg",
+    "Randers",
+    "Kolding",
+    "Horsens",
+    "Vejle",
+    "Roskilde",
+    "Herning",
+    "Helsingor"
+   ]
+  },
+  {
+   "name": "Finland",
+   "demonym": "Finnish",
+   "region": "Europe",
+   "capital": "Helsinki",
+   "cities": [
+    "Helsinki",
+    "Espoo",
+    "Tampere",
+    "Vantaa",
+    "Oulu",
+    "Turku",
+    "Jyvaskyla",
+    "Lahti",
+    "Kuopio",
+    "Pori",
+    "Joensuu",
+    "Lappeenranta"
+   ]
+  },
+  {
+   "name": "Iceland",
+   "demonym": "Icelandic",
+   "region": "Europe",
+   "capital": "Reykjavik",
+   "cities": [
+    "Reykjavik",
+    "Kopavogur",
+    "Hafnarfjordur",
+    "Akureyri",
+    "Reykjanesbaer",
+    "Gardabaer"
+   ]
+  },
+  {
+   "name": "Estonia",
+   "demonym": "Estonian",
+   "region": "Europe",
+   "capital": "Tallinn",
+   "cities": [
+    "Tallinn",
+    "Tartu",
+    "Narva",
+    "Parnu",
+    "Kohtla-Jarve",
+    "Viljandi"
+   ]
+  },
+  {
+   "name": "Latvia",
+   "demonym": "Latvian",
+   "region": "Europe",
+   "capital": "Riga",
+   "cities": [
+    "Riga",
+    "Daugavpils",
+    "Liepaja",
+    "Jelgava",
+    "Jurmala",
+    "Ventspils"
+   ]
+  },
+  {
+   "name": "Lithuania",
+   "demonym": "Lithuanian",
+   "region": "Europe",
+   "capital": "Vilnius",
+   "cities": [
+    "Vilnius",
+    "Kaunas",
+    "Klaipeda",
+    "Siauliai",
+    "Panevezys",
+    "Alytus"
+   ]
+  },
+  {
+   "name": "Czech Republic",
+   "demonym": "Czech",
+   "region": "Europe",
+   "capital": "Prague",
+   "cities": [
+    "Prague",
+    "Brno",
+    "Ostrava",
+    "Pilsen",
+    "Liberec",
+    "Olomouc",
+    "Usti nad Labem",
+    "Hradec Kralove",
+    "Ceske Budejovice",
+    "Pardubice",
+    "Zlin",
+    "Havirov"
+   ]
+  },
+  {
+   "name": "Slovakia",
+   "demonym": "Slovak",
+   "region": "Europe",
+   "capital": "Bratislava",
+   "cities": [
+    "Bratislava",
+    "Kosice",
+    "Presov",
+    "Zilina",
+    "Nitra",
+    "Banska Bystrica",
+    "Trnava",
+    "Trencin"
+   ]
+  },
+  {
+   "name": "Hungary",
+   "demonym": "Hungarian",
+   "region": "Europe",
+   "capital": "Budapest",
+   "cities": [
+    "Budapest",
+    "Debrecen",
+    "Szeged",
+    "Miskolc",
+    "Pecs",
+    "Gyor",
+    "Nyiregyhaza",
+    "Kecskemet",
+    "Szekesfehervar",
+    "Szombathely",
+    "Szolnok",
+    "Tatabanya"
+   ]
+  },
+  {
+   "name": "Romania",
+   "demonym": "Romanian",
+   "region": "Europe",
+   "capital": "Bucharest",
+   "cities": [
+    "Bucharest",
+    "Cluj-Napoca",
+    "Timisoara",
+    "Iasi",
+    "Constanta",
+    "Craiova",
+    "Brasov",
+    "Galati",
+    "Ploiesti",
+    "Oradea",
+    "Braila",
+    "Arad"
+   ]
+  },
+  {
+   "name": "Bulgaria",
+   "demonym": "Bulgarian",
+   "region": "Europe",
+   "capital": "Sofia",
+   "cities": [
+    "Sofia",
+    "Plovdiv",
+    "Varna",
+    "Burgas",
+    "Ruse",
+    "Stara Zagora",
+    "Pleven",
+    "Sliven",
+    "Dobrich",
+    "Shumen",
+    "Pernik",
+    "Haskovo"
+   ]
+  },
+  {
+   "name": "Greece",
+   "demonym": "Greek",
+   "region": "Europe",
+   "capital": "Athens",
+   "cities": [
+    "Athens",
+    "Thessaloniki",
+    "Patras",
+    "Piraeus",
+    "Larissa",
+    "Heraklion",
+    "Volos",
+    "Rhodes",
+    "Ioannina",
+    "Chania",
+    "Kavala",
+    "Serres"
+   ]
+  },
+  {
+   "name": "Croatia",
+   "demonym": "Croatian",
+   "region": "Europe",
+   "capital": "Zagreb",
+   "cities": [
+    "Zagreb",
+    "Split",
+    "Rijeka",
+    "Osijek",
+    "Zadar",
+    "Pula",
+    "Slavonski Brod",
+    "Karlovac"
+   ]
+  },
+  {
+   "name": "Slovenia",
+   "demonym": "Slovenian",
+   "region": "Europe",
+   "capital": "Ljubljana",
+   "cities": [
+    "Ljubljana",
+    "Maribor",
+    "Celje",
+    "Kranj",
+    "Koper",
+    "Velenje",
+    "Novo Mesto",
+    "Ptuj"
+   ]
+  },
+  {
+   "name": "Serbia",
+   "demonym": "Serbian",
+   "region": "Europe",
+   "capital": "Belgrade",
+   "cities": [
+    "Belgrade",
+    "Novi Sad",
+    "Nis",
+    "Kragujevac",
+    "Subotica",
+    "Zrenjanin",
+    "Pancevo",
+    "Cacak",
+    "Kraljevo",
+    "Leskovac"
+   ]
+  },
+  {
+   "name": "Bosnia and Herzegovina",
+   "demonym": "Bosnian",
+   "region": "Europe",
+   "capital": "Sarajevo",
+   "cities": [
+    "Sarajevo",
+    "Banja Luka",
+    "Tuzla",
+    "Zenica",
+    "Mostar",
+    "Bijeljina",
+    "Brcko",
+    "Prijedor"
+   ]
+  },
+  {
+   "name": "Montenegro",
+   "demonym": "Montenegrin",
+   "region": "Europe",
+   "capital": "Podgorica",
+   "cities": [
+    "Podgorica",
+    "Niksic",
+    "Herceg Novi",
+    "Bar",
+    "Bijelo Polje",
+    "Cetinje"
+   ]
+  },
+  {
+   "name": "North Macedonia",
+   "demonym": "Macedonian",
+   "region": "Europe",
+   "capital": "Skopje",
+   "cities": [
+    "Skopje",
+    "Bitola",
+    "Kumanovo",
+    "Prilep",
+    "Tetovo",
+    "Veles",
+    "Ohrid",
+    "Gostivar"
+   ]
+  },
+  {
+   "name": "Albania",
+   "demonym": "Albanian",
+   "region": "Europe",
+   "capital": "Tirana",
+   "cities": [
+    "Tirana",
+    "Durres",
+    "Vlore",
+    "Elbasan",
+    "Shkoder",
+    "Fier",
+    "Korce",
+    "Berat"
+   ]
+  },
+  {
+   "name": "Kosovo",
+   "demonym": "Kosovar",
+   "region": "Europe",
+   "capital": "Pristina",
+   "cities": [
+    "Pristina",
+    "Prizren",
+    "Ferizaj",
+    "Peja",
+    "Gjakova",
+    "Gjilan",
+    "Mitrovica"
+   ]
+  },
+  {
+   "name": "Ukraine",
+   "demonym": "Ukrainian",
+   "region": "Europe",
+   "capital": "Kyiv",
+   "cities": [
+    "Kyiv",
+    "Kharkiv",
+    "Odesa",
+    "Dnipro",
+    "Donetsk",
+    "Zaporizhzhia",
+    "Lviv",
+    "Kryvyi Rih",
+    "Mykolaiv",
+    "Mariupol",
+    "Vinnytsia",
+    "Poltava"
+   ]
+  },
+  {
+   "name": "Belarus",
+   "demonym": "Belarusian",
+   "region": "Europe",
+   "capital": "Minsk",
+   "cities": [
+    "Minsk",
+    "Gomel",
+    "Mogilev",
+    "Vitebsk",
+    "Grodno",
+    "Brest",
+    "Bobruisk",
+    "Baranovichi",
+    "Borisov",
+    "Pinsk"
+   ]
+  },
+  {
+   "name": "Moldova",
+   "demonym": "Moldovan",
+   "region": "Europe",
+   "capital": "Chisinau",
+   "cities": [
+    "Chisinau",
+    "Tiraspol",
+    "Balti",
+    "Bender",
+    "Cahul",
+    "Ungheni",
+    "Soroca"
+   ]
+  },
+  {
+   "name": "Luxembourg",
+   "demonym": "Luxembourgish",
+   "region": "Europe",
+   "capital": "Luxembourg",
+   "cities": [
+    "Luxembourg",
+    "Esch-sur-Alzette",
+    "Differdange",
+    "Dudelange",
+    "Ettelbruck",
+    "Diekirch"
+   ]
+  },
+  {
+   "name": "Malta",
+   "demonym": "Maltese",
+   "region": "Europe",
+   "capital": "Valletta",
+   "cities": [
+    "Birkirkara",
+    "Mosta",
+    "Qormi",
+    "Sliema",
+    "Zabbar",
+    "Valletta"
+   ]
+  },
+  {
+   "name": "Cyprus",
+   "demonym": "Cypriot",
+   "region": "Europe",
+   "capital": "Nicosia",
+   "cities": [
+    "Nicosia",
+    "Limassol",
+    "Larnaca",
+    "Famagusta",
+    "Paphos",
+    "Kyrenia"
+   ]
+  },
+  {
+   "name": "Andorra",
+   "demonym": "Andorran",
+   "region": "Europe",
+   "capital": "Andorra la Vella",
+   "cities": [
+    "Andorra la Vella",
+    "Escaldes-Engordany",
+    "Encamp",
+    "Sant Julia de Loria",
+    "La Massana",
+    "Ordino"
+   ]
+  },
+  {
+   "name": "Monaco",
+   "demonym": "Monegasque",
+   "region": "Europe",
+   "capital": "Monaco",
+   "cities": [
+    "Monaco",
+    "Monte Carlo",
+    "La Condamine",
+    "Fontvieille"
+   ]
+  },
+  {
+   "name": "Liechtenstein",
+   "demonym": "Liechtensteiner",
+   "region": "Europe",
+   "capital": "Vaduz",
+   "cities": [
+    "Schaan",
+    "Vaduz",
+    "Triesen",
+    "Balzers",
+    "Eschen",
+    "Mauren"
+   ]
+  },
+  {
+   "name": "San Marino",
+   "demonym": "Sammarinese",
+   "region": "Europe",
+   "capital": "San Marino",
+   "cities": [
+    "Serravalle",
+    "Borgo Maggiore",
+    "San Marino",
+    "Domagnano",
+    "Fiorentino",
+    "Acquaviva"
+   ]
+  }
+ ]
+}

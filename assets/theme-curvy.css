@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap');
+/* ==========================================================================
+   Curvy Soon reskin — Proxy Buyer's Guide
+   --------------------------------------------------------------------------
+   Re-themes the compiled React/Tailwind app to the look of TemplateMo 435
+   "Curvy Soon": dark charcoal + orange (#ff5722), Open Sans, soft/curvy
+   rounded panels and circular icon badges.
+
+   This is a pure OVERRIDE layer loaded AFTER the compiled bundle CSS. It
+   does not touch page structure or content — only colours, type and shape.
+   Strategy:
+     1. Remap the shadcn :root design tokens (drives all token-based UI).
+     2. Override the hard-coded Tailwind utility classes the app ships with.
+     3. Apply Curvy Soon signatures (curvy radii, circular badges).
+   ========================================================================== */
+
+/* ---- Palette ------------------------------------------------------------ */
+:root {
+  --cs-bg:            #202020;   /* page / charcoal            */
+  --cs-bg-2:          #2a2a2a;   /* cards / panels            */
+  --cs-bg-3:          #333333;   /* raised / inputs / hover    */
+  --cs-orange:        #ff5722;   /* primary accent            */
+  --cs-orange-strong: #ff6a3d;   /* accent text on dark        */
+  --cs-orange-hover:  #ff855e;   /* accent text hover          */
+  --cs-orange-deep:   #e64a19;   /* button hover              */
+  --cs-text:          #ededed;
+  --cs-muted:         #b4b4b4;
+  --cs-line:          rgba(255,255,255,.09);
+  --cs-orange-line:   rgba(255,87,34,.38);
+  --cs-orange-tint:   rgba(255,87,34,.12);
+  --cs-orange-glow:   rgba(255,87,34,.10);
+
+  /* --- shadcn/ui token remap (HSL triplets) --- */
+  --background: 0 0% 13%;
+  --foreground: 0 0% 93%;
+  --border: 0 0% 24%;
+  --card: 0 0% 16%;
+  --card-foreground: 0 0% 93%;
+  --card-border: 0 0% 26%;
+  --popover: 0 0% 15%;
+  --popover-foreground: 0 0% 93%;
+  --popover-border: 0 0% 26%;
+  --primary: 14 100% 57%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 0% 19%;
+  --secondary-foreground: 0 0% 93%;
+  --muted: 0 0% 19%;
+  --muted-foreground: 0 0% 68%;
+  --accent: 0 0% 22%;
+  --accent-foreground: 0 0% 96%;
+  --input: 0 0% 26%;
+  --ring: 14 100% 57%;
+  --sidebar: 0 0% 12%;
+  --sidebar-foreground: 0 0% 88%;
+  --sidebar-border: 0 0% 22%;
+  --sidebar-primary: 14 100% 57%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 0 0% 20%;
+  --sidebar-accent-foreground: 0 0% 96%;
+  --sidebar-ring: 14 100% 57%;
+  --chart-1: 14 100% 57%;
+  --chart-2: 36 100% 55%;
+  --chart-3: 45 93% 58%;
+
+  /* Type */
+  --app-font-sans: "Open Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+/* ---- Typography --------------------------------------------------------- */
+html, body,
+button, input, select, textarea,
+[class*="font-sans"], .font-sans {
+  font-family: "Open Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif !important;
+}
+
+/* ---- Base surfaces ------------------------------------------------------ */
+html, body {
+  background-color: var(--cs-bg) !important;
+  color: var(--cs-text);
+}
+
+/* App / nav / footer page surfaces (bg-[#060d1a] and its /95 variant) */
+[class*="bg-[#060d1a]"] { background-color: var(--cs-bg) !important; }
+/* Card / panel surfaces */
+[class*="bg-[#0d1b2e]"],
+[class*="bg-[#0a1628]"] { background-color: var(--cs-bg-2) !important; }
+.bg-blue-950, .bg-blue-900 { background-color: var(--cs-bg-2) !important; }
+
+/* ---- Blue accent  ->  orange ------------------------------------------- */
+/* Solid accent fills */
+.bg-blue-600, .bg-blue-500, .bg-blue-400 { background-color: var(--cs-orange) !important; }
+/* Tinted accent fills (soft highlight panels / chips) keep a light wash */
+[class*="bg-blue-"]:not(.bg-blue-600):not(.bg-blue-500):not(.bg-blue-400):not(.bg-blue-950):not(.bg-blue-900) {
+  background-color: var(--cs-orange-tint) !important;
+}
+/* Accent text */
+[class*="text-blue-"] { color: var(--cs-orange-strong) !important; }
+/* Accent borders */
+[class*="border-blue-"] { border-color: var(--cs-orange-line) !important; }
+/* Focus / hover rings */
+[class*="ring-blue-"] { --tw-ring-color: rgba(255,87,34,.55) !important; }
+/* Hover states */
+[class*="hover:bg-blue-"]:hover { background-color: var(--cs-orange-deep) !important; }
+[class*="hover:text-blue-"]:hover { color: var(--cs-orange-hover) !important; }
+[class*="hover:border-blue-"]:hover { border-color: var(--cs-orange) !important; }
+
+/* ---- Hero / gradient blocks -------------------------------------------- */
+/* Replace the blue radial hero glow with a warm orange glow */
+[class*="radial-gradient"] {
+  background-image: radial-gradient(ellipse at top, var(--cs-orange-glow) 0%, transparent 60%) !important;
+}
+/* Replace blue diagonal gradients (hero card, CTA) with charcoal + warm cast */
+[class*="from-blue-9"] {
+  background-image: linear-gradient(135deg, rgba(255,87,34,.16) 0%, var(--cs-bg-2) 45%, var(--cs-bg) 100%) !important;
+}
+
+/* ---- Neutralise slate (blue-grey)  ->  warm grey ----------------------- */
+.text-slate-200 { color: #dcdcdc !important; }
+.text-slate-300 { color: #cfcfcf !important; }
+.text-slate-400 { color: #a8a8a8 !important; }
+.text-slate-500 { color: #8f8f8f !important; }
+.text-slate-600 { color: #737373 !important; }
+.text-slate-700 { color: #5c5c5c !important; }
+[class*="hover:text-slate-2"]:hover,
+[class*="hover:text-slate-3"]:hover { color: #eaeaea !important; }
+.border-slate-500\/30 { border-color: var(--cs-line) !important; }
+
+/* ---- Curvy Soon shape signatures --------------------------------------- */
+/* Softer, curvier panels */
+.rounded-2xl { border-radius: 1.75rem !important; }
+.rounded-xl  { border-radius: 1.15rem !important; }
+.rounded-lg  { border-radius: 0.7rem  !important; }
+
+/* Square icon badges / avatars -> full circles (the template's hallmark).
+   Higher specificity than the radius rules above, so these win. */
+.w-6.h-6[class*="rounded"],
+.w-7.h-7[class*="rounded"],
+.w-8.h-8[class*="rounded"],
+.w-9.h-9[class*="rounded"],
+.w-10.h-10[class*="rounded"],
+.w-11.h-11[class*="rounded"],
+.w-12.h-12[class*="rounded"],
+.w-14.h-14[class*="rounded"],
+.w-16.h-16[class*="rounded"],
+.w-20.h-20[class*="rounded"] { border-radius: 9999px !important; }
+
+/* Circular badges get a subtle hover pop, echoing the template */
+.w-10.h-10[class*="rounded"],
+.w-11.h-11[class*="rounded"],
+.w-12.h-12[class*="rounded"],
+.w-14.h-14[class*="rounded"],
+.w-16.h-16[class*="rounded"] { transition: transform .3s ease; }
+
+/* ---- Selection ---------------------------------------------------------- */
+::selection { background: var(--cs-orange); color: #fff; }
+
+/* ---- Scrollbar (webkit) ------------------------------------------------- */
+::-webkit-scrollbar { width: 12px; height: 12px; }
+::-webkit-scrollbar-track { background: var(--cs-bg); }
+::-webkit-scrollbar-thumb { background: #4a4a4a; border-radius: 10px; border: 3px solid var(--cs-bg); }
+::-webkit-scrollbar-thumb:hover { background: var(--cs-orange); }

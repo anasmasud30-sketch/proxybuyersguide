@@ -1,0 +1,385 @@
+[
+  {
+    "slug": "asocks",
+    "name": "ASocks",
+    "reviewPath": "/proxy-provider-analysis/asocks-review",
+    "tagline": "Budget residential SOCKS5 pool with flexible targeting",
+    "strengths": [
+      "Low entry cost for residential SOCKS5 and HTTP access",
+      "Flexible geo-targeting down to country, region, and city",
+      "Simple dashboard with per-port and rotating session options",
+      "Good fit for smaller-scale scraping and account tasks"
+    ],
+    "weaknesses": [
+      "Smaller, less battle-tested network than tier-1 providers",
+      "Support and documentation are lighter than enterprise vendors"
+    ],
+    "pricingModel": "per GB",
+    "startingPrice": "from ~$3/GB (residential)",
+    "poolSize": "several million residential IPs",
+    "bestFor": ["Budget scraping", "SOCKS5 use cases", "Small-scale automation"],
+    "rating": 4.0
+  },
+  {
+    "slug": "bright-data",
+    "name": "Bright Data",
+    "reviewPath": "/proxy-provider-analysis/bright-data-review",
+    "tagline": "Enterprise-grade proxy and web data platform",
+    "strengths": [
+      "One of the largest residential IP pools in the industry",
+      "Full stack: residential, ISP, datacenter, and mobile proxies",
+      "Advanced tools like Web Unlocker, SERP API, and scraping browsers",
+      "Granular geo-targeting, strong compliance, and KYC controls",
+      "Highly reliable network with enterprise SLAs and uptime"
+    ],
+    "weaknesses": [
+      "Premium pricing that is steep for solo users and small teams",
+      "Dashboard and product breadth have a steep learning curve"
+    ],
+    "pricingModel": "subscription",
+    "startingPrice": "from ~$8-9/GB (residential, volume-dependent)",
+    "poolSize": "150M+ residential IPs",
+    "bestFor": ["Enterprise scraping", "Large-scale data collection", "Compliance-sensitive teams"],
+    "rating": 4.6
+  },
+  {
+    "slug": "dataimpulse",
+    "name": "DataImpulse",
+    "reviewPath": "/proxy-provider-analysis/dataimpulse-review",
+    "tagline": "Affordable pay-as-you-go residential proxies",
+    "strengths": [
+      "Very low per-GB pricing with no forced monthly commitment",
+      "Ethically sourced residential pool with global coverage",
+      "Traffic never expires, which suits sporadic usage",
+      "Straightforward setup for scraping and multi-accounting"
+    ],
+    "weaknesses": [
+      "Newer brand with a smaller pool than market leaders",
+      "Fewer advanced unlocking and API products"
+    ],
+    "pricingModel": "pay-as-you-go",
+    "startingPrice": "from ~$1/GB (residential)",
+    "poolSize": "90M+ residential IPs (advertised)",
+    "bestFor": ["Cost-conscious buyers", "Occasional scraping", "Traffic that must not expire"],
+    "rating": 4.2
+  },
+  {
+    "slug": "evomi",
+    "name": "Evomi",
+    "reviewPath": "/proxy-provider-analysis/evomi-review",
+    "tagline": "Swiss-based, privacy-focused value proxies",
+    "strengths": [
+      "Aggressive per-GB pricing across residential, mobile, and datacenter",
+      "Swiss data-privacy positioning and ethically sourced IPs",
+      "Free trial and low minimums lower the barrier to test",
+      "Clean dashboard with modern rotating and sticky sessions"
+    ],
+    "weaknesses": [
+      "Smaller network and shorter track record than incumbents",
+      "Enterprise tooling and support depth are still maturing"
+    ],
+    "pricingModel": "per GB",
+    "startingPrice": "from ~$0.50-2/GB (residential)",
+    "poolSize": "tens of millions of residential IPs",
+    "bestFor": ["Value seekers", "Privacy-conscious users", "Testing before scaling"],
+    "rating": 4.3
+  },
+  {
+    "slug": "infatica",
+    "name": "Infatica",
+    "reviewPath": "/proxy-provider-analysis/infatica-review",
+    "tagline": "Balanced mid-market residential and mobile proxies",
+    "strengths": [
+      "Competitive pricing with residential, mobile, and datacenter tiers",
+      "Solid global coverage and country-level targeting",
+      "Bundled scraper API and data-collection tooling",
+      "Ethical sourcing program and reasonable support"
+    ],
+    "weaknesses": [
+      "Success rates can trail tier-1 pools on the hardest targets",
+      "Pool size is smaller than the largest enterprise vendors"
+    ],
+    "pricingModel": "subscription",
+    "startingPrice": "from ~$8-12/GB (residential)",
+    "poolSize": "15M+ residential IPs",
+    "bestFor": ["Mid-market scraping", "Ad verification", "Balanced price and features"],
+    "rating": 4.1
+  },
+  {
+    "slug": "iproyal",
+    "name": "IPRoyal",
+    "reviewPath": "/proxy-provider-analysis/iproyal-review",
+    "tagline": "Flexible proxies with non-expiring residential traffic",
+    "strengths": [
+      "Residential traffic that does not expire on pay-as-you-go plans",
+      "Broad lineup: residential, mobile, ISP, datacenter, and sneaker",
+      "Competitive entry pricing and low minimum top-ups",
+      "Responsive support and a beginner-friendly dashboard"
+    ],
+    "weaknesses": [
+      "Pool depth on niche geos is thinner than tier-1 providers",
+      "Advanced unlocking features are limited versus enterprise suites"
+    ],
+    "pricingModel": "pay-as-you-go",
+    "startingPrice": "from ~$3.50-7/GB (residential)",
+    "poolSize": "34M+ residential IPs",
+    "bestFor": ["Sneaker and ticketing", "Non-expiring traffic", "Small to mid budgets"],
+    "rating": 4.3
+  },
+  {
+    "slug": "lunaproxy",
+    "name": "LunaProxy",
+    "reviewPath": "/proxy-provider-analysis/lunaproxy-review",
+    "tagline": "Low-cost residential pool with strong geo coverage",
+    "strengths": [
+      "Aggressive per-GB residential pricing for the pool size",
+      "Wide country and city-level targeting options",
+      "Unlimited-traffic and rotating plans for high-volume users",
+      "Simple onboarding suited to scraping and social tasks"
+    ],
+    "weaknesses": [
+      "Newer vendor with a shorter reliability track record",
+      "Support depth and tooling lag behind market leaders"
+    ],
+    "pricingModel": "per GB",
+    "startingPrice": "from ~$0.85-3/GB (residential)",
+    "poolSize": "200M+ residential IPs (advertised)",
+    "bestFor": ["High-volume scraping", "Budget residential needs", "Broad geo coverage"],
+    "rating": 4.0
+  },
+  {
+    "slug": "netnut",
+    "name": "NetNut",
+    "reviewPath": "/proxy-provider-analysis/netnut-review",
+    "tagline": "ISP-backed proxies built for speed and stability",
+    "strengths": [
+      "Direct ISP-sourced residential and static ISP proxies",
+      "Fast, stable connections with high session persistence",
+      "Strong for large-scale, latency-sensitive data collection",
+      "Enterprise support with dedicated account management"
+    ],
+    "weaknesses": [
+      "Pricing is oriented toward business and enterprise budgets",
+      "Fewer self-serve, low-commitment entry options"
+    ],
+    "pricingModel": "subscription",
+    "startingPrice": "from ~$10-15/GB (residential, plan-dependent)",
+    "poolSize": "85M+ residential and ISP IPs",
+    "bestFor": ["High-speed scraping", "Static ISP use cases", "Enterprise data teams"],
+    "rating": 4.3
+  },
+  {
+    "slug": "nimbleway",
+    "name": "Nimbleway",
+    "reviewPath": "/proxy-provider-analysis/nimbleway-review",
+    "tagline": "AI-driven web data collection and unblocking",
+    "strengths": [
+      "Smart unblocking with AI-assisted request handling",
+      "Structured web-data APIs beyond raw proxy access",
+      "Reliable residential network with good success rates",
+      "Developer-friendly platform for automated pipelines"
+    ],
+    "weaknesses": [
+      "Premium, platform-oriented pricing over raw bandwidth",
+      "Overkill for simple, low-volume proxy needs"
+    ],
+    "pricingModel": "subscription",
+    "startingPrice": "from ~$8-15/GB (residential, plan-dependent)",
+    "poolSize": "tens of millions of residential IPs",
+    "bestFor": ["Managed web scraping", "Structured data APIs", "Hard-to-unblock targets"],
+    "rating": 4.2
+  },
+  {
+    "slug": "nodemaven",
+    "name": "NodeMaven",
+    "reviewPath": "/proxy-provider-analysis/nodemaven-review",
+    "tagline": "High-quality sticky sessions and clean IPs",
+    "strengths": [
+      "IP-quality filtering that favors clean, low-flag addresses",
+      "Long sticky sessions ideal for account management",
+      "Residential and mobile pools with granular targeting",
+      "Non-expiring traffic and beginner-friendly setup"
+    ],
+    "weaknesses": [
+      "Smaller pool than tier-1 enterprise providers",
+      "Limited advanced scraping and unlocking tooling"
+    ],
+    "pricingModel": "per GB",
+    "startingPrice": "from ~$3.50-8/GB (residential)",
+    "poolSize": "30M+ residential and mobile IPs",
+    "bestFor": ["Account management", "Long sticky sessions", "Clean-IP-sensitive tasks"],
+    "rating": 4.3
+  },
+  {
+    "slug": "oxylabs",
+    "name": "Oxylabs",
+    "reviewPath": "/proxy-provider-analysis/oxylabs-review",
+    "tagline": "Premium enterprise proxies and scraper APIs",
+    "strengths": [
+      "Massive, high-quality residential and datacenter pools",
+      "Powerful Web Scraper API and Web Unblocker products",
+      "Excellent success rates on difficult, protected targets",
+      "Enterprise SLAs, dedicated support, and strong compliance",
+      "Granular geo-targeting with city and ASN precision"
+    ],
+    "weaknesses": [
+      "Premium pricing aimed at businesses over hobbyists",
+      "Full platform can feel complex for first-time users"
+    ],
+    "pricingModel": "subscription",
+    "startingPrice": "from ~$8/GB (residential, volume-dependent)",
+    "poolSize": "100M+ residential IPs",
+    "bestFor": ["Enterprise scraping", "Difficult targets", "Compliance-focused teams"],
+    "rating": 4.6
+  },
+  {
+    "slug": "packetstream",
+    "name": "PacketStream",
+    "reviewPath": "/proxy-provider-analysis/packetstream-review",
+    "tagline": "Ultra-cheap pay-as-you-go residential bandwidth",
+    "strengths": [
+      "One of the lowest per-GB residential prices on the market",
+      "Simple pay-as-you-go model with no monthly minimums",
+      "Easy setup for basic scraping and lightweight automation",
+      "Traffic credits that suit intermittent, low-volume use"
+    ],
+    "weaknesses": [
+      "Smaller pool and lower success rates on hard targets",
+      "Limited geo-targeting granularity and few advanced features",
+      "Speed and stability trail premium networks"
+    ],
+    "pricingModel": "pay-as-you-go",
+    "startingPrice": "from ~$1/GB (residential)",
+    "poolSize": "7M+ residential IPs",
+    "bestFor": ["Rock-bottom budgets", "Light scraping", "Simple use cases"],
+    "rating": 3.8
+  },
+  {
+    "slug": "proxy-seller",
+    "name": "Proxy-Seller",
+    "reviewPath": "/proxy-provider-analysis/proxy-seller-review",
+    "tagline": "Versatile proxies with strong dedicated IP options",
+    "strengths": [
+      "Wide range: residential, mobile, ISP, and dedicated datacenter",
+      "Strong choice for individual dedicated IPv4 and IPv6 proxies",
+      "Country and city targeting with flexible rental periods",
+      "Good value and responsive customer support"
+    ],
+    "weaknesses": [
+      "Residential pool is smaller than tier-1 vendors",
+      "Interface and product naming can feel dated"
+    ],
+    "pricingModel": "subscription",
+    "startingPrice": "from ~$2-4/GB (residential); dedicated IPs from ~$2/IP",
+    "poolSize": "15M+ residential IPs plus large dedicated inventory",
+    "bestFor": ["Dedicated datacenter IPs", "Mixed proxy needs", "SEO and social tasks"],
+    "rating": 4.2
+  },
+  {
+    "slug": "proxyempire",
+    "name": "ProxyEmpire",
+    "reviewPath": "/proxy-provider-analysis/proxyempire-review",
+    "tagline": "Rollover traffic and deep mobile proxy coverage",
+    "strengths": [
+      "Residential and 4G/5G mobile proxies with broad geo reach",
+      "Rollover traffic so unused bandwidth is not lost",
+      "Granular targeting by country, region, city, and ISP",
+      "Ethically sourced pool with flexible rotation controls"
+    ],
+    "weaknesses": [
+      "Per-GB pricing runs higher than budget competitors",
+      "Pool depth trails the largest enterprise networks"
+    ],
+    "pricingModel": "per GB",
+    "startingPrice": "from ~$7.50-15/GB (residential)",
+    "poolSize": "20M+ residential and mobile IPs",
+    "bestFor": ["Mobile proxy needs", "Rollover-friendly plans", "Precise geo-targeting"],
+    "rating": 4.1
+  },
+  {
+    "slug": "rayobyte",
+    "name": "Rayobyte",
+    "reviewPath": "/proxy-provider-analysis/rayobyte-review",
+    "tagline": "Datacenter proxy specialist with ethical sourcing",
+    "strengths": [
+      "Deep, affordable dedicated and rotating datacenter pools",
+      "Ethically sourced residential option and scraping tools",
+      "Generous replacement and IP-swap policies",
+      "US-based support with strong reputation for reliability"
+    ],
+    "weaknesses": [
+      "Residential pricing is less competitive than its datacenter tier",
+      "Residential pool is smaller than tier-1 providers"
+    ],
+    "pricingModel": "subscription",
+    "startingPrice": "from ~$0.60/proxy (datacenter); residential from ~$12/GB",
+    "poolSize": "Large datacenter fleet plus millions of residential IPs",
+    "bestFor": ["Datacenter proxies at scale", "Ethical sourcing", "SEO and bulk tasks"],
+    "rating": 4.2
+  },
+  {
+    "slug": "smartproxy",
+    "name": "Smartproxy",
+    "reviewPath": "/proxy-provider-analysis/smartproxy-review",
+    "tagline": "User-friendly proxies with excellent price-to-performance",
+    "strengths": [
+      "Large residential pool with high success rates",
+      "Polished dashboard and easy onboarding for beginners",
+      "Competitive per-GB pricing with generous entry plans",
+      "Broad product range including scraping APIs and site unblocker",
+      "Strong documentation and responsive support"
+    ],
+    "weaknesses": [
+      "Enterprise controls are lighter than the largest vendors",
+      "Peak pricing can rise on the smallest bandwidth tiers"
+    ],
+    "pricingModel": "subscription",
+    "startingPrice": "from ~$3.50-7/GB (residential)",
+    "poolSize": "65M+ residential IPs",
+    "bestFor": ["Beginners", "Balanced value", "General-purpose scraping"],
+    "rating": 4.5
+  },
+  {
+    "slug": "soax",
+    "name": "SOAX",
+    "reviewPath": "/proxy-provider-analysis/soax-review",
+    "tagline": "Clean residential and mobile pool with fine targeting",
+    "strengths": [
+      "Whitelisted, regularly cleaned residential and mobile IPs",
+      "Very granular targeting by country, region, city, and carrier",
+      "Flexible rotation and sticky-session controls",
+      "Good balance of quality, coverage, and support"
+    ],
+    "weaknesses": [
+      "Per-GB pricing sits in the premium mid-market range",
+      "Smallest plans are less cost-efficient than bulk tiers"
+    ],
+    "pricingModel": "subscription",
+    "startingPrice": "from ~$6-9/GB (residential)",
+    "poolSize": "155M+ residential and mobile IPs",
+    "bestFor": ["Precise geo-targeting", "Mobile proxies", "Quality-sensitive scraping"],
+    "rating": 4.4
+  },
+  {
+    "slug": "webshare",
+    "name": "Webshare",
+    "reviewPath": "/proxy-provider-analysis/webshare-review",
+    "tagline": "Cheap datacenter proxies with a free starter tier",
+    "strengths": [
+      "Extremely affordable datacenter and residential proxies",
+      "Free plan and self-serve dashboard for instant testing",
+      "Fast, developer-friendly setup with API access",
+      "Flexible bandwidth and proxy-count scaling"
+    ],
+    "weaknesses": [
+      "Shared datacenter IPs get blocked on tough targets",
+      "Support is largely self-serve with limited hands-on help",
+      "Residential pool is smaller than premium vendors"
+    ],
+    "pricingModel": "subscription",
+    "startingPrice": "Free tier available; datacenter from ~$1/proxy; residential from ~$7/GB",
+    "poolSize": "30M+ residential IPs plus large datacenter fleet",
+    "bestFor": ["Developers", "Budget datacenter proxies", "Quick testing"],
+    "rating": 4.3
+  }
+]

@@ -1,0 +1,593 @@
+[
+ {
+  "slug": "instagram",
+  "name": "Instagram",
+  "category": "Social",
+  "antiBot": "aggressive rate-limits, device fingerprinting, and behavioral action-blocks",
+  "scrapingContext": "Instagram couples every request to a logged-in session and a device fingerprint, so agencies and growth tools route each managed account through its own sticky mobile or residential IP to avoid action-blocks and phone-verification challenges. Public scraping of profiles, hashtags, and Reels metadata is throttled the moment requests pattern-match automation, making clean IP reputation essential.",
+  "recommendedType": "mobile",
+  "successNote": "Assigning one consistent mobile IP per account and pacing actions to human speed is what keeps Instagram sessions alive long-term.",
+  "relatedUseCases": [
+   "social-media-management",
+   "account-management",
+   "web-scraping"
+  ]
+ },
+ {
+  "slug": "tiktok",
+  "name": "TikTok",
+  "category": "Social",
+  "antiBot": "signed request parameters, device attestation, and regional rate-limits",
+  "scrapingContext": "TikTok signs its API requests and inspects device and network signals, so scraping video metadata, trends, and creator stats at scale requires residential or mobile exits that match the target region. Marketers running multiple creator or ad accounts rotate mobile IPs to dodge shadowbans and login checkpoints tied to shared datacenter ranges.",
+  "recommendedType": "mobile",
+  "successNote": "Geo-matched mobile IPs that mirror a real handset are what let TikTok requests slip past device attestation.",
+  "relatedUseCases": [
+   "social-media-management",
+   "account-management",
+   "web-scraping",
+   "market-research"
+  ]
+ },
+ {
+  "slug": "amazon",
+  "name": "Amazon",
+  "category": "Ecommerce",
+  "antiBot": "CAPTCHA walls, request throttling, and IP-based price cloaking",
+  "scrapingContext": "Amazon serves different prices, Buy Box winners, and availability based on the visitor's location and IP reputation, so sellers and repricing tools scrape through geo-targeted residential proxies to capture accurate, un-cloaked data. High-volume ASIN and review crawling trips CAPTCHA and 503 walls unless requests rotate across a large, clean residential pool.",
+  "recommendedType": "residential",
+  "successNote": "A deep rotating residential pool with country and city targeting is what keeps Amazon crawls accurate and CAPTCHA-free.",
+  "relatedUseCases": [
+   "price-monitoring",
+   "ecommerce-scraping",
+   "web-scraping",
+   "competitor-analysis"
+  ]
+ },
+ {
+  "slug": "google",
+  "name": "Google",
+  "category": "Search",
+  "antiBot": "SERP rate-limits, CAPTCHA challenges, and datacenter-range blocking",
+  "scrapingContext": "Google aggressively throttles automated SERP requests and quickly serves CAPTCHAs or 429s to datacenter ranges, so rank trackers and SERP APIs lean on geo-targeted residential exits to collect localized results. Because rankings vary by city and language, proxies must match the exact locale being audited.",
+  "recommendedType": "residential",
+  "successNote": "Localized residential IPs paired with realistic query pacing keep Google SERP scraping accurate and unblocked.",
+  "relatedUseCases": [
+   "seo-monitoring",
+   "serp-tracking",
+   "web-scraping",
+   "market-research"
+  ]
+ },
+ {
+  "slug": "facebook",
+  "name": "Facebook",
+  "category": "Social",
+  "antiBot": "checkpoint verification, device fingerprinting, and shared-IP flagging",
+  "scrapingContext": "Facebook ties account trust to device and network history, so agencies managing pages, ad accounts, or research profiles isolate each one behind its own residential or mobile IP to avoid checkpoints and bans. Scraping public posts, Groups, and Marketplace listings requires clean residential exits since datacenter ranges are flagged almost instantly.",
+  "recommendedType": "mobile",
+  "successNote": "One dedicated mobile or residential IP per profile, kept stable over time, is what prevents Facebook checkpoint lockouts.",
+  "relatedUseCases": [
+   "social-media-management",
+   "account-management",
+   "web-scraping"
+  ]
+ },
+ {
+  "slug": "twitter-x",
+  "name": "Twitter / X",
+  "category": "Social",
+  "antiBot": "strict API gating, per-endpoint rate-limits, and automation detection",
+  "scrapingContext": "After locking down its public API, X pushed data collectors toward authenticated scraping, which means rotating residential IPs behind logged-in sessions to gather tweets, followers, and trends without tripping rate-limits. Managing multiple posting or monitoring accounts also demands IP isolation to avoid suspension waves.",
+  "recommendedType": "residential",
+  "successNote": "Rotating residential IPs with per-account session stickiness keep X data collection under the radar of automation flags.",
+  "relatedUseCases": [
+   "social-media-management",
+   "account-management",
+   "web-scraping",
+   "brand-protection"
+  ]
+ },
+ {
+  "slug": "linkedin",
+  "name": "LinkedIn",
+  "category": "Business",
+  "antiBot": "authwall gating, aggressive fingerprinting, and rapid account restriction",
+  "scrapingContext": "LinkedIn is one of the most defensive targets on the web, gating profiles behind an authwall and restricting accounts that browse faster than a human, so recruiters and B2B data teams pair aged accounts with sticky static-residential (ISP) IPs. A stable, residential-looking IP per account is critical because IP changes trigger re-verification and shorten account lifespan.",
+  "recommendedType": "isp",
+  "successNote": "Static residential IPs held steady per account are what let LinkedIn scraping and outreach run without constant re-verification.",
+  "relatedUseCases": [
+   "lead-generation",
+   "account-management",
+   "web-scraping",
+   "competitor-analysis"
+  ]
+ },
+ {
+  "slug": "youtube",
+  "name": "YouTube",
+  "category": "Streaming",
+  "antiBot": "playback rate-limits, bot-view filtering, and IP reputation checks",
+  "scrapingContext": "YouTube filters automated playback and throttles metadata scraping of channels, comments, and search results, so data teams use residential IPs to collect video stats and captions without hitting 'sign in to confirm' walls. Region-locked content and localized recommendations also require geo-matched exits to see what real viewers see.",
+  "recommendedType": "residential",
+  "successNote": "Geo-matched residential IPs with organic request pacing keep YouTube metadata and playback data collection reliable.",
+  "relatedUseCases": [
+   "web-scraping",
+   "market-research",
+   "content-unblocking",
+   "brand-protection"
+  ]
+ },
+ {
+  "slug": "reddit",
+  "name": "Reddit",
+  "category": "Social",
+  "antiBot": "per-IP rate-limits, shadowbans, and datacenter-range blocking",
+  "scrapingContext": "Reddit rate-limits its API and web endpoints per IP and quietly shadowbans accounts that post from flagged ranges, so researchers and community managers route through rotating residential exits to scrape subreddits and manage multiple accounts. Clean residential IPs are essential since datacenter blocks and automated-content filters are strict.",
+  "recommendedType": "residential",
+  "successNote": "Rotating residential IPs plus a human-like posting cadence keep Reddit scraping and account activity from being shadowbanned.",
+  "relatedUseCases": [
+   "web-scraping",
+   "social-media-management",
+   "account-management",
+   "market-research"
+  ]
+ },
+ {
+  "slug": "ebay",
+  "name": "eBay",
+  "category": "Ecommerce",
+  "antiBot": "search throttling, CAPTCHA challenges, and listing-view rate-limits",
+  "scrapingContext": "eBay throttles rapid search and listing requests and localizes pricing and shipping by region, so resellers and repricers scrape through geo-targeted residential proxies to track competitor listings and sold prices. Rotating residential IPs avoid the CAPTCHAs that hit repeated queries from a single address.",
+  "recommendedType": "residential",
+  "successNote": "Geo-targeted rotating residential IPs keep eBay price and listing scraping accurate and CAPTCHA-free.",
+  "relatedUseCases": [
+   "price-monitoring",
+   "ecommerce-scraping",
+   "competitor-analysis",
+   "web-scraping"
+  ]
+ },
+ {
+  "slug": "walmart",
+  "name": "Walmart",
+  "category": "Ecommerce",
+  "antiBot": "PerimeterX/HUMAN bot defense, CAPTCHA, and IP fingerprinting",
+  "scrapingContext": "Walmart.com runs advanced bot management (HUMAN/PerimeterX) that fingerprints IPs and browsers, so price and inventory scrapers need residential exits paired with a real browser fingerprint to reach product and store-level data. Store availability varies by ZIP, making city-level residential targeting important for accurate results.",
+  "recommendedType": "residential",
+  "successNote": "Residential IPs combined with a genuine browser fingerprint are what get past Walmart's PerimeterX bot wall.",
+  "relatedUseCases": [
+   "price-monitoring",
+   "ecommerce-scraping",
+   "competitor-analysis",
+   "web-scraping"
+  ]
+ },
+ {
+  "slug": "nike",
+  "name": "Nike",
+  "category": "Sneakers",
+  "antiBot": "Akamai bot detection, entry-draw queues, and per-account purchase limits",
+  "scrapingContext": "Nike and its SNKRS platform use Akamai bot detection and entry-queue draws, so sneaker resellers run many accounts, each behind its own residential IP, to improve limited-release odds without linking purchases. Datacenter ranges are blocked fast, making fresh residential IPs the baseline for any Nike cop attempt.",
+  "recommendedType": "residential",
+  "successNote": "One clean residential IP per Nike account, matched to the release region, is what keeps entries from being cancelled.",
+  "relatedUseCases": [
+   "sneaker-copping",
+   "account-management",
+   "web-scraping"
+  ]
+ },
+ {
+  "slug": "adidas",
+  "name": "Adidas",
+  "category": "Sneakers",
+  "antiBot": "Akamai splash-page queues, bot fingerprinting, and order cancellations",
+  "scrapingContext": "Adidas releases, including CONFIRMED app drops, sit behind splash-page queues and Akamai fingerprinting, so cook groups spread tasks across residential IPs to enter draws with many accounts without triggering cancellations. Region-matched residential exits are needed because stock and queues are localized.",
+  "recommendedType": "residential",
+  "successNote": "Region-matched residential IPs, one per task, keep Adidas draw entries from being flagged and voided.",
+  "relatedUseCases": [
+   "sneaker-copping",
+   "account-management",
+   "web-scraping"
+  ]
+ },
+ {
+  "slug": "footlocker",
+  "name": "Foot Locker",
+  "category": "Sneakers",
+  "antiBot": "footsite bot detection, Queue-it waiting rooms, and order cancels",
+  "scrapingContext": "Foot Locker and its family of footsites blend Queue-it waiting rooms with bot detection, and resellers favor ISP (static residential) proxies because they combine datacenter speed with residential trust to hold checkout sessions. A stable, fast, residential-looking IP per task is what clears the waiting room without the order being cancelled.",
+  "recommendedType": "isp",
+  "successNote": "Fast ISP proxies with residential trust give Foot Locker tasks the speed to clear queues while looking like real shoppers.",
+  "relatedUseCases": [
+   "sneaker-copping",
+   "account-management",
+   "web-scraping"
+  ]
+ },
+ {
+  "slug": "supreme",
+  "name": "Supreme",
+  "category": "Sneakers",
+  "antiBot": "request throttling, cart/checkout timing checks, and per-IP limits",
+  "scrapingContext": "Supreme's weekly Thursday drops reward speed over heavy anti-bot defenses, so many coppers run Supreme bots on fast datacenter proxies to submit checkouts in milliseconds across dozens of tasks. Rotating a pool of quick datacenter IPs avoids the per-IP throttling that kicks in during the drop rush.",
+  "recommendedType": "datacenter",
+  "successNote": "A pool of fast, low-latency datacenter proxies is usually enough to out-speed Supreme's lighter bot defenses.",
+  "relatedUseCases": [
+   "sneaker-copping",
+   "web-scraping",
+   "account-management"
+  ]
+ },
+ {
+  "slug": "ticketmaster",
+  "name": "Ticketmaster",
+  "category": "Tickets",
+  "antiBot": "Queue-it waiting rooms, CAPTCHA, device fingerprinting, and account verification",
+  "scrapingContext": "Ticketmaster layers waiting rooms, CAPTCHA, and heavy device fingerprinting over high-demand onsales, so buyers spread verified accounts across residential IPs to hold multiple queue positions without being flagged as a bot. Presale codes and inventory are region-locked, so geo-matched residential exits are essential.",
+  "recommendedType": "residential",
+  "successNote": "Verified accounts, each on a clean region-matched residential IP, are what survive Ticketmaster's waiting-room fingerprinting.",
+  "relatedUseCases": [
+   "ticket-buying",
+   "account-management",
+   "web-scraping"
+  ]
+ },
+ {
+  "slug": "stubhub",
+  "name": "StubHub",
+  "category": "Tickets",
+  "antiBot": "rate-limits, bot fingerprinting, and price-refresh throttling",
+  "scrapingContext": "StubHub prices move constantly, so brokers scrape listings and price histories through rotating residential IPs to track inventory and undercut competitors in real time. Residential exits avoid the throttling and blocks that hit repeated price-refresh requests from datacenter ranges.",
+  "recommendedType": "residential",
+  "successNote": "Rotating residential IPs let StubHub price and inventory scraping refresh continuously without being throttled.",
+  "relatedUseCases": [
+   "ticket-buying",
+   "price-monitoring",
+   "web-scraping",
+   "competitor-analysis"
+  ]
+ },
+ {
+  "slug": "cloudflare",
+  "name": "Cloudflare",
+  "category": "Business",
+  "antiBot": "JS challenges, Turnstile CAPTCHA, TLS/JA3 fingerprinting, and managed challenges",
+  "scrapingContext": "Cloudflare protects a large share of the web, so any scrape of a Cloudflare-fronted site must survive JS challenges, Turnstile, and TLS fingerprinting rather than a single brand's defenses. Pairing residential IPs with a real browser engine or a scraping browser is the standard way to pass managed challenges and reach the origin content.",
+  "recommendedType": "residential",
+  "successNote": "Residential IPs driven through a real browser engine are what clear Cloudflare's JS and Turnstile challenges consistently.",
+  "relatedUseCases": [
+   "web-scraping",
+   "content-unblocking",
+   "data-aggregation",
+   "seo-monitoring"
+  ]
+ },
+ {
+  "slug": "google-maps",
+  "name": "Google Maps",
+  "category": "Search",
+  "antiBot": "per-IP query limits, CAPTCHA, and location-based result variance",
+  "scrapingContext": "Google Maps returns place data, reviews, and rankings that vary by the searcher's physical location, so local-SEO and lead-gen tools scrape through city-level residential IPs to capture accurate local-pack results. Heavy place and review extraction trips CAPTCHA quickly unless requests rotate across many residential exits.",
+  "recommendedType": "residential",
+  "successNote": "City-level residential IPs matched to the target area keep Google Maps place and review scraping accurate and unblocked.",
+  "relatedUseCases": [
+   "lead-generation",
+   "seo-monitoring",
+   "web-scraping",
+   "market-research"
+  ]
+ },
+ {
+  "slug": "google-shopping",
+  "name": "Google Shopping",
+  "category": "Ecommerce",
+  "antiBot": "SERP rate-limits, CAPTCHA, and geo/currency cloaking",
+  "scrapingContext": "Google Shopping shows merchant prices that change by country, currency, and device, so price-intelligence tools scrape through geo-targeted residential IPs to compare offers as a local shopper would see them. Datacenter ranges are quickly CAPTCHA-gated, making a rotating residential pool the reliable path to clean pricing feeds.",
+  "recommendedType": "residential",
+  "successNote": "Geo-targeted residential IPs return the local prices and merchants Google Shopping cloaks from datacenter traffic.",
+  "relatedUseCases": [
+   "price-monitoring",
+   "ecommerce-scraping",
+   "competitor-analysis",
+   "serp-tracking"
+  ]
+ },
+ {
+  "slug": "yelp",
+  "name": "Yelp",
+  "category": "Business",
+  "antiBot": "rate-limits, CAPTCHA, and datacenter-range blocking",
+  "scrapingContext": "Yelp localizes business listings, reviews, and rankings by search location, so lead-gen and reputation tools scrape through residential IPs to pull accurate local results without hitting CAPTCHA walls. Rotating residential exits are needed because Yelp blocks datacenter ranges and throttles repeat visitors fast.",
+  "recommendedType": "residential",
+  "successNote": "Geo-matched rotating residential IPs keep Yelp business and review scraping accurate and off the CAPTCHA radar.",
+  "relatedUseCases": [
+   "lead-generation",
+   "review-monitoring",
+   "web-scraping",
+   "brand-protection"
+  ]
+ },
+ {
+  "slug": "zillow",
+  "name": "Zillow",
+  "category": "Business",
+  "antiBot": "PerimeterX bot defense, CAPTCHA, and request fingerprinting",
+  "scrapingContext": "Zillow guards its listing, price-history, and Zestimate data with PerimeterX bot management, so real-estate data teams scrape through residential IPs paired with real browser fingerprints to capture market data at scale. Listings and pricing are location-specific, so city-level residential targeting keeps datasets accurate.",
+  "recommendedType": "residential",
+  "successNote": "Residential IPs with genuine browser fingerprints are what get past Zillow's PerimeterX defenses on real-estate data.",
+  "relatedUseCases": [
+   "web-scraping",
+   "price-monitoring",
+   "market-research",
+   "data-aggregation"
+  ]
+ },
+ {
+  "slug": "indeed",
+  "name": "Indeed",
+  "category": "Business",
+  "antiBot": "Cloudflare challenges, rate-limits, and automation detection",
+  "scrapingContext": "Indeed sits behind Cloudflare and rate-limits rapid job-listing requests, so recruiting and market-intelligence tools scrape postings and salary data through rotating residential IPs matched to each target country. Localized results mean geo-targeting is needed to capture the jobs a real local seeker would see.",
+  "recommendedType": "residential",
+  "successNote": "Country-matched rotating residential IPs keep Indeed job-listing scraping past Cloudflare and true to local results.",
+  "relatedUseCases": [
+   "web-scraping",
+   "lead-generation",
+   "market-research",
+   "data-aggregation"
+  ]
+ },
+ {
+  "slug": "glassdoor",
+  "name": "Glassdoor",
+  "category": "Business",
+  "antiBot": "authwall gating, Cloudflare challenges, and account/IP throttling",
+  "scrapingContext": "Glassdoor gates salaries and reviews behind an authwall and challenges suspicious traffic, so HR-analytics and comp-benchmarking teams scrape through residential IPs behind logged-in sessions. Rotating residential exits avoid the throttling and blocks that hit repeated review-page requests.",
+  "recommendedType": "residential",
+  "successNote": "Residential IPs behind aged accounts keep Glassdoor salary and review scraping past the authwall without lockouts.",
+  "relatedUseCases": [
+   "web-scraping",
+   "market-research",
+   "competitor-analysis",
+   "data-aggregation"
+  ]
+ },
+ {
+  "slug": "craigslist",
+  "name": "Craigslist",
+  "category": "Classifieds",
+  "antiBot": "IP-based posting limits, ad ghosting, and phone verification",
+  "scrapingContext": "Craigslist ties posting rights to IP reputation and silently ghosts ads from flagged ranges, so posters and aggregators use clean residential IPs, ideally one per city or account, to keep listings live and scrape regional inventory. Because Craigslist is hyper-local, city-matched residential exits are essential for both posting and data collection.",
+  "recommendedType": "residential",
+  "successNote": "Clean, city-matched residential IPs, rotated per account, are what keep Craigslist posts from being ghosted.",
+  "relatedUseCases": [
+   "account-management",
+   "web-scraping",
+   "lead-generation",
+   "data-aggregation"
+  ]
+ },
+ {
+  "slug": "pinterest",
+  "name": "Pinterest",
+  "category": "Social",
+  "antiBot": "rate-limits, spam-account detection, and datacenter blocking",
+  "scrapingContext": "Pinterest flags bulk pinning and datacenter traffic as spam, so marketers running multiple business or content accounts isolate each behind a residential IP to schedule pins without suspension. Scraping boards, pins, and trends at scale also needs rotating residential exits to avoid rate-limit blocks.",
+  "recommendedType": "residential",
+  "successNote": "One residential IP per account plus a human-like pinning cadence keeps Pinterest automation clear of spam flags.",
+  "relatedUseCases": [
+   "social-media-management",
+   "account-management",
+   "web-scraping",
+   "market-research"
+  ]
+ },
+ {
+  "slug": "telegram",
+  "name": "Telegram",
+  "category": "Social",
+  "antiBot": "phone-number verification, per-IP registration limits, and spam flagging",
+  "scrapingContext": "Telegram binds accounts to phone numbers and limits registrations and joins per IP, so channel operators and marketers use mobile proxies, whose carrier-grade NAT IPs look like ordinary subscribers, to run many accounts without spam bans. Mobile IPs are especially effective because Telegram trusts mobile network ranges more than datacenter ones.",
+  "recommendedType": "mobile",
+  "successNote": "Mobile proxies on real carrier IPs are what let multiple Telegram accounts register and operate without spam blocks.",
+  "relatedUseCases": [
+   "account-management",
+   "social-media-management",
+   "web-scraping"
+  ]
+ },
+ {
+  "slug": "twitch",
+  "name": "Twitch",
+  "category": "Streaming",
+  "antiBot": "chat/API rate-limits, bot-account detection, and IP reputation checks",
+  "scrapingContext": "Twitch rate-limits its API and chat and screens for bot accounts, so tools that monitor streams, chat, and channel stats route through residential IPs to collect data without tripping abuse filters. Managing multiple legitimate accounts also needs IP isolation since shared datacenter ranges are quickly flagged.",
+  "recommendedType": "residential",
+  "successNote": "Residential IPs with realistic request rates keep Twitch data collection and multi-account use off the abuse radar.",
+  "relatedUseCases": [
+   "web-scraping",
+   "social-media-management",
+   "account-management",
+   "market-research"
+  ]
+ },
+ {
+  "slug": "shopify",
+  "name": "Shopify",
+  "category": "Ecommerce",
+  "antiBot": "checkout bot protection, rate-limits, and per-store IP throttling",
+  "scrapingContext": "Shopify powers millions of storefronts that each localize pricing and inventory, so competitor-monitoring and drop-cop tools scrape and check out through residential IPs matched to the store's market. Rotating residential exits avoid the checkout throttling and blocks that hit repeated requests from one address, especially on hyped drops.",
+  "recommendedType": "residential",
+  "successNote": "Geo-matched rotating residential IPs keep Shopify store scraping and checkouts from being throttled on limited drops.",
+  "relatedUseCases": [
+   "ecommerce-scraping",
+   "price-monitoring",
+   "sneaker-copping",
+   "competitor-analysis"
+  ]
+ },
+ {
+  "slug": "aliexpress",
+  "name": "AliExpress",
+  "category": "Ecommerce",
+  "antiBot": "sliding CAPTCHA, geo/currency cloaking, and request throttling",
+  "scrapingContext": "AliExpress shows different prices, shipping, and coupons based on the visitor's country and currency, so dropshippers and price trackers scrape through geo-targeted residential IPs to see true local offers. Its sliding CAPTCHA and throttling trip quickly on datacenter ranges, making a rotating residential pool the reliable choice.",
+  "recommendedType": "residential",
+  "successNote": "Geo-targeted residential IPs reveal the local pricing and shipping AliExpress cloaks from foreign datacenter traffic.",
+  "relatedUseCases": [
+   "price-monitoring",
+   "ecommerce-scraping",
+   "competitor-analysis",
+   "web-scraping"
+  ]
+ },
+ {
+  "slug": "target",
+  "name": "Target",
+  "category": "Ecommerce",
+  "antiBot": "Akamai bot detection, CAPTCHA, and ZIP-based inventory gating",
+  "scrapingContext": "Target.com runs Akamai bot detection and localizes pricing and in-store stock by ZIP, so retail-intelligence and restock tools scrape through city-level residential IPs to track availability accurately. Datacenter traffic is blocked fast, so a clean residential pool is required to read product and store-level data.",
+  "recommendedType": "residential",
+  "successNote": "City-level residential IPs past Akamai are what keep Target price and in-store stock data accurate.",
+  "relatedUseCases": [
+   "price-monitoring",
+   "ecommerce-scraping",
+   "competitor-analysis",
+   "web-scraping"
+  ]
+ },
+ {
+  "slug": "bestbuy",
+  "name": "Best Buy",
+  "category": "Ecommerce",
+  "antiBot": "Akamai bot management, virtual queues, and CAPTCHA on hot items",
+  "scrapingContext": "Best Buy protects high-demand launches like GPUs and consoles with Akamai and virtual queues, so restock monitors and buyers spread residential IPs across tasks to track stock and check out without cancellations. Localized pricing and store pickup make ZIP-matched residential exits important for accurate data.",
+  "recommendedType": "residential",
+  "successNote": "Residential IPs matched to the store region keep Best Buy restock monitoring and checkouts from being queued out or cancelled.",
+  "relatedUseCases": [
+   "price-monitoring",
+   "ecommerce-scraping",
+   "web-scraping",
+   "competitor-analysis"
+  ]
+ },
+ {
+  "slug": "etsy",
+  "name": "Etsy",
+  "category": "Ecommerce",
+  "antiBot": "rate-limits, bot fingerprinting, and shop-listing throttling",
+  "scrapingContext": "Etsy throttles rapid listing and shop requests and localizes pricing by currency, so sellers and market researchers scrape trends, prices, and competitor shops through rotating residential IPs. Residential exits avoid the blocks that hit repeated search and listing queries from datacenter ranges.",
+  "recommendedType": "residential",
+  "successNote": "Rotating residential IPs keep Etsy shop and listing scraping accurate without tripping rate-limit blocks.",
+  "relatedUseCases": [
+   "ecommerce-scraping",
+   "price-monitoring",
+   "market-research",
+   "competitor-analysis"
+  ]
+ },
+ {
+  "slug": "booking",
+  "name": "Booking.com",
+  "category": "Travel",
+  "antiBot": "geo/device price cloaking, rate-limits, and bot fingerprinting",
+  "scrapingContext": "Booking.com varies hotel prices and availability by country, currency, and device, so travel-fare aggregators scrape through geo-targeted residential IPs to capture the rates a local traveler would actually be quoted. Rotating residential exits are needed because rapid room-rate queries from one IP are quickly throttled.",
+  "recommendedType": "residential",
+  "successNote": "Geo-targeted residential IPs return the localized room rates Booking.com cloaks from datacenter traffic.",
+  "relatedUseCases": [
+   "travel-fare-aggregation",
+   "price-monitoring",
+   "web-scraping",
+   "competitor-analysis"
+  ]
+ },
+ {
+  "slug": "expedia",
+  "name": "Expedia",
+  "category": "Travel",
+  "antiBot": "price/geo cloaking, request throttling, and bot detection",
+  "scrapingContext": "Expedia personalizes flight and hotel pricing by location, currency, and search history, so fare-aggregation and travel-intelligence tools scrape through geo-matched residential IPs to collect comparable quotes. A rotating residential pool avoids the throttling that hits repeated fare searches from a single address.",
+  "recommendedType": "residential",
+  "successNote": "Geo-matched rotating residential IPs keep Expedia fare scraping accurate and free of price cloaking.",
+  "relatedUseCases": [
+   "travel-fare-aggregation",
+   "price-monitoring",
+   "web-scraping",
+   "market-research"
+  ]
+ },
+ {
+  "slug": "airbnb",
+  "name": "Airbnb",
+  "category": "Travel",
+  "antiBot": "rate-limits, bot fingerprinting, and location-based result variance",
+  "scrapingContext": "Airbnb shows listings, prices, and availability that shift by search region and dates, so short-term-rental analytics tools scrape through city-level residential IPs to build accurate market datasets. Rotating residential exits avoid the throttling and blocks that hit heavy listing and calendar requests.",
+  "recommendedType": "residential",
+  "successNote": "City-level residential IPs keep Airbnb listing and pricing scraping accurate without triggering rate-limits.",
+  "relatedUseCases": [
+   "travel-fare-aggregation",
+   "market-research",
+   "web-scraping",
+   "data-aggregation"
+  ]
+ },
+ {
+  "slug": "tripadvisor",
+  "name": "Tripadvisor",
+  "category": "Travel",
+  "antiBot": "rate-limits, CAPTCHA, and datacenter-range blocking",
+  "scrapingContext": "Tripadvisor localizes hotel, restaurant, and attraction rankings and reviews by region, so hospitality and reputation tools scrape through geo-matched residential IPs to capture accurate local listings. Rotating residential exits are needed since datacenter traffic is quickly CAPTCHA-gated or blocked.",
+  "recommendedType": "residential",
+  "successNote": "Geo-matched rotating residential IPs keep Tripadvisor review and ranking scraping accurate and unblocked.",
+  "relatedUseCases": [
+   "review-monitoring",
+   "web-scraping",
+   "market-research",
+   "brand-protection"
+  ]
+ },
+ {
+  "slug": "bing",
+  "name": "Bing",
+  "category": "Search",
+  "antiBot": "moderate SERP rate-limits and automation detection",
+  "scrapingContext": "Bing tolerates automated SERP requests more than Google but still throttles heavy query volume, so rank trackers often scrape it cost-effectively with datacenter proxies, escalating to residential only when blocks appear. Localized results still require geo-targeting to audit rankings by market.",
+  "recommendedType": "datacenter",
+  "successNote": "Rotated datacenter proxies handle most Bing SERP scraping cheaply, with residential as a fallback when throttled.",
+  "relatedUseCases": [
+   "seo-monitoring",
+   "serp-tracking",
+   "web-scraping",
+   "market-research"
+  ]
+ },
+ {
+  "slug": "yahoo",
+  "name": "Yahoo",
+  "category": "Search",
+  "antiBot": "SERP rate-limits, CAPTCHA on bursts, and automation checks",
+  "scrapingContext": "Yahoo Search, powered largely by Bing, throttles rapid automated queries and shows CAPTCHAs on bursts, so SERP collectors use rotating datacenter proxies for volume and switch to residential when challenged. Geo-targeting is still needed for locale-accurate results.",
+  "recommendedType": "datacenter",
+  "successNote": "Rotating datacenter proxies cover most Yahoo SERP scraping, with residential IPs held in reserve for CAPTCHAs.",
+  "relatedUseCases": [
+   "seo-monitoring",
+   "serp-tracking",
+   "web-scraping",
+   "market-research"
+  ]
+ },
+ {
+  "slug": "discord",
+  "name": "Discord",
+  "category": "Social",
+  "antiBot": "phone/email verification, per-IP registration limits, and spam detection",
+  "scrapingContext": "Discord limits account registrations per IP and flags datacenter ranges during phone and email verification, so community and monitoring tools run accounts and bots behind clean residential IPs to avoid instant bans. Scraping public servers and messages also needs residential exits since flagged ranges are rate-limited hard.",
+  "recommendedType": "residential",
+  "successNote": "Clean residential IPs, one per account, are what let Discord registrations and bots avoid verification bans.",
+  "relatedUseCases": [
+   "account-management",
+   "social-media-management",
+   "web-scraping"
+  ]
+ }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "slug": "residential",
+    "name": "Residential Proxies",
+    "aka": ["residential IPs", "home IP proxies", "peer-sourced proxies"],
+    "tagline": "Real home IPs that blend in anywhere",
+    "definition": "Residential proxies route your traffic through real IP addresses assigned by consumer internet service providers to everyday home users. Because targets see a genuine ISP-issued residential IP rather than a server subnet, these proxies deliver the highest trust score for web scraping, ad verification, and accessing geo-restricted content. They are the go-to choice when a site aggressively blocks datacenter ranges.",
+    "howItWorks": "Requests are relayed through a large pool of residential devices, each carrying an authentic ISP IP tied to a real city and carrier. A gateway or backconnect endpoint assigns you an exit IP, optionally rotating it on every request or holding a sticky session for several minutes. To the destination server the connection looks identical to an ordinary household visitor.",
+    "pros": [
+      "Extremely high trust and low block rates on protected sites",
+      "Precise geo-targeting down to country, state, and city",
+      "Millions of IPs make bans and rate limits hard to enforce",
+      "Ideal for sneaker, ticketing, and social platforms that filter datacenter IPs",
+      "Sticky sessions available for multi-step, login-based workflows"
+    ],
+    "cons": [
+      "Priced per gigabyte, so bandwidth-heavy jobs get expensive fast",
+      "Slower and less consistent than datacenter or ISP proxies",
+      "Uptime depends on real devices that can drop off the network",
+      "Ethical sourcing varies between providers, so vet the vendor carefully"
+    ],
+    "bestFor": [
+      "Large-scale web scraping of protected targets",
+      "Ad verification and brand protection",
+      "Sneaker and limited-release checkout",
+      "Social media account management",
+      "Localized SEO and SERP monitoring",
+      "Accessing region-locked content and pricing"
+    ],
+    "speed": "Medium",
+    "anonymity": "Very high (real ISP IPs)",
+    "priceModel": "per GB",
+    "priceRange": "$3-$8/GB",
+    "poolNote": "Pools typically span tens of millions of IPs sourced from consenting home users across most countries and carriers.",
+    "detectionRisk": "Low"
+  },
+  {
+    "slug": "datacenter",
+    "name": "Datacenter Proxies",
+    "aka": ["datacenter IPs", "server proxies", "cloud proxies"],
+    "tagline": "Fast, cheap IPs for high-volume tasks",
+    "definition": "Datacenter proxies are IP addresses hosted on servers in commercial data centers rather than tied to a home internet subscription. They are the fastest and most affordable proxy type, making them ideal for bandwidth-heavy scraping, SEO monitoring, and any task where raw throughput matters more than blending in. The tradeoff is that their IP ranges are easy for sophisticated sites to identify and block.",
+    "howItWorks": "Your traffic passes through IPs owned by hosting providers and cloud platforms, delivered as either shared or dedicated addresses. Because these IPs sit on server subnets with predictable ASN ownership, they route with very low latency but also carry a recognizable non-residential fingerprint. Rotation and subnet diversity are used to spread requests and avoid rate limits.",
+    "pros": [
+      "Fastest speeds and lowest latency of any proxy type",
+      "Cheapest cost per IP, often billed as flat monthly rate",
+      "Effectively unlimited bandwidth on most plans",
+      "Dedicated options give you exclusive, predictable IPs",
+      "Great for high-concurrency, non-sensitive scraping at scale"
+    ],
+    "cons": [
+      "Easily detected and blocked by anti-bot systems and major platforms",
+      "Shared IPs can arrive pre-flagged from other users' abuse",
+      "Limited geo-diversity compared with residential pools",
+      "Not suitable for sneaker sites, social media, or strict targets"
+    ],
+    "bestFor": [
+      "High-volume scraping of unprotected sites",
+      "SEO rank tracking and keyword research",
+      "Price and market intelligence gathering",
+      "Bulk API access and data aggregation",
+      "Load testing and QA automation",
+      "Accessing lightly protected geo content"
+    ],
+    "speed": "Very High",
+    "anonymity": "Medium (identifiable server subnets)",
+    "priceModel": "per IP",
+    "priceRange": "$0.50-$2/IP per month",
+    "poolNote": "Pools are built from server subnets across major hosting providers and are far smaller and less diverse than residential networks.",
+    "detectionRisk": "High"
+  },
+  {
+    "slug": "mobile",
+    "name": "Mobile Proxies",
+    "aka": ["4G/5G proxies", "cellular proxies", "mobile IP proxies"],
+    "tagline": "Carrier IPs with unbeatable trust scores",
+    "definition": "Mobile proxies route traffic through IP addresses issued by cellular carriers to real 3G, 4G, and 5G devices. Because carriers share a small number of IPs across thousands of subscribers via CGNAT, these IPs are almost impossible to ban without collateral damage, giving them the highest trust score of any proxy type. They are the premium choice for the most aggressively protected platforms.",
+    "howItWorks": "Your requests exit through mobile devices or SIM-based modems connected to real cellular towers, presenting a carrier-assigned IP. Carrier-grade NAT means many legitimate users share each address, so blocking it risks blocking real customers. Many providers offer on-demand IP rotation by cycling the mobile connection, which hands you a fresh carrier IP in seconds.",
+    "pros": [
+      "Highest trust score and lowest ban rate of any proxy type",
+      "CGNAT makes IP bans impractical for target sites to enforce",
+      "Fresh carrier IP on demand via connection rotation",
+      "Excellent for social media, ad platforms, and app testing",
+      "IPs appear as genuine smartphone traffic"
+    ],
+    "cons": [
+      "Most expensive proxy type, often billed per port or dedicated modem",
+      "Speeds and stability vary with cellular signal and congestion",
+      "Smaller concurrent capacity per port than datacenter setups",
+      "Limited fine-grained city targeting on some carrier networks"
+    ],
+    "bestFor": [
+      "Managing multiple social media accounts",
+      "Ad verification on mobile ad networks",
+      "App store and mobile app testing",
+      "Accessing the most heavily protected targets",
+      "Account creation and verification at scale",
+      "Bypassing strict anti-fraud systems"
+    ],
+    "speed": "Medium",
+    "anonymity": "Very high (carrier CGNAT IPs)",
+    "priceModel": "per port",
+    "priceRange": "$20-$120/port per month",
+    "poolNote": "Pools are sourced from real SIM cards and mobile devices across major carriers, with each IP shared among many subscribers via CGNAT.",
+    "detectionRisk": "Low"
+  },
+  {
+    "slug": "isp",
+    "name": "ISP Proxies",
+    "aka": ["static residential proxies", "static ISP proxies", "dedicated residential IPs"],
+    "tagline": "Datacenter speed with residential trust",
+    "definition": "ISP proxies, also called static residential proxies, are IP addresses registered under a consumer internet service provider but hosted on fast servers in a data center. This hybrid gives you the residential trust score that targets respect combined with the raw speed and stability of a datacenter connection. Because they are static and dedicated, they hold a single trusted IP for as long as you need it.",
+    "howItWorks": "The provider acquires IP blocks that are registered to residential ISPs at the ASN level, then hosts them on high-bandwidth servers. Targets performing a lookup see a legitimate residential ISP owner, while you get near-datacenter latency and 24/7 uptime. Since each IP is dedicated and unchanging, it is perfect for long-lived logged-in sessions.",
+    "pros": [
+      "Residential-level trust with datacenter-level speed",
+      "Static, dedicated IPs stay stable for weeks or months",
+      "No per-gigabyte metering, so heavy usage stays predictable",
+      "Consistent uptime unlike device-dependent residential pools",
+      "Ideal for warming and maintaining persistent accounts"
+    ],
+    "cons": [
+      "Smaller, less diverse pools than rotating residential networks",
+      "Higher per-IP cost than plain datacenter proxies",
+      "A burned static IP must be replaced rather than rotated away",
+      "Limited city-level geo options compared with residential"
+    ],
+    "bestFor": [
+      "Long-term account management and warming",
+      "E-commerce and marketplace selling",
+      "Streaming and geo-locked media access",
+      "Sneaker and retail checkout with persistent sessions",
+      "Stable scraping where the same IP is an advantage",
+      "Ad account and payment platform operations"
+    ],
+    "speed": "Very High",
+    "anonymity": "High (residential ISP registration)",
+    "priceModel": "per IP",
+    "priceRange": "$2-$7/IP per month",
+    "poolNote": "Pools are modest in size, built from ISP-registered IP blocks hosted on servers and assigned as dedicated static addresses.",
+    "detectionRisk": "Low"
+  },
+  {
+    "slug": "rotating",
+    "name": "Rotating Proxies",
+    "aka": ["backconnect proxies", "auto-rotating proxies", "IP rotation gateway"],
+    "tagline": "A new IP on every request, automatically",
+    "definition": "Rotating proxies automatically assign a different IP address from a large pool on each request or at set time intervals, rather than binding you to one fixed IP. Delivered through a single backconnect gateway, they let you spread thousands of requests across countless IPs to sidestep rate limits and IP bans. Rotation is a delivery method that can sit on top of residential, mobile, or datacenter pools.",
+    "howItWorks": "You connect to one static gateway endpoint, and the provider transparently cycles your exit IP behind it, drawing from its underlying pool. Rotation can trigger per request for maximum diversity or hold a sticky session for a chosen duration when a workflow needs continuity. This shifts IP management off your code and onto the provider's infrastructure.",
+    "pros": [
+      "Automatic IP diversity defeats rate limits and soft bans",
+      "Single gateway endpoint simplifies integration",
+      "Scales effortlessly to millions of requests",
+      "Sticky-session option preserves continuity when needed",
+      "Works across residential, mobile, or datacenter backends"
+    ],
+    "cons": [
+      "Mid-session rotation can break multi-step or login flows",
+      "Less control over which specific IP you land on",
+      "Residential-backed rotation is billed per gigabyte",
+      "Occasional slow or previously flagged exit IPs"
+    ],
+    "bestFor": [
+      "Large-scale distributed web scraping",
+      "Search engine and SERP data collection",
+      "Price and inventory monitoring at volume",
+      "Bypassing per-IP rate limits",
+      "Bulk data extraction and crawling",
+      "Any high-request-count automation"
+    ],
+    "speed": "High",
+    "anonymity": "High (constantly changing exit IPs)",
+    "priceModel": "per request",
+    "priceRange": "$3-$8/GB or per-request tiers",
+    "poolNote": "Rotation draws from the provider's underlying pool, which may range from millions of residential IPs to a smaller datacenter set.",
+    "detectionRisk": "Low"
+  },
+  {
+    "slug": "socks5",
+    "name": "SOCKS5 Proxies",
+    "aka": ["SOCKS proxies", "SOCKS5 protocol proxies", "socks proxies"],
+    "tagline": "Protocol-agnostic proxying for any traffic",
+    "definition": "SOCKS5 refers to a proxy protocol rather than an IP source, tunneling any kind of TCP or UDP traffic at a lower level than HTTP proxies. Because it does not interpret or rewrite your data, SOCKS5 handles everything from web browsing and torrents to gaming, streaming, and email with support for authentication and UDP. It can run over residential, datacenter, or ISP IPs depending on the provider.",
+    "howItWorks": "A SOCKS5 proxy establishes a raw tunnel between your client and the destination, forwarding packets without inspecting the application-layer payload. This protocol-agnostic design supports both TCP and UDP, plus username and password authentication for secure access. The result is lower overhead and broader compatibility than HTTP-only proxies, since almost any networked application can point at a SOCKS5 endpoint.",
+    "pros": [
+      "Handles any protocol, not just HTTP and HTTPS traffic",
+      "Supports UDP for streaming, gaming, and VoIP",
+      "Lower overhead since payloads are not parsed or altered",
+      "Built-in authentication for secure, private access",
+      "Works with a huge range of apps and tools"
+    ],
+    "cons": [
+      "No traffic encryption by itself, so pair it with TLS or a VPN",
+      "Trust and speed depend entirely on the underlying IP source",
+      "Fewer app-layer features than HTTP proxies, such as header control",
+      "Some clients and tools only support HTTP proxying"
+    ],
+    "bestFor": [
+      "P2P and torrent traffic",
+      "Online gaming and low-latency connections",
+      "Streaming and media applications",
+      "Email clients and non-web protocols",
+      "General-purpose app proxying",
+      "Tools that require UDP support"
+    ],
+    "speed": "High",
+    "anonymity": "Depends on IP source (protocol-level)",
+    "priceModel": "per IP",
+    "priceRange": "$1-$6/IP per month or per GB",
+    "poolNote": "Availability and pool size depend on whether the provider layers SOCKS5 over residential, ISP, or datacenter IPs.",
+    "detectionRisk": "Medium"
+  },
+  {
+    "slug": "ipv6",
+    "name": "IPv6 Proxies",
+    "aka": ["IPv6 IPs", "next-gen IP proxies", "IPv6 datacenter proxies"],
+    "tagline": "Massive cheap IP volume for IPv6 targets",
+    "definition": "IPv6 proxies use the newer 128-bit IPv6 address space instead of the exhausted IPv4 pool, giving providers access to an almost limitless supply of IPs at very low cost. This makes them ideal for high-volume tasks against targets that fully support IPv6, where you can rotate through enormous subnets cheaply. The catch is that many sites are still IPv4-only, so IPv6 proxies only work where the destination speaks IPv6.",
+    "howItWorks": "Providers allocate huge IPv6 blocks, often entire /48 or /64 subnets, and hand out addresses from a practically inexhaustible range. Your requests exit on IPv6 IPs, which only reach destinations that publish an IPv6 (AAAA) record. Because a single subnet contains billions of addresses, per-IP rotation is trivial and extremely cheap compared with scarce IPv4 supply.",
+    "pros": [
+      "Enormous IP supply enables aggressive, cheap rotation",
+      "Lowest cost per IP thanks to IPv6 address abundance",
+      "Whole subnets available for large-scale distributed jobs",
+      "Fast datacenter-grade speeds and low latency",
+      "Excellent value for IPv6-ready scraping targets"
+    ],
+    "cons": [
+      "Only works on sites that support IPv6, still a minority",
+      "Some targets treat entire IPv6 subnets as one entity for blocking",
+      "Lower trust score than residential or mobile IPs",
+      "Not a fit for IPv4-only platforms and services"
+    ],
+    "bestFor": [
+      "High-volume scraping of IPv6-enabled targets",
+      "Google and other IPv6-ready services",
+      "Bulk account and registration tasks where supported",
+      "Cost-sensitive rotation at massive scale",
+      "Ad verification on IPv6 networks",
+      "Large distributed crawling projects"
+    ],
+    "speed": "Very High",
+    "anonymity": "Medium (datacenter-grade IPv6)",
+    "priceModel": "per IP",
+    "priceRange": "$0.10-$1/IP per month",
+    "poolNote": "Pools are effectively unlimited, carved from vast IPv6 subnets, but usefulness is capped by how many targets support IPv6.",
+    "detectionRisk": "Medium"
+  }
+]

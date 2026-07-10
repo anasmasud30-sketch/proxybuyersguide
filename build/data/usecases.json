@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "web-scraping",
+    "name": "Web Scraping",
+    "shortName": "web scraping",
+    "intro": "Web scraping at scale means firing thousands of automated requests at target sites, and the moment those requests all trace back to one IP, blocks follow. Proxies distribute your crawler traffic across a wide pool of addresses so data extraction runs continuously. For any serious scraping pipeline, proxies are the difference between a dataset and a rate-limit error.",
+    "whyProxy": "Rotating residential and datacenter proxies spread requests across many IPs, mimicking organic traffic and dodging the per-IP request caps that trigger bans. They also unlock geo-restricted pages so you can collect region-specific listings, prices, and availability that a single-country IP would never see.",
+    "painPoints": [
+      "IP bans and CAPTCHAs after a few hundred requests from one address",
+      "Rate limiting that throttles or freezes your crawler mid-job",
+      "Geo-blocked content invisible from your server's home country",
+      "Honeypot traps and fingerprinting that flag datacenter ranges",
+      "Incomplete or corrupted datasets from silently blocked requests"
+    ],
+    "bestTypes": ["residential", "rotating", "datacenter"],
+    "keyMetric": "request success rate",
+    "relatedPlatforms": ["amazon", "google", "linkedin", "ebay", "yelp"],
+    "tip": "Match proxy rotation frequency to the target's tolerance: rotate every request for aggressive sites, sticky sessions for pages that require login state."
+  },
+  {
+    "slug": "price-monitoring",
+    "name": "Price Monitoring",
+    "shortName": "price monitoring",
+    "intro": "Retailers and dynamic-pricing engines show different prices based on your location, device, and browsing history, so accurate competitor price tracking is impossible from a single office IP. Proxies let you pull real prices as they appear to shoppers in dozens of markets. Continuous, undetected price scraping keeps your repricing strategy grounded in reality.",
+    "whyProxy": "Residential proxies present as genuine consumer connections, so ecommerce sites serve you the true retail price instead of a bot-flagged fallback. Geo-targeted IPs reveal country- and city-level price variations that drive smarter pricing and arbitrage decisions.",
+    "painPoints": [
+      "Personalized or cloaked prices served to detected bot traffic",
+      "Missing regional price differences without local IPs",
+      "Getting blocked before completing a full catalog sweep",
+      "Stale data when crawlers are throttled or banned mid-run",
+      "Skewed competitor intelligence from a single-location view"
+    ],
+    "bestTypes": ["residential", "rotating", "isp"],
+    "keyMetric": "data accuracy",
+    "relatedPlatforms": ["amazon", "walmart", "ebay", "bestbuy", "target"],
+    "tip": "Pin proxies to the exact country and city of each competitor's warehouse to capture the localized price a real customer there would see."
+  },
+  {
+    "slug": "ad-verification",
+    "name": "Ad Verification",
+    "shortName": "ad verification",
+    "intro": "Advertisers need to confirm their campaigns actually render correctly, land on the right pages, and aren't surrounded by fraud, but publishers often cloak the real experience from known ad-tech IPs. Proxies let verification bots appear as ordinary users in any geography. This is how brands catch misplaced creatives, click fraud, and non-compliant placements before budget bleeds out.",
+    "whyProxy": "Residential and mobile proxies defeat the cloaking scripts fraudsters use to hide fake or non-compliant ads from verification vendors. Geo-diverse IPs let you check how a campaign looks to a real user in each target country, exposing affiliate fraud and domain spoofing.",
+    "painPoints": [
+      "Cloaked pages that hide fraud from recognized verification IPs",
+      "Inability to confirm geo-targeted creatives render in each market",
+      "Undetected click fraud and bot-inflated impressions draining spend",
+      "Misplaced ads on non-brand-safe or fraudulent domains",
+      "Publishers serving a clean experience only to auditors"
+    ],
+    "bestTypes": ["residential", "mobile", "rotating"],
+    "keyMetric": "fraud detection accuracy",
+    "relatedPlatforms": ["google", "facebook", "youtube", "taboola", "outbrain"],
+    "tip": "Rotate through mobile carrier IPs to verify how in-app and mobile-web ads render, since fraudsters often cloak differently on mobile than desktop."
+  },
+  {
+    "slug": "seo-monitoring",
+    "name": "SEO Monitoring",
+    "shortName": "SEO monitoring",
+    "intro": "Search rankings vary by location, personalization, and query volume, so monitoring your keywords from one IP gives a distorted, personalized picture that Google will eventually rate-limit. Proxies let SEO tools pull clean, location-accurate rankings at scale. Reliable rank tracking depends on a healthy pool of undetected IPs.",
+    "whyProxy": "Rotating proxies spread automated search queries across many addresses so Google doesn't throttle or serve CAPTCHAs to your rank tracker. Geo-targeted residential IPs return the exact local SERP a searcher in that city sees, free of your own account personalization.",
+    "painPoints": [
+      "Google CAPTCHAs and soft-blocks after repeated automated queries",
+      "Personalized results that hide your true unranked position",
+      "No visibility into rankings in other countries or cities",
+      "Rate limits that cap how many keywords you can track daily",
+      "Inconsistent data that undermines reporting to clients"
+    ],
+    "bestTypes": ["residential", "rotating", "datacenter"],
+    "keyMetric": "ranking accuracy",
+    "relatedPlatforms": ["google", "bing", "youtube", "duckduckgo", "yandex"],
+    "tip": "Use fresh residential IPs for local-pack and mobile rank checks, where Google personalizes and geolocates results far more aggressively than desktop."
+  },
+  {
+    "slug": "serp-tracking",
+    "name": "SERP Tracking",
+    "shortName": "SERP tracking",
+    "intro": "Scraping search engine results pages at scale, across thousands of keywords and multiple locales, hammers Google's anti-bot defenses harder than almost any other task. Proxies distribute those queries so your SERP scraper keeps returning structured results instead of block pages. High-volume SERP data collection is effectively impossible without a rotating IP pool.",
+    "whyProxy": "A large rotating proxy pool keeps each query looking like an isolated organic search, letting you harvest featured snippets, People Also Ask, and local packs without tripping rate limits. Country- and city-level targeting captures how the SERP shifts across every market you compete in.",
+    "painPoints": [
+      "Aggressive CAPTCHAs triggered by high-frequency SERP queries",
+      "IP bans that halt large keyword-set crawls partway through",
+      "Losing geo-specific SERP features without local proxies",
+      "Personalized rankings polluting objective competitive data",
+      "Throttling that makes daily full-coverage tracking unfeasible"
+    ],
+    "bestTypes": ["residential", "rotating", "datacenter"],
+    "keyMetric": "query success rate",
+    "relatedPlatforms": ["google", "bing", "yandex", "baidu", "duckduckgo"],
+    "tip": "Throttle request pace per IP and randomize user agents alongside proxy rotation, since SERP engines fingerprint timing patterns as sharply as IP reputation."
+  },
+  {
+    "slug": "social-media-management",
+    "name": "Social Media Management",
+    "shortName": "social media management",
+    "intro": "Agencies and marketers who run many social accounts trip platform anti-fraud systems the moment multiple logins share one IP, risking mass bans. Dedicated proxies give each account its own stable, residential-looking connection. For multi-account social management, clean IPs are non-negotiable infrastructure.",
+    "whyProxy": "Sticky residential and mobile proxies assign each profile a consistent, real-looking IP so platforms treat accounts as separate genuine users rather than a linked bot farm. Geo-matched IPs also keep an account's location consistent with its stated audience and content.",
+    "painPoints": [
+      "Mass account bans when several profiles share one IP address",
+      "Phone-verification and re-login challenges triggered by IP flags",
+      "Location mismatches between account activity and its IP",
+      "Shadowbans and reach throttling from bot-detection systems",
+      "Losing established accounts and their audiences overnight"
+    ],
+    "bestTypes": ["mobile", "residential", "isp"],
+    "keyMetric": "account longevity",
+    "relatedPlatforms": ["instagram", "tiktok", "facebook", "twitter", "linkedin"],
+    "tip": "Assign one sticky mobile proxy per account and never reuse it, since carrier-grade mobile IPs carry the highest trust and lowest ban rates on social platforms."
+  },
+  {
+    "slug": "sneaker-copping",
+    "name": "Sneaker Copping",
+    "shortName": "sneaker copping",
+    "intro": "Limited-release sneaker drops sell out in seconds, and retailers cap orders per IP while banning bot-like traffic outright. Proxies let copping bots submit many checkout attempts from distinct residential addresses simultaneously. In the sneaker game, IP diversity directly determines how many pairs you hit.",
+    "whyProxy": "Fast residential and ISP proxies give each bot task a separate real-consumer IP, bypassing one-order-per-address limits and surviving Nike, Shopify, and Footsites anti-bot checks. Low latency matters as much as diversity because milliseconds decide who clears checkout first.",
+    "painPoints": [
+      "One-pair-per-IP limits capping your total cook",
+      "Instant bans on datacenter ranges flagged by Nike and Shopify",
+      "Queue-it and Cloudflare gates blocking bot traffic",
+      "Latency losses when a slow proxy misses the drop window",
+      "Payment declines tied to suspicious IP geolocation"
+    ],
+    "bestTypes": ["residential", "isp", "rotating"],
+    "keyMetric": "checkout success rate",
+    "relatedPlatforms": ["nike", "shopify", "footlocker", "adidas", "supreme"],
+    "tip": "Prioritize low-latency ISP proxies geolocated near the retailer's servers for drops, since speed to checkout beats raw pool size when stock lasts seconds."
+  },
+  {
+    "slug": "market-research",
+    "name": "Market Research",
+    "shortName": "market research",
+    "intro": "Credible market research means seeing products, pricing, promotions, and content exactly as consumers in each target region do, not as a bot or a foreign visitor. Proxies unlock authentic local views across every market you study. They turn geo-fragmented web data into a coherent competitive picture.",
+    "whyProxy": "Geo-targeted residential proxies let you browse and collect data as a genuine local user in any country or city, revealing localized offers, currencies, and catalog differences. Rotating IPs make large-scale automated collection sustainable without tripping anti-scraping defenses.",
+    "painPoints": [
+      "Region-locked content and offers invisible from your home IP",
+      "Bot detection blocking automated survey of competitor sites",
+      "Currency and language variants you can't trigger remotely",
+      "Skewed insights from a single-market vantage point",
+      "Rate limits capping the breadth of data you can gather"
+    ],
+    "bestTypes": ["residential", "rotating", "mobile"],
+    "keyMetric": "geographic coverage",
+    "relatedPlatforms": ["amazon", "google", "alibaba", "facebook", "youtube"],
+    "tip": "Sample each market from multiple cities, not just the capital, because pricing and product availability often vary sharply within a single country."
+  },
+  {
+    "slug": "brand-protection",
+    "name": "Brand Protection",
+    "shortName": "brand protection",
+    "intro": "Counterfeiters, gray-market sellers, and trademark infringers deliberately hide their listings from IPs they associate with brand owners and law firms. Proxies let anti-piracy teams investigate anonymously from any location. Scanning marketplaces and rogue sites at scale requires IPs that don't reveal who's watching.",
+    "whyProxy": "Residential proxies mask investigator identity so infringers show the same fake listings, pricing, and shipping they show real buyers instead of a scrubbed page. Geo-diverse IPs surface region-specific counterfeit operations and unauthorized sellers across every market.",
+    "painPoints": [
+      "Infringers cloaking listings from known brand-owner IP ranges",
+      "Region-specific counterfeit sites invisible from one location",
+      "Getting blocked while crawling marketplaces for violations",
+      "Sellers geo-gating rogue listings away from headquarters IPs",
+      "Incomplete enforcement evidence from limited vantage points"
+    ],
+    "bestTypes": ["residential", "rotating", "mobile"],
+    "keyMetric": "detection coverage",
+    "relatedPlatforms": ["amazon", "alibaba", "ebay", "aliexpress", "instagram"],
+    "tip": "Rotate through residential IPs in the counterfeiter's likely target markets to capture the exact infringing listings served to local buyers as court-ready evidence."
+  },
+  {
+    "slug": "data-aggregation",
+    "name": "Data Aggregation",
+    "shortName": "data aggregation",
+    "intro": "Aggregators that pull travel fares, job listings, product feeds, or financial data from hundreds of sources hit rate limits and blocks constantly when requests share IPs. Proxies distribute collection across a broad address pool so every source stays reachable. Reliable aggregation is fundamentally a proxy-infrastructure problem.",
+    "whyProxy": "Rotating datacenter and residential proxies keep high-volume, multi-source pulls flowing by spreading load so no single site sees enough traffic to block you. Geo-targeting ensures each source returns the locale-correct data your aggregated feed depends on.",
+    "painPoints": [
+      "Rate limits and bans when aggregating from many sources at once",
+      "Incomplete feeds from silently blocked or throttled sources",
+      "Geo-locked data missing from a single-region crawler",
+      "Fingerprinting that flags concentrated datacenter traffic",
+      "Freshness gaps when banned sources drop out of the pipeline"
+    ],
+    "bestTypes": ["datacenter", "rotating", "residential"],
+    "keyMetric": "source uptime",
+    "relatedPlatforms": ["google", "indeed", "expedia", "amazon", "zillow"],
+    "tip": "Tier your proxies by source difficulty: cheap datacenter IPs for lenient APIs, residential only where anti-bot defenses actually require it, to control cost."
+  },
+  {
+    "slug": "lead-generation",
+    "name": "Lead Generation",
+    "shortName": "lead generation",
+    "intro": "Building B2B lead lists means scraping directories, professional networks, and company sites that aggressively block automated data collection and cap profile views per IP. Proxies let you harvest contact and firmographic data at scale without burning accounts. Consistent lead-gen pipelines run on rotating IP pools.",
+    "whyProxy": "Rotating residential proxies spread profile and directory requests across many IPs so platforms like LinkedIn don't flag scraping or lock your accounts. Geo-targeted IPs let you gather region-specific business data and match prospecting to local markets.",
+    "painPoints": [
+      "Profile-view limits and account locks on professional networks",
+      "IP bans while crawling business directories at volume",
+      "Geo-restricted business listings missing from remote crawls",
+      "CAPTCHAs interrupting automated contact extraction",
+      "Thin, stale lead lists from throttled collection"
+    ],
+    "bestTypes": ["residential", "rotating", "isp"],
+    "keyMetric": "extraction success rate",
+    "relatedPlatforms": ["linkedin", "google", "yelp", "crunchbase", "yellowpages"],
+    "tip": "Use sticky sessions when scraping login-gated directories so your session state survives across paginated results without re-triggering verification."
+  },
+  {
+    "slug": "review-monitoring",
+    "name": "Review Monitoring",
+    "shortName": "review monitoring",
+    "intro": "Reviews shape purchase decisions, but review platforms geo-personalize what you see and rate-limit automated collection, so tracking sentiment across markets from one IP is unreliable. Proxies let you scrape reviews as a local user everywhere you sell. Comprehensive review intelligence needs geo-diverse, undetected IPs.",
+    "whyProxy": "Geo-targeted residential proxies surface the locale-specific reviews and ratings each market's shoppers actually read, not a personalized or default view. Rotating IPs make continuous, full-coverage review scraping sustainable without bans.",
+    "painPoints": [
+      "Geo-personalized review sets that hide market-specific feedback",
+      "Rate limits blocking large-scale review extraction",
+      "Missing local-language reviews without in-country IPs",
+      "Bot detection freezing your sentiment-tracking crawler",
+      "Blind spots in reputation data across regions"
+    ],
+    "bestTypes": ["residential", "rotating", "mobile"],
+    "keyMetric": "coverage completeness",
+    "relatedPlatforms": ["amazon", "google", "yelp", "trustpilot", "tripadvisor"],
+    "tip": "Scrape review pages from in-country residential IPs to capture native-language reviews that platforms often surface only to local visitors."
+  },
+  {
+    "slug": "competitor-analysis",
+    "name": "Competitor Analysis",
+    "shortName": "competitor analysis",
+    "intro": "Competitors cloak pricing, hide promotions, and personalize their sites based on visitor location and behavior, and many actively block IPs linked to rivals. Proxies let you observe competitors exactly as their real customers do, anonymously. Deep competitive intelligence depends on undetected, geo-flexible access.",
+    "whyProxy": "Residential proxies mask your identity so competitors serve genuine pricing, inventory, and campaign pages instead of a bot-flagged or cloaked version. Geo-targeted IPs reveal how rivals position offers differently across each market you both compete in.",
+    "painPoints": [
+      "Competitors blocking or cloaking pages from your corporate IP",
+      "Personalized experiences that mask true pricing and offers",
+      "Region-specific campaigns invisible without local IPs",
+      "Getting rate-limited while monitoring rival sites continuously",
+      "One-dimensional intel from a single vantage point"
+    ],
+    "bestTypes": ["residential", "rotating", "datacenter"],
+    "keyMetric": "data reliability",
+    "relatedPlatforms": ["amazon", "google", "shopify", "facebook", "ebay"],
+    "tip": "Alternate between fresh residential IPs and cleared cookies to defeat behavioral personalization, so you see a rival's baseline offer rather than a tailored one."
+  },
+  {
+    "slug": "travel-fare-aggregation",
+    "name": "Travel Fare Aggregation",
+    "shortName": "travel fare aggregation",
+    "intro": "Airlines and OTAs quote different fares based on your location, currency, and search history, and they aggressively block the high-frequency queries fare aggregators depend on. Proxies let you pull true, unbiased fares from every point of sale. Accurate travel-price data is impossible without geo-diverse rotating IPs.",
+    "whyProxy": "Geo-targeted residential proxies query airline and booking sites from each origin market, revealing the real localized fare instead of an inflated or personalized price. Rotating IPs spread the heavy request load so fare-search bots avoid the bans these sites deploy quickly.",
+    "painPoints": [
+      "Location-based fare inflation without local point-of-sale IPs",
+      "Aggressive blocking of high-frequency fare queries",
+      "Currency and route differences hidden from a single region",
+      "Search-history personalization skewing quoted prices",
+      "Incomplete fare coverage from throttled crawlers"
+    ],
+    "bestTypes": ["residential", "rotating", "mobile"],
+    "keyMetric": "fare accuracy",
+    "relatedPlatforms": ["expedia", "booking", "kayak", "skyscanner", "google"],
+    "tip": "Match the proxy country to each fare's point of sale and clear session cookies between searches, since airlines raise quotes on repeat visits from the same profile."
+  },
+  {
+    "slug": "ticket-buying",
+    "name": "Ticket Buying",
+    "shortName": "ticket buying",
+    "intro": "High-demand event tickets sell out in minutes, and ticketing platforms enforce strict per-IP purchase limits backed by heavy bot detection and virtual queues. Proxies let buyers place multiple concurrent attempts from distinct residential IPs. Securing scarce tickets at scale is a game of clean, fast IP diversity.",
+    "whyProxy": "Residential and ISP proxies present each purchase attempt as a separate real fan, bypassing per-account and per-IP caps while surviving Queue-it and anti-bot gates. Low-latency IPs geolocated near the venue market improve queue position and reduce declined transactions.",
+    "painPoints": [
+      "Per-IP and per-account purchase limits capping your haul",
+      "Virtual queues and bot gates blocking automated attempts",
+      "Datacenter IPs instantly flagged by ticketing platforms",
+      "Payment declines from mismatched IP geolocation",
+      "Latency losses that cost you the sale in seconds-long sellouts"
+    ],
+    "bestTypes": ["residential", "isp", "rotating"],
+    "keyMetric": "checkout success rate",
+    "relatedPlatforms": ["ticketmaster", "stubhub", "livenation", "seatgeek", "axs"],
+    "tip": "Use fresh residential IPs geolocated to the event's region and pair each with a distinct, warmed-up account to avoid linked-purchase cancellations."
+  },
+  {
+    "slug": "account-management",
+    "name": "Multi-Account Management",
+    "shortName": "account management",
+    "intro": "Running multiple accounts on any platform, whether ecommerce, ads, or marketplaces, triggers linking and mass-ban systems the instant those accounts share an IP or device fingerprint. Proxies isolate each account behind its own stable, trusted connection. Safe multi-accounting is built on one clean IP per profile.",
+    "whyProxy": "Sticky residential and ISP proxies give every account a consistent, real-looking IP so platforms can't associate profiles and bulk-ban them. Geo-matched IPs keep each account's location aligned with its registration details and activity history.",
+    "painPoints": [
+      "Account linking and cascade bans from shared IPs",
+      "Verification challenges triggered by suspicious IP switches",
+      "Location mismatches between account data and connection",
+      "Losing multiple accounts to a single flagged address",
+      "Fingerprint and IP overlap defeating separation efforts"
+    ],
+    "bestTypes": ["residential", "isp", "mobile"],
+    "keyMetric": "account survival rate",
+    "relatedPlatforms": ["amazon", "facebook", "paypal", "ebay", "google"],
+    "tip": "Keep one sticky proxy permanently bound to each account and pair it with an isolated browser profile, since IP consistency signals a stable, legitimate user."
+  },
+  {
+    "slug": "retail-arbitrage",
+    "name": "Retail Arbitrage",
+    "shortName": "retail arbitrage",
+    "intro": "Retail arbitrage hinges on spotting price and stock gaps across marketplaces faster than competitors, but scraping those catalogs at speed gets your IP blocked quickly. Proxies let you monitor prices and inventory across many stores continuously. Profitable arbitrage runs on undetected, high-throughput data collection.",
+    "whyProxy": "Rotating residential proxies let you sweep competitor catalogs and detect price or restock opportunities without triggering the bans marketplaces deploy against fast scraping. Geo-targeted IPs uncover regional price gaps that create the arbitrage margin itself.",
+    "painPoints": [
+      "Fast catalog scraping tripping marketplace anti-bot systems",
+      "Missing regional price gaps without localized IPs",
+      "Purchase and view limits capping opportunity discovery",
+      "Stale stock data from throttled monitoring",
+      "Account flags when buying and reselling from one IP"
+    ],
+    "bestTypes": ["residential", "rotating", "datacenter"],
+    "keyMetric": "data freshness",
+    "relatedPlatforms": ["amazon", "walmart", "ebay", "target", "aliexpress"],
+    "tip": "Monitor clearance and regional-store pages from local residential IPs, where the deepest markdowns and stock imbalances that fuel arbitrage margins appear first."
+  },
+  {
+    "slug": "dropshipping-research",
+    "name": "Dropshipping Research",
+    "shortName": "dropshipping research",
+    "intro": "Dropshippers must vet suppliers, track winning products, and monitor competitor stores across global marketplaces that block automated research and geo-personalize listings. Proxies unlock supplier and product data from any market anonymously. Scaling product research means scraping without getting cut off.",
+    "whyProxy": "Geo-targeted residential proxies let you view supplier pricing, shipping options, and product availability exactly as buyers in each region do, exposing the best sourcing angles. Rotating IPs keep competitor-store and marketplace scraping running without bans.",
+    "painPoints": [
+      "Supplier and marketplace sites blocking automated research",
+      "Geo-personalized listings hiding true regional pricing",
+      "Rate limits capping product and competitor monitoring",
+      "Shipping and stock data that varies by unseen location",
+      "Blind spots when researching from a single country"
+    ],
+    "bestTypes": ["residential", "rotating", "datacenter"],
+    "keyMetric": "research coverage",
+    "relatedPlatforms": ["aliexpress", "alibaba", "amazon", "shopify", "ebay"],
+    "tip": "Research supplier pages from IPs in your target selling market to see the real landed cost and delivery estimates your future customers will encounter."
+  },
+  {
+    "slug": "real-estate-data",
+    "name": "Real Estate Data",
+    "shortName": "real estate data",
+    "intro": "Property portals hold rich listing, pricing, and history data behind aggressive anti-scraping defenses and regional access controls. Proxies let real estate analysts and investors collect listings at scale from any market. Comprehensive property datasets depend on rotating, geo-targeted IPs.",
+    "whyProxy": "Rotating residential proxies spread listing-scraping requests so portals like Zillow and Realtor don't rate-limit or ban your data collection. Geo-targeted IPs unlock region-locked listings and localized pricing that power accurate valuation and investment models.",
+    "painPoints": [
+      "Portals blocking high-volume listing scrapers",
+      "Region-restricted listings hidden from remote IPs",
+      "CAPTCHAs interrupting automated property data pulls",
+      "Incomplete comps from throttled collection",
+      "Localized pricing signals missing without in-market IPs"
+    ],
+    "bestTypes": ["residential", "rotating", "datacenter"],
+    "keyMetric": "listing coverage",
+    "relatedPlatforms": ["zillow", "realtor", "redfin", "trulia", "rightmove"],
+    "tip": "Use in-market residential IPs to access hyperlocal MLS-fed portals, which often restrict or throttle listing detail for out-of-region visitors."
+  },
+  {
+    "slug": "cybersecurity",
+    "name": "Cybersecurity Research",
+    "shortName": "cybersecurity research",
+    "intro": "Threat intelligence and penetration testing require probing malicious infrastructure and testing defenses without exposing the researcher's real IP or getting instantly blocklisted. Proxies provide anonymous, geo-flexible vantage points for security operations. Safe threat hunting depends on disposable, untraceable IPs.",
+    "whyProxy": "Rotating residential and mobile proxies let analysts investigate phishing sites, malware C2s, and dark-web sources without revealing their organization or tipping off adversaries. Geo-diverse IPs also let red teams test how defenses respond to traffic from different regions.",
+    "painPoints": [
+      "Exposing researcher or corporate IPs to hostile infrastructure",
+      "Malicious sites cloaking payloads from security-vendor ranges",
+      "Getting blocklisted before completing threat analysis",
+      "Inability to test geo-based access controls and defenses",
+      "Adversaries fingerprinting and evading known investigator IPs"
+    ],
+    "bestTypes": ["residential", "mobile", "rotating"],
+    "keyMetric": "anonymity reliability",
+    "relatedPlatforms": ["shodan", "virustotal", "github", "pastebin", "telegram"],
+    "tip": "Investigate suspected malicious sites through rotating residential IPs so operators can't fingerprint your organization or serve you a benign decoy page."
+  },
+  {
+    "slug": "ad-tech-testing",
+    "name": "Ad-Tech Testing",
+    "shortName": "ad-tech testing",
+    "intro": "Ad-tech platforms, DSPs, and publishers must test how creatives, targeting, and bid logic behave across countries, devices, and networks that no single office connection can replicate. Proxies simulate real users in any geography and network type. Rigorous ad-tech QA runs on diverse, authentic IPs.",
+    "whyProxy": "Geo-targeted residential and mobile proxies let QA teams see the exact ads, frequency caps, and targeting a real user in each market and carrier network receives. This exposes rendering bugs, geo-targeting misfires, and bid discrepancies before they reach production.",
+    "painPoints": [
+      "Geo and carrier targeting impossible to test from one network",
+      "Creative rendering bugs that only surface on certain IPs",
+      "Frequency-cap and bid logic errors hidden without varied users",
+      "Cloaked ad experiences served differently to real users",
+      "Unreproducible field issues without matching the user's IP"
+    ],
+    "bestTypes": ["residential", "mobile", "rotating"],
+    "keyMetric": "test coverage",
+    "relatedPlatforms": ["google", "facebook", "youtube", "criteo", "thetradedesk"],
+    "tip": "Test campaigns across both residential and mobile-carrier IPs, since geo-targeting and creative delivery frequently behave differently on cellular networks."
+  },
+  {
+    "slug": "affiliate-link-testing",
+    "name": "Affiliate Link Testing",
+    "shortName": "affiliate link testing",
+    "intro": "Affiliate marketers and networks need to confirm links redirect correctly, land on the right offer, and pay out across every geo, but advertisers cloak and geo-route offers heavily. Proxies let you test the real user journey from any country. Trustworthy affiliate QA and fraud detection require geo-diverse IPs.",
+    "whyProxy": "Geo-targeted residential proxies reveal exactly where an affiliate link redirects and what offer displays for a user in each market, exposing broken funnels and cloaking. Fresh IPs also let you verify tracking pixels fire and detect partners running geo-fraud.",
+    "painPoints": [
+      "Geo-routed offers you can't verify from your home country",
+      "Cloaked landing pages hidden from repeat or flagged visitors",
+      "Broken redirects and dead links undetected across regions",
+      "Tracking pixels that fire only for certain geolocations",
+      "Affiliate fraud invisible without independent geo checks"
+    ],
+    "bestTypes": ["residential", "rotating", "mobile"],
+    "keyMetric": "redirect accuracy",
+    "relatedPlatforms": ["clickbank", "cj", "shareasale", "amazon", "impact"],
+    "tip": "Test each offer link from a fresh IP in every payout geo, since cloaking often serves the real offer only to first-time visitors from approved countries."
+  },
+  {
+    "slug": "stock-market-data",
+    "name": "Stock Market Data",
+    "shortName": "stock market data",
+    "intro": "Financial platforms and exchanges rate-limit and geo-restrict market data feeds, quotes, and filings, making high-frequency collection from one IP unreliable. Proxies distribute requests so trading and analytics systems get uninterrupted data. Timely market intelligence depends on a resilient IP pool.",
+    "whyProxy": "Rotating datacenter and residential proxies keep high-frequency quote and filing requests flowing without hitting the per-IP rate limits financial sites enforce. Geo-targeted IPs unlock exchange data and regional financial content restricted to specific countries.",
+    "painPoints": [
+      "Rate limits throttling high-frequency market data pulls",
+      "Geo-restricted exchange feeds blocked from remote IPs",
+      "Bans interrupting time-sensitive data collection",
+      "Delayed or gapped data from throttled connections",
+      "Regional filings and disclosures hidden without local IPs"
+    ],
+    "bestTypes": ["datacenter", "rotating", "residential"],
+    "keyMetric": "data latency",
+    "relatedPlatforms": ["yahoo", "bloomberg", "nasdaq", "tradingview", "sec"],
+    "tip": "Use low-latency datacenter proxies for time-sensitive quote scraping and reserve residential IPs for the retail sites that actively block datacenter ranges."
+  },
+  {
+    "slug": "whois-research",
+    "name": "WHOIS Research",
+    "shortName": "WHOIS research",
+    "intro": "Bulk WHOIS and domain-intelligence lookups hit strict per-IP query caps that registries and lookup services enforce to prevent harvesting. Proxies spread queries across many addresses so large-scale domain research completes. Investigating domains and DNS at volume requires a rotating IP pool.",
+    "whyProxy": "Rotating datacenter and residential proxies distribute WHOIS, DNS, and reverse-IP queries so no single address exceeds the rate limits that would otherwise block your research. Geo-diverse IPs also help access region-specific registry data and lookup endpoints.",
+    "painPoints": [
+      "Per-IP query caps on WHOIS and DNS lookup services",
+      "Rate limits stalling bulk domain-intelligence gathering",
+      "Registries blocking addresses that harvest records",
+      "Geo-restricted registry endpoints inaccessible remotely",
+      "Incomplete domain datasets from throttled queries"
+    ],
+    "bestTypes": ["datacenter", "rotating", "residential"],
+    "keyMetric": "query throughput",
+    "relatedPlatforms": ["whois", "icann", "godaddy", "namecheap", "cloudflare"],
+    "tip": "Batch WHOIS queries across a large rotating pool and respect polite per-IP pacing, since registries blocklist aggressive harvesters faster than they rate-limit them."
+  },
+  {
+    "slug": "email-protection",
+    "name": "Email Protection",
+    "shortName": "email protection",
+    "intro": "Testing how phishing links, tracking pixels, and email-borne redirects behave requires opening them from disposable IPs that won't expose your real infrastructure or get cloaked. Proxies give security and deliverability teams safe, geo-flexible vantage points. Investigating email threats safely depends on anonymous IPs.",
+    "whyProxy": "Rotating residential proxies let teams detonate suspicious links and inspect redirect chains without revealing corporate IPs or triggering attacker cloaking. Geo-diverse IPs also verify how phishing and marketing emails render and route for recipients in different regions.",
+    "painPoints": [
+      "Exposing corporate IPs when detonating suspicious links",
+      "Phishing kits cloaking payloads from security-vendor ranges",
+      "Geo-routed threats invisible without matching the target's IP",
+      "Getting blocklisted mid-investigation of malicious infrastructure",
+      "Deliverability and rendering issues that vary by region"
+    ],
+    "bestTypes": ["residential", "rotating", "mobile"],
+    "keyMetric": "detonation safety",
+    "relatedPlatforms": ["gmail", "outlook", "virustotal", "urlscan", "proofpoint"],
+    "tip": "Detonate email links through disposable residential IPs in a sandbox, so attacker cloaking can't recognize your analysis environment and hide the real payload."
+  },
+  {
+    "slug": "seo-audits",
+    "name": "SEO Audits",
+    "shortName": "SEO audits",
+    "intro": "Crawling a site for a technical SEO audit fires hundreds of rapid requests that trigger the same rate limits and WAF blocks a scraper would, and cloaked or geo-served content can hide the real issues. Proxies let auditors crawl thoroughly from any location. Complete SEO audits need undetected, geo-flexible crawling.",
+    "whyProxy": "Rotating proxies spread crawler requests so a site's WAF or CDN doesn't throttle your audit before it finishes mapping every URL. Geo-targeted IPs reveal cloaking, hreflang misconfigurations, and region-served content that a single-location crawl would miss.",
+    "painPoints": [
+      "WAF and rate-limit blocks halting deep site crawls",
+      "Cloaked content served differently to crawlers than users",
+      "Hreflang and geo-targeting issues hidden from one location",
+      "CDN protections mistaking your audit for an attack",
+      "Incomplete crawl data from throttled requests"
+    ],
+    "bestTypes": ["residential", "rotating", "datacenter"],
+    "keyMetric": "crawl completeness",
+    "relatedPlatforms": ["google", "bing", "cloudflare", "shopify", "wordpress"],
+    "tip": "Run the same audit crawl from multiple country IPs to catch cloaking and hreflang errors that only reveal themselves when content is geo-served."
+  },
+  {
+    "slug": "content-localization-testing",
+    "name": "Content Localization Testing",
+    "shortName": "localization testing",
+    "intro": "Global sites and apps serve different languages, currencies, layouts, and legal notices by region, and verifying every localized variant is impossible from a single location. Proxies let QA teams load each site exactly as users in every target market do. Thorough localization QA depends on true in-country IPs.",
+    "whyProxy": "Geo-targeted residential proxies render your site with the real language, currency, and geo-routed content a local user receives, exposing translation gaps and layout breaks. They also verify geo-redirects, consent banners, and region-locked features behave correctly.",
+    "painPoints": [
+      "Localized variants impossible to verify from headquarters",
+      "Geo-redirects and currency logic that only trigger in-region",
+      "Layout and encoding breaks specific to certain locales",
+      "Region-locked features and legal notices going untested",
+      "Consent and compliance banners that vary by geography"
+    ],
+    "bestTypes": ["residential", "mobile", "rotating"],
+    "keyMetric": "locale coverage",
+    "relatedPlatforms": ["shopify", "wordpress", "google", "cloudflare", "amazon"],
+    "tip": "Test from both residential and mobile IPs in each locale, since geo-redirect and consent-banner logic often keys off the network type as well as the country."
+  },
+  {
+    "slug": "gaming",
+    "name": "Gaming",
+    "shortName": "gaming",
+    "intro": "Gamers hit region-locked servers, delayed content releases, and per-IP restrictions that limit accounts and access, while some titles ban shared or datacenter connections. Proxies unlock regional servers and protect accounts behind clean residential IPs. Flexible, low-ban-risk gaming access relies on the right proxy type.",
+    "whyProxy": "Residential and ISP proxies let players connect to geo-locked servers and access region-exclusive releases while appearing as ordinary local users. Clean IPs also reduce the account-linking bans that follow when multiple game accounts share a flagged connection.",
+    "painPoints": [
+      "Region-locked servers and delayed content releases",
+      "Account bans from shared or datacenter IP ranges",
+      "Per-IP limits on accounts and in-game purchases",
+      "Geo-priced stores and currency inconsistencies",
+      "High latency from poorly routed connections"
+    ],
+    "bestTypes": ["residential", "isp", "mobile"],
+    "keyMetric": "connection stability",
+    "relatedPlatforms": ["steam", "roblox", "playstation", "xbox", "epicgames"],
+    "tip": "Choose ISP proxies geolocated close to the target game server for the best latency, since gaming punishes high ping far more than most proxy use cases."
+  },
+  {
+    "slug": "streaming-access",
+    "name": "Streaming Access",
+    "shortName": "streaming access",
+    "intro": "Streaming platforms geo-lock catalogs and aggressively block VPNs and datacenter IPs, so accessing region-specific libraries and testing content delivery requires connections that read as genuine local viewers. Proxies provide clean residential IPs in any market. Reliable streaming access and QA depend on undetected residential exits.",
+    "whyProxy": "Residential and mobile proxies appear as real household viewers, slipping past the VPN detection that streaming services use to block datacenter ranges. Geo-targeted IPs unlock region-specific catalogs and let QA teams verify content delivery and geo-rights in each market.",
+    "painPoints": [
+      "Geo-blocked catalogs restricted to specific countries",
+      "VPN and datacenter detection blocking access outright",
+      "Region-specific content and pricing hidden from remote IPs",
+      "Buffering and delivery issues that vary by geography",
+      "Blackout and licensing rules impossible to test remotely"
+    ],
+    "bestTypes": ["residential", "mobile", "isp"],
+    "keyMetric": "unblock success rate",
+    "relatedPlatforms": ["netflix", "youtube", "hulu", "disney", "spotify"],
+    "tip": "Favor residential or ISP proxies with dedicated bandwidth for streaming, since shared rotating pools often lack the throughput for smooth HD playback."
+  },
+  {
+    "slug": "cryptocurrency-data",
+    "name": "Cryptocurrency Data",
+    "shortName": "cryptocurrency data",
+    "intro": "Crypto exchanges and data platforms rate-limit and geo-restrict their APIs and web data, making high-frequency price, orderbook, and on-chain collection from one IP unreliable. Proxies distribute requests so trading bots and analytics feeds stay live. Continuous crypto data pipelines run on resilient, geo-flexible IP pools.",
+    "whyProxy": "Rotating datacenter and residential proxies spread high-frequency exchange requests to avoid the per-IP rate limits and bans that would gap your price feed. Geo-targeted IPs also unlock exchanges and data sources restricted or blocked in certain jurisdictions.",
+    "painPoints": [
+      "API rate limits throttling high-frequency market data",
+      "Geo-restricted exchanges blocked in your jurisdiction",
+      "IP bans interrupting time-sensitive trading signals",
+      "Gapped orderbook and price data from throttled feeds",
+      "Regional on-chain and market sources hidden without local IPs"
+    ],
+    "bestTypes": ["datacenter", "rotating", "residential"],
+    "keyMetric": "feed uptime",
+    "relatedPlatforms": ["binance", "coinbase", "kraken", "coingecko", "coinmarketcap"],
+    "tip": "Use low-latency datacenter proxies for latency-sensitive exchange APIs and switch to residential IPs only for platforms that geo-block or fingerprint datacenter traffic."
+  }
+]

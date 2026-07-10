@@ -1,0 +1,177 @@
+{
+  "kyrgyzstan": {
+    "isps": ["MegaLine (Kyrgyztelecom)", "Saima Telecom", "ElCat"],
+    "carriers": ["Beeline (Sky Mobile)", "MegaCom", "O! (NUR Telecom)"],
+    "sites": ["Lalafo.kg", "Agent.kg", "Namba.kg", "Stroka.kg"],
+    "language": "Kyrgyz, Russian",
+    "note": "Kyrgyzstan is a small internet market where Russian is widely used online, so local IPs are mainly needed for regional classifieds and pricing checks."
+  },
+  "tajikistan": {
+    "isps": ["Tojiktelecom", "Babilon-T", "Saturn Online"],
+    "carriers": ["Tcell", "Megafon Tajikistan", "Babilon-Mobile"],
+    "sites": ["Somon.tj", "Salom.tj", "Vecher.tj"],
+    "language": "Tajik, Russian",
+    "note": "Tajikistan has heavy state internet control and frequently blocks social media and messaging apps, so residential IP availability is limited."
+  },
+  "united-kingdom": {
+    "isps": ["BT", "Virgin Media", "Sky", "TalkTalk"],
+    "carriers": ["EE", "Virgin Media O2", "Vodafone UK", "Three UK"],
+    "sites": ["Amazon.co.uk", "Argos", "ASOS", "Rightmove"],
+    "language": "English",
+    "note": "The UK is a large e-commerce market and streaming services like BBC iPlayer and ITVX restrict content to UK IPs, so local IPs are essential for accurate access."
+  },
+  "germany": {
+    "isps": ["Deutsche Telekom", "Vodafone Germany", "1&1"],
+    "carriers": ["Telekom", "Vodafone", "O2 Telefonica"],
+    "sites": ["Amazon.de", "Otto", "idealo", "Zalando"],
+    "language": "German",
+    "note": "Germany enforces strict GDPR data rules and many retailers geo-price by region, so local German IPs are essential for accurate market data."
+  },
+  "france": {
+    "isps": ["Orange", "SFR", "Free (Iliad)", "Bouygues Telecom"],
+    "carriers": ["Orange", "SFR", "Bouygues Telecom", "Free Mobile"],
+    "sites": ["Amazon.fr", "Cdiscount", "Leboncoin", "Fnac"],
+    "language": "French",
+    "note": "France is a top-five EU e-commerce market and Leboncoin classifieds and local price checks commonly require French residential IPs."
+  },
+  "italy": {
+    "isps": ["TIM (Telecom Italia)", "Vodafone Italy", "Fastweb", "WindTre"],
+    "carriers": ["TIM", "Vodafone", "WindTre", "Iliad"],
+    "sites": ["Amazon.it", "Subito.it", "eBay.it", "idealo"],
+    "language": "Italian",
+    "note": "Italy's largest classifieds site Subito.it and regional retail pricing are commonly targeted, and local IPs help avoid access blocks."
+  },
+  "spain": {
+    "isps": ["Movistar (Telefonica)", "Orange Spain", "Vodafone Spain", "MasMovil"],
+    "carriers": ["Movistar", "Vodafone", "Orange", "Yoigo"],
+    "sites": ["Amazon.es", "El Corte Ingles", "Wallapop", "Idealista"],
+    "language": "Spanish (Castilian)",
+    "note": "Wallapop and Idealista are the key local marketplaces, and Spanish IPs are needed to see regional pricing and listings accurately."
+  },
+  "poland": {
+    "isps": ["Orange Polska", "Play (P4)", "Netia", "Vectra"],
+    "carriers": ["Play", "Orange", "Plus (Polkomtel)", "T-Mobile Poland"],
+    "sites": ["Allegro", "OLX.pl", "Ceneo", "Empik"],
+    "language": "Polish",
+    "note": "Allegro dominates Polish e-commerce, making local IPs important for accurate pricing and listing data."
+  },
+  "ireland": {
+    "isps": ["Eir", "Virgin Media Ireland", "Vodafone Ireland", "Sky Ireland"],
+    "carriers": ["Vodafone Ireland", "Three Ireland", "Eir Mobile"],
+    "sites": ["DoneDeal", "Daft.ie", "Adverts.ie", "Amazon.co.uk"],
+    "language": "English, Irish",
+    "note": "Ireland shares much retail with the UK, but property site Daft.ie and DoneDeal classifieds are the main local targets requiring Irish IPs."
+  },
+  "netherlands": {
+    "isps": ["KPN", "Ziggo (VodafoneZiggo)", "Odido", "Delta"],
+    "carriers": ["KPN", "VodafoneZiggo", "Odido"],
+    "sites": ["Bol.com", "Marktplaats", "Coolblue", "Amazon.nl"],
+    "language": "Dutch",
+    "note": "Bol.com and Marktplaats dominate the Dutch market, so local IPs are needed for accurate pricing and marketplace data."
+  },
+  "belgium": {
+    "isps": ["Proximus", "Telenet", "VOO", "Orange Belgium"],
+    "carriers": ["Proximus", "Orange Belgium", "Base (Telenet)"],
+    "sites": ["Bol.com", "2dehands", "Coolblue", "Vinted"],
+    "language": "Dutch, French, German",
+    "note": "Belgium is a trilingual market where site content varies between Flemish and Walloon regions, so language and region targeting matter."
+  },
+  "portugal": {
+    "isps": ["MEO (Altice)", "NOS", "Vodafone Portugal", "NOWO"],
+    "carriers": ["MEO", "NOS", "Vodafone"],
+    "sites": ["Worten", "OLX.pt", "Continente", "CustoJusto"],
+    "language": "Portuguese",
+    "note": "OLX.pt classifieds and retailers Worten and Continente are the main local targets requiring Portuguese IPs."
+  },
+  "switzerland": {
+    "isps": ["Swisscom", "Sunrise", "Salt"],
+    "carriers": ["Swisscom", "Sunrise", "Salt"],
+    "sites": ["Digitec Galaxus", "Ricardo.ch", "Tutti.ch", "Comparis"],
+    "language": "German, French, Italian",
+    "note": "Switzerland is a high-value market where Ricardo and Tutti are the main local marketplaces and content differs across three language regions."
+  },
+  "austria": {
+    "isps": ["A1 Telekom Austria", "Magenta Telekom", "Drei (Hutchison)"],
+    "carriers": ["A1", "Magenta", "Drei"],
+    "sites": ["Willhaben", "Geizhals", "Amazon.de", "Shpock"],
+    "language": "German",
+    "note": "Willhaben is the dominant Austrian classifieds and marketplace site, and Austrian IPs are needed to separate its data from the German market."
+  },
+  "sweden": {
+    "isps": ["Telia", "Tele2", "Telenor Sweden", "Bahnhof"],
+    "carriers": ["Telia", "Tele2", "Telenor", "Tre (Three)"],
+    "sites": ["Blocket", "Tradera", "Amazon.se", "Prisjakt"],
+    "language": "Swedish",
+    "note": "Blocket classifieds and Prisjakt price comparison are key targets, and Swedish IPs are needed to view accurate local listings."
+  },
+  "norway": {
+    "isps": ["Telenor", "Telia Norway", "Altibox"],
+    "carriers": ["Telenor", "Telia", "Ice"],
+    "sites": ["Finn.no", "Komplett", "Prisjakt", "Elkjop"],
+    "language": "Norwegian",
+    "note": "Finn.no is the dominant Norwegian classifieds marketplace and typically requires local IPs for full access."
+  },
+  "denmark": {
+    "isps": ["TDC/YouSee", "Telia Denmark", "Telenor Denmark", "Stofa"],
+    "carriers": ["TDC/Nuuday", "Telia", "Telenor", "3 (Three)"],
+    "sites": ["DBA.dk", "Elgiganten", "Pricerunner", "Bilbasen"],
+    "language": "Danish",
+    "note": "DBA.dk classifieds and PriceRunner comparison are common targets requiring Danish IPs for accurate local data."
+  },
+  "finland": {
+    "isps": ["Telia Finland", "Elisa", "DNA"],
+    "carriers": ["Elisa", "Telia", "DNA"],
+    "sites": ["Tori.fi", "Verkkokauppa.com", "Gigantti", "Hintaseuranta"],
+    "language": "Finnish, Swedish",
+    "note": "Tori.fi and Verkkokauppa.com are the main local e-commerce sites, and Finnish IPs are needed to view accurate regional listings."
+  },
+  "iceland": {
+    "isps": ["Siminn", "Vodafone Iceland (Syn)", "Nova"],
+    "carriers": ["Siminn", "Vodafone (Syn)", "Nova"],
+    "sites": ["Bland.is", "Aha.is", "Heimkaup.is"],
+    "language": "Icelandic",
+    "note": "Iceland is a very small market with limited local IP pools, so residential proxy coverage there is scarce and often expensive."
+  },
+  "estonia": {
+    "isps": ["Telia Estonia", "Elisa Estonia", "Tele2 Estonia"],
+    "carriers": ["Telia", "Elisa", "Tele2"],
+    "sites": ["Osta.ee", "Okidoki.ee", "Hind.ee", "Rimi"],
+    "language": "Estonian",
+    "note": "Estonia is a highly digital society with strong e-government, and marketplaces like Osta.ee are the main local targets."
+  },
+  "latvia": {
+    "isps": ["Tet (Lattelecom)", "Bite Latvia", "Tele2 Latvia"],
+    "carriers": ["LMT", "Tele2", "Bite"],
+    "sites": ["SS.lv", "220.lv", "Rimi", "Pigu.lv"],
+    "language": "Latvian",
+    "note": "SS.lv (SS.com) is the dominant Latvian classifieds portal and typically needs local IPs for full listing access."
+  },
+  "lithuania": {
+    "isps": ["Telia Lithuania", "Bite Lithuania", "Tele2 Lithuania"],
+    "carriers": ["Telia", "Bite", "Tele2"],
+    "sites": ["Skelbiu.lt", "Pigu.lt", "Autoplius.lt", "Varle.lt"],
+    "language": "Lithuanian",
+    "note": "Skelbiu.lt and Pigu.lt are the primary local marketplaces, and Lithuanian IPs are needed for accurate pricing and listings."
+  },
+  "czech-republic": {
+    "isps": ["O2 Czech Republic", "T-Mobile Czech", "Vodafone Czech"],
+    "carriers": ["O2", "T-Mobile", "Vodafone"],
+    "sites": ["Alza.cz", "Heureka.cz", "Mall.cz", "Bazos.cz"],
+    "language": "Czech",
+    "note": "Alza.cz and the Heureka price comparison engine dominate Czech e-commerce, making local IPs important for pricing research."
+  },
+  "slovakia": {
+    "isps": ["Slovak Telekom", "Orange Slovensko", "O2 Slovakia", "4ka (Swan)"],
+    "carriers": ["Orange", "Telekom", "O2", "4ka"],
+    "sites": ["Bazos.sk", "Alza.sk", "Heureka.sk", "Aukro"],
+    "language": "Slovak",
+    "note": "Bazos.sk classifieds and Alza.sk retail are common targets requiring Slovak IPs to separate them from the neighboring Czech market."
+  },
+  "hungary": {
+    "isps": ["Magyar Telekom", "DIGI", "One (Vodafone Hungary)"],
+    "carriers": ["Magyar Telekom", "Yettel", "One (Vodafone)"],
+    "sites": ["Jofogas.hu", "Vatera.hu", "Arukereso.hu", "eMAG.hu"],
+    "language": "Hungarian",
+    "note": "eMAG and the Arukereso price comparison site plus Jofogas classifieds are the key local targets requiring Hungarian IPs."
+  }
+}
